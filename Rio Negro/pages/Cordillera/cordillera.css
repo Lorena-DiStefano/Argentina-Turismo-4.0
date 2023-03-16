@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slide_container img {
+  width: 100%;
+  height: 100%;
+}
+
+.slide_container p {
+  font-size: 5rem;
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  transform: translate(-50%, -30%);
+}
+

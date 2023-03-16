@@ -1,5 +1,12 @@
 
+.body_rioNegro {
+  font-family: 'Poppins', sans-serif;
+}
 
+.body_rioNegro main {
+  display: flex;
+  flex-direction: column;
+}
 /* =========Home_slides======= */
 
 .slides .container_slide img {

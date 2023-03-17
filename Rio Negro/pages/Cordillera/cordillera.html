@@ -20,7 +20,7 @@
   <main>
     <section class="home">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid" id="nav_cordillera">
           <a class="navbar-brand" href="#">
             <img src="../../img/logo.png" alt="" width="150" height="70">
           </a>
@@ -33,39 +33,47 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="../../rioNegro.html">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#title">Cordillera</a>
-              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Cordillera
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#dinaHuapi">Dina Huapi</a></li>
+                  <li><a class="dropdown-item" href="#">El Bolsón</a></li>
+                  <li><a class="dropdown-item" href="#">El Manso</a></li>
+                  <li><a class="dropdown-item" href="#">San Carlos de Bariloche</a></li>
+                </ul>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   Que hacer
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Dina Huapi</a></li>
+                  <li><a class="dropdown-item" href="#activ_dinaHuapi">Dina Huapi</a></li>
                   <li><a class="dropdown-item" href="#">El Bolsón</a></li>
                   <li><a class="dropdown-item" href="#">El Manso</a></li>
-                  <li><a class="dropdown-item" href="#">San Carlos de Bariloche</a></li>              
+                  <li><a class="dropdown-item" href="#">San Carlos de Bariloche</a></li>
                 </ul>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Donde Alojarse
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Dina Huapi</a></li>
-                    <li><a class="dropdown-item" href="#">El Bolsón</a></li>
-                    <li><a class="dropdown-item" href="#">El Manso</a></li>
-                    <li><a class="dropdown-item" href="#">San Carlos de Bariloche</a></li>
-                  </ul>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../../rioNegro.html">Información útil</a>
-                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Donde Alojarse
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#hotel_dinaHuapi">Dina Huapi</a></li>
+                  <li><a class="dropdown-item" href="#">El Bolsón</a></li>
+                  <li><a class="dropdown-item" href="#">El Manso</a></li>
+                  <li><a class="dropdown-item" href="#">San Carlos de Bariloche</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../../rioNegro.html">Información útil</a>
               </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Mapa Interactivo</a>
-                </li>
-                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Mapa Interactivo</a>
+              </li>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="../../index.html #title">Contactanos</a>
               </li>
@@ -73,52 +81,140 @@
           </div>
         </div>
       </nav>
-      <section class="slide_container">
-      <img src="../../img/hm-trekingb.jpg" alt="treking en bariloche">
-      <p>Cordillera</p>
+      <section class="img_container">
+        <img src="../../img/hm-trekingb.jpg" alt="treking en bariloche">
+        <p>Cordillera</p>
       </section>
-      <section class="dinaHuapi">
-        <h2>Dina Huapi</h2>
-        <div></div>
+      <section class="sec_region">
+        <div class="text_region" id="cordillera">
+          <h2>Cordillera</h2>
+          <p>La zona Cordillerana, ofrece a los amantes de la naturaleza miles de hectáreas de bosques y montañas que
+            pueden transitarse por su sistema de senderos. Hay caminos cortos, fáciles de andar, que invitan a la
+            contemplación, a la caminata tranquila y a la conexión con uno mismo. Pero también hay itinerarios para
+            aquellos que buscan desafíos de mayor complejidad y más extremos.</p>
+          <p>Fundamentales para la vida en esta región, los lagos y ríos brindan alternativas diversas, desde
+            navegaciones
+            recreativas y apacibles para disfrutar de los paisajes desde otra perspectiva, hasta experiencias extremas
+            para los más audaces en las correntosas aguas del río Manzo, en El Manzo, y el río Azul en El Bolsón.</p>
+          <p>A los amantes de la pesca no les costará hallar un rincón donde conectar con el entorno y
+            donde la simple acción de lanzar el cordel cobre un sentido más allá de la práctica deportiva.</p>
+          <p>La visita a la zona cordillerana no dejará indiferente al turista, ya sea que este haya llegado en busca de
+            confort y descanso o de acción y aventura.</p>
+        </div>
+        <div id="map"></div>
       </section>
 
-      <section class="btn_flotante">
-        <i class="las la-angle-double-up"></i>
+      <section class="sec_info_local dinaHuapi">
+        <div class="local_img" id="dinaHuapi">
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img/dinahuapi_info.jpg" alt="Dina Huapi">
+            </div>
+            <div class="card_textos">
+              <h2 id="cordillera">Dina Huapi</h2>
+              <p>A solo 15 minutos de Bariloche por ruta 40, a orillas del imponente lago Nahuel Huapi y al este de los
+                bosques andinos patagónicos; Dina Huapi invita al descanso con su microclima de inviernos de poca nieve
+                y veranos cálidos.</p>
+              <p> Emplazada donde comienza la Estepa Patagónica, permitiendo disfrutar de una vista incomparable de
+                Bariloche,
+                el lago Nahuel huapi , los cerros Otto , Catedral, Tronador y la Cordillera de los Andes .</p>
+            </div>
+          </div>
+        </div>
+        <div class="listas" id="activ_dinaHuapi">
+          <h2>QUE HACER EN DINA HUAPI</h2>
+          <div class=" card card_lista">
+            <h4>Trekking en el Parque Nahuel Huapi</h4>
+            <p>Sus paisajes de montañas, lagos, bosques y arroyos lo hacen uno de los parques nacionales más
+              bellos de la Patagonia y del país.</p>
+            <img src="../../img/dinaHuapi_a_trekking.jpg" alt="trekking Parque Nahuel Huapi">
+          </div>
+          <div class=" card card_lista">
+            <h4>Cavernas del Viejo Volcán</h4>
+            <p>Un viaje a la prehistoria descubriendo el Volcán petríficado de Cerro Leones. Visitarás 3 cavernas
+              donde podrás encontrar desde pinturas rupestres hasta un manantial que forma un lago subterráneo.</p>
+            <img src="../../img/dinaHuapi_a_cavernas.jpg" alt="Cavernas del Viejo Volcán">
+          </div>
+          <div class=" card card_lista">
+            <h4>Turismo y Aventura</h4>
+            <p>Las aguas del Nahuel Huapi, conforman un epicentro ideal para actividades como el Kitesurf, Windsurf,o
+              simplemente disfrutar de sus playas.</p>
+            <img src="../../img/dinaHuapi_a_playas.jpg" alt="Playas de Dina Huapi">
+          </div>
+          <div class=" card card_lista">
+            <h4>Pesca Deportiva</h4>
+            <p>Su ubicación privilegiada en el nacimiento del Río Limay, transforma a Dina Huapi como la ciudad
+              elegida por los amantes de la pesca</p>
+            <img src="../../img/dinaHuapi_a_pesca.jpg" alt="Pesca en el Limay">
+          </div>
+        </div>
+        <div class="listas" id="hotel_dinaHuapi">
+          <h2>DONDE ALOJARSE EN DINA HUAPI</h2>
+          <div class=" card card_lista">
+            <img src="../../img/dinaHuapi_h_raices.png" alt="Hotel Raíces Patagónicas">
+            <h4>Hotel Raíces Patagónicas</h4>
+            <p>Hotel informal con cabañas y apartamentos sencillos, piscina cubierta climatizada, jardín y área de
+              barbacoa. <br>Dirección: Quintral 220, R8402 Dina Huapi, Río Negro</p>
+          </div>
+          <div class=" card card_lista">
+            <img src="../../img/dinaHuapi_h_clarita.png" alt="Cabañas Clarita">
+            <h4>Cabañas Clarita</h4>
+            <p>Las cabañas incluyen TV, microondas,Wifi,servicio de limpieza y estacionamiento gratis. <br>Direccion: Los
+              Notros 861, Dina Huapi, Río Negro</p>
+          </div>
+          <div class=" card card_lista">
+            <img src="../../img/dinaHuapi_h_camino.png" alt="Posada del Camino">
+            <h4>Posada del Camino</h4>
+            <p>Alojamiento con habitaciones y apartamentos amueblados, piscina al aire libre y utensilios para barbacoa. <br>Dirección: El Cóndor 290, R8402 Dina Huapi, Río Negro</p>
+          </div>
+        </div>
+        </div>
       </section>
-    <section class="footer">
-      <div class="footer_container">
-        <div class="contacto">
-          <ul>
-            <img src="../../img/logo.png" alt="logo" width="100px">
-            <li>info_at4.0@argentinaturismo4.0.com</li>
-            <li>Sarmiento 440 - CABA</li>
-            <li><a href="#">Contactanos</a></li>
-          </ul>
+
+
+
+
+
+
+      <section class="botonFlotante">
+        <a href="#nav_cordillera">
+          <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>
+        </a>
+      </section>
+      <section class="footer">
+        <div class="footer_container">
+          <div class="contacto">
+            <ul>
+              <img src="../../img/logo.png" alt="logo" width="100px">
+              <li>info_at4.0@argentinaturismo4.0.com</li>
+              <li>Sarmiento 440 - CABA</li>
+              <li><a href="#">Contactanos</a></li>
+            </ul>
+          </div>
+          <div class="provincia">
+            <ul>
+              <li><a href="#">Córdoba</a></li>
+              <li><a href="#">Entre Ríos</a></li>
+              <li><a href="#">Río Negro</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Salta</a></li>
+              <li><a href="#">Santa Fe</a></li>
+              <li><a href="#">Tucumán</a></li>
+            </ul>
+          </div>
+          <div class="redes">
+            <h6>Seguinos en:</h6>
+            <ul>
+              <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+              <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+              <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+            </ul>
+          </div>
         </div>
-        <div class="provincia">
-          <ul>
-            <li><a href="#">Córdoba</a></li>
-            <li><a href="#">Entre Ríos</a></li>
-            <li><a href="#">Río Negro</a></li>
-          </ul>
-          <ul>
-            <li><a href="#">Salta</a></li>
-            <li><a href="#">Santa Fe</a></li>
-            <li><a href="#">Tucumán</a></li>
-          </ul>
-        </div>
-        <div class="redes">
-          <h6>Seguinos en:</h6>
-          <ul>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
-            <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
-          </ul>
-        </div>
-      </div>
-     
-</section>
+      </section>
+    </section>
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
       integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

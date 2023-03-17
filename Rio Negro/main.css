@@ -67,17 +67,22 @@
 
 .btn_flotante {
   position: fixed;
-  z-index: 10;
-  background-color: rgb(44, 44, 63);
-  color: aliceblue;
-  font-size: 1rem;
-  font-weight: bold;
+  z-index: 100;
+  background-color: rgb(190, 246, 228);
   padding: 0.25rem 0.5rem;
   border-radius: 50%;
-  right: 2.5rem;
+  right: 1.3rem;
+  bottom: 1rem;
+  cursor: pointer;
+}
+
+.btn_flotante a{
+  color:rgb(44, 44, 63);
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .btn_flotante:hover {
   background-color: aliceblue;
-  color: rgb(44, 44, 63);
+  
 }

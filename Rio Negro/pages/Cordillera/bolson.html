@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <link rel="stylesheet" href="../../main.css">
+  <link rel="stylesheet" href="./cordillera.css">
+  <title>El Bolson</title>
+</head>
+
+<body class="body_rioNegro">
+  <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="" width="150" height="70">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#title">RIO NEGRO</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Que hacer
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./pages/Cordillera/cordillera.html">Cordillera</a></li>
+                <li><a class="dropdown-item" href="#">Costa</a></li>
+                <li><a class="dropdown-item" href="#">Estepa</a></li>
+                <li><a class="dropdown-item" href="#">Valle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html #title">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="img_container">
+      <img src="../../img/bolson_info.jpg" alt="treking en bariloche">
+    </section>
+    <section class="sec_region">
+      <div class="text_mapa" id="bolson">
+        <h2>El Bolsón</h2>
+        <p> Al sudoeste de la provincia de Río Negro y a 18 Km. del Parque Nacional Lago Puelo en la Provincia de
+          Chubut, se encuentra el Bolsón, una región que centra su actividad en el cultivo orgánico de la tierra,
+          las artesanías, la producción de dulces y cerveza y el turismo.</p>
+        <p>Favorecido por un microclima apacible, este pueblo de montaña está preparado para recibir a todo tipo
+          de visitantes.
+          Naturaleza, aventura, historia, mitos, cultura y tranquilidad son algunos ingredientes que garantizan
+          unas gratas
+          vacaciones.</p>
+        <p><b><i>Qué hacer en El Bolsón....</i></b></p> </i>
+      </div>
+      <div class="img_mapa">
+        <img src="../../img/map_dinaHuapi.JPG" alt="">
+        <button type="button" class="btn_map" id="btn_map">ir al mapa</button>
+      </div>
+    </section>
+    <section class="galeria_actividades">
+      <div class="activ_cordillera">
+        <div class="container_card">
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img/bolson_a_activo.jpg" alt="Parapente en el Bolsón">
+            </div>
+            <div class="card_textos">
+              <h4>Turismo Activo</h4>
+              <p>Rafting en los ríos Azul, Puelo, y Manso, <br>Parapente desde la plataforma del Cerro
+                Piltriquitron, acompañado de un instructor, <br>Travesía en 4x4: atravesando caminos de difícil circulación y observando el imponente paisaje los cóndores que habitan la zona.<br>Canopy en cercanías de la Catarata de Mallín Ahogado.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+            <img src="../../img/bolson_a_piltri.jpg" alt="Piltriquitron">
+            </div>
+            <div class="card_textos">
+            <h4>Cerro Piltriquitrón y el Bosque Tallado</h4>
+              <p>Popularmente conocido como <i>Piltri</i> o <i>Portal Energético</i>.<br>Desde la plataforma salen los vuelos en Parapente, siendo este un lugar considerado como uno de los mejores del país
+              para la práctica de este deporte.<br><i>El Bosque tallado</i>constituye un verdadero museo a cielo abierto.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+            <img src="../../img/bolson_a_feria.jpg" alt="Feria Artesanal">
+            </div>
+            <div class="card_textos">
+                <h4>Feria Regional Artesanal de El Bolsón</h4>
+            <p>Participa un gran número de expositores, entre los cuales se encuentran artesanos, artistas y
+              productores artesanales de toda la comarca.<br>También es posible apreciar gran variedad de espectáculos artísticos y musicales, especialmente en temporada alta.<br>Se desarrolla los Martes, Jueves y Sábados de 10 a 16 hs y los Domingos mismo horario pero con menos artesanos.
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img/bolson_a_cerveza.jpg" alt="Cerveza Artesanal">
+            </div>
+            <div class="card_textos">
+            <h4>Cerveza Artesanal</h4>
+              <p>Las visitas a cervecerías son parte de la experiencia total del viaje y, cada vez más, el motivo
+                principal que mueve a los turistas a visitarnos.<br>El último martes de Febrero se reaiza <i>La Fiesta Nacional del Lúpulo</i> que atrae a miles de
+                visitantes cada año desde 1964.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="alojamiento">
+      <table class="table">
+        <thead id="Tabla">
+          <tr>
+            <th scope="col" colspan=3>
+              <h3>Donde alojarse</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><h5>Cabañas Sublime Bolsón</h5></td>
+            <td class="td_dom">Saavedra 3089, <br>El Bolsón - Río Negro</td>
+            <td class="td_info">Cabañas Sublime Bolsón ofrece alojamiento a 6 minutos a pie de la plaza Pagano, centro estratégico de la Ciudad. Hay WiFi gratuito en todas
+            las instalaciones. <br> Desayuno y estacionamiento gratis.</td>
+          </tr>
+           <tr>
+            <th><h5>La Casa de la Abuela</h5></td>
+            <td class="td_dom">Los
+            Notros 861,<br>El Bolsón - Río Negro</td>
+            <td class="td_info"><p>La Casa De La Abuela Departamentos está situada a solo 150 metros de la plaza Pagano. Ofrece WiFi gratuita
+            en todas las instalaciones.<br> Desayuno y estacionamiento gratis.</td>
+          </tr>
+          <tr>
+            <th>
+              <h5>Camino a cascada escondida</h5>
+              </td>
+            <td class="td_dom">Km 15,<br>El Bolsón - Río Negro</td>
+            <td class="td_info">
+              <p>Somos un complejo resort de Cabañas Turísticas ubicado al pie de la Cordillera de los Andes.   Contamos con un amplio predio con acceso a costa de río, todas nuestras cabañas están completamente equipadas.<br> Desayuno y estacionamiento gratis.
+            </td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+
+
+  <section class="botonFlotante">
+    <a href="#navbar">
+      <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>
+    </a>
+  </section>
+  <section class="footer">
+    <div class="footer_container">
+      <div class="contacto">
+        <img src="./img/logo.png" alt="logo" width="100px">
+        <div>
+          <ul>
+            <li>info_at4.0@argentinaturismo4.0.com</li>
+            <li>Sarmiento 440 - CABA</li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="provincia">
+        <div>
+          <a href="#">Córdoba -</a>
+          <a href="#">Entre Ríos -</a>
+          <a href="#">Río Negro -</a>
+          <a href="#">Salta -</a>
+          <a href="#">Santa Fe -</a>
+          <a href="#">Tucumán </a>
+        </div>
+      </div>
+      <div class="redes">
+        <h6>Seguinos en:</h6>
+        <ul>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+          <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <script src="./map.js"></script>
+  </main>
+</body>
+
+</html>

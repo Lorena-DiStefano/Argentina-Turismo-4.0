@@ -15,19 +15,20 @@
 /*========Section_footer===========*/
 
 .footer {
-  background-color: rgb(44, 44, 63);
+  background-color: #2c2c3f;
   color: white;
   width: 100%;
+  height: auto;
 }
 
 .footer_container {
   font-size: 1rem;
-  padding: 2rem 5rem;
+  padding: 1rem 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 12rem;
+  
 }
 
 .footer_logo {
@@ -43,19 +44,24 @@
   list-style: none;
 }
 
-.contacto,
-.provincia,
-.redes {
-  max-width: 280px;
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .redes {
-
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.provincia {
+  width: 20%;
+  gap:1rem;
 }
 
 .redes ul,
@@ -70,11 +76,11 @@
 .btn_flotante {
   position: fixed;
   z-index: 20;
-  background-color: rgb(44, 44, 63);
+  background-color: rgba(44, 44, 63,0.2);
   padding: 0.25rem 0.5rem;
   border-radius: 50%;
-  right: 1.3rem;
-  bottom: 1rem;
+  right: 0.75rem;
+  bottom: 8rem;
   cursor: pointer;
 }
 
@@ -87,5 +93,4 @@
 .btn_flotante:hover {
   background-color: rgb(152, 202, 243);
   color: rgb(44, 44, 63);
-
 }

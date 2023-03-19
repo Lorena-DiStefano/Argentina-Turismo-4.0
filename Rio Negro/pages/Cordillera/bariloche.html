@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <link rel="stylesheet" href="../../main.css">
+  <link rel="stylesheet" href="./cordillera.css">
+  <title>San Carlos de Bariloche</title>
+</head>
+
+<body class="body">
+  <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="" width="150" height="70">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#title">RIO NEGRO</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Que hacer
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./pages/Cordillera/cordillera.html">Cordillera</a></li>
+                <li><a class="dropdown-item" href="#">Costa</a></li>
+                <li><a class="dropdown-item" href="#">Estepa</a></li>
+                <li><a class="dropdown-item" href="#">Valle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html #title">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="img_container">
+        <img src="../../img/bariloche_info1.jpg" alt="Bariloche">
+    </section>
+    <section class="sec_region">
+      <div class="text_mapa" id="bariloche">
+        <h2>San Carlos de Bariloche</h2>
+      <p>Ciudad anfitriona por excelencia, enmarcada por algunas de las bellezas naturales más importantes del
+        país.</p>
+      <p>En el 2012 fue declarada capital nacional del turismo de aventura, y en el 2015 capital nacional del
+        chocolate.</p>
+      <P>Existe una variedad de actividades para disfrutar: excursiones tradicionales, paseos lacustres, nieve
+        para todos los gustos, la mejor gastronomía, turismo joven, salidas románticas, actividades familiares, aventura,
+        tranquilidad y una agenda cultural diversa.</P>
+        <p><b><i>Qué hacer en Bariloche...</i></b></p> </i>
+      </div>
+      <div class="img_mapa">
+        <img src="../../img/map_dinaHuapi.JPG" alt="">
+        <button type="button" class="btn_map" id="btn_map">ir al mapa</button>
+      </div>
+    </section>
+    <section class="galeria_actividades">
+      <div class="activ_cordillera">
+        <div class="container_card">
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img/bariloche_a_canyoning.jpg" alt="Canyoning">
+            </div>
+            <div class="card_textos">
+                <h4>Canyoning</h4>
+            <p>Explorar la montaña a través de estrechos cañadones rodeados de vegetación. <br>Actividades combinadas:
+              trekking, rappel, tirolesa, saltos desde trampolines naturales, nado, escalada… un montón de
+              emociones y sensaciones, en una experiencia única.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img/bariloche_a_buceo.jpg" alt="Buceo en Bariloche">
+            </div>
+            <div class="card_textos">
+            <h4>Buceo</h4>
+                <p>Bautismos de Buceo con clases de 2 horas aproximadamente.<br>Para buzos certificados existen lugares de
+                  muy poca profundidad hasta profundos siempre con excelente visibilidad.<br>La Mejor temporada es de
+                  Noviembre a Abril.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+            <img src="../../img/bariloche_a_kating.jpg" alt="Turismo Aventura">
+            </div>
+            <div class="card_textos">
+            <h4>Turismo Aventura</h4>
+                <p>Kitesurf, Canopy, Rafting, Trekking, Parapente, Kayak, Escalada, Cabalgatas, Pesca Deportiva...y mucho
+                  más</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img/bariloche_a_catedral.jpg" alt="Cerro Catedral">
+            </div>
+            <div class="card_textos">
+                <h4>Cerro Catedral</h4>
+              <p>Ubicado a 19 kilómetros del centro de la ciudad y dentro del Parque Nacional Nahuel
+                Huapi (2405m)<br>Es considerado el centro de esquí más desarrollado de Sudamérica. <br>Está abierto todo el año y cuenta con 34 medios de elevación (entre aerosillas, cabinas
+                y medios de arrastre),</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="alojamiento">
+      <table class="table">
+        <thead id="Tabla">
+          <tr>
+            <th scope="col" colspan=3>
+              <h3>Donde alojarse</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><h5>Hotel Huemul</h5></td>
+            <td class="td_dom">Av. Bustillo 1500, <br>San Carlos de Bariloche - Río Negro</td>
+            <td class="td_info">Sus habitaciones ofrecen un entorno tranquilo y tienen baño privado. Algunas gozan de vistas al lago y
+            a las montañas y las económicas incluyen vistas internas.<br> Desayuno y estacionamiento gratis.</td>
+          </tr>
+           <tr>
+            <th><h5>Hotel Tres Reyes</h5></td>
+            <td class="td_dom">Avenida 12 de Octubre 135,<br>San Carlos de Bariloche - Río Negro</td>
+            <td class="td_info"><p>Ubicado a 200 metros del Centro Cívico. Cuenta con recepción 24 horas y WiFi gratuita. Se halla a 12 km
+              de la estación de esquí y del aeropuerto de Bariloche.</td>
+          </tr>
+          <tr>
+            <th>
+              <h5>Indomito Hostel</h4>
+              </td>
+            <td class="td_dom">Parque Nacional Perito Moreno 31-Lago Gutiérrez<br>San Carlos de Bariloche - Río Negro</td>
+            <td class="td_info">
+            <p>Se encuentra en San Carlos de Bariloche, a 9 km del centro cívico y a 7 km de la bahía Serena<br>Las habitaciones del hostel están equipadas con armario, ropa de cama, disponen de baño privado, aire acondicionado y Wifi.<br>Algunas habitaciones tienen balcón.<br>Cuenta con bar, salón compartido, jardín y patio con vistas al lago.</p>
+            </td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+
+
+  <section class="botonFlotante">
+    <a href="#navbar">
+      <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>
+    </a>
+  </section>
+  <section class="footer">
+    <div class="footer_container">
+      <div class="contacto">
+        <img src="./img/logo.png" alt="logo" width="100px">
+        <div>
+          <ul>
+            <li>info_at4.0@argentinaturismo4.0.com</li>
+            <li>Sarmiento 440 - CABA</li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="provincia">
+        <div>
+          <a href="#">Córdoba -</a>
+          <a href="#">Entre Ríos -</a>
+          <a href="#">Río Negro -</a>
+          <a href="#">Salta -</a>
+          <a href="#">Santa Fe -</a>
+          <a href="#">Tucumán </a>
+        </div>
+      </div>
+      <div class="redes">
+        <h6>Seguinos en:</h6>
+        <ul>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+          <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <script src="./map.js"></script>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+main {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+/* ====================================================================================== */
+.img_container {
+  display: flex;
+  justify-content: center;
+}
+
+ .img_container img {
+  width: 100%;
+  height: 50%;
+} 
+/* ====================================================================================== */
+.sec_region{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.img_mapa{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0;
+}
+
+.img_mapa img{
+  width: 90%;
+  align-self: flex-end;
+  bottom: 0;
+}
+.btn_map{
+ font-size: 1rem;
+  color: #2c2c3f;
+ padding: 0.15rem 1.5rem;
+ margin-top: -1.5rem;
+  align-self: flex-end;
+  border: none;
+  border-radius: 5px;
+  /* background-color: */
+}
+
+.btn_map:hover{
+  background-color:cadetblue;
+  color: #fff;
+}
+
+.text_mapa {
+  max-width: 50%;
+  margin-left: 2rem;
+}
+
+.text_mapa h2 {
+  margin: 1.5rem 0;
+}
+
+/* ================================================================= */
+.container_card {
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  border: none;
+}
+
+.card:nth-child(even) {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+
+.card img {
+  width: 410px;
+  height: 250px;
+  margin: 0.5rem;
+  border-radius: 8px;
+}
+
+.card_textos {
+  max-width: 50%;
+  padding: 1rem;
+  line-height-step: 3px;
+}
+
+.card_textos p {
+  font-size: 1rem;
+}
+
+/* ================================================================= */
+
+.img_mapa img{
+  padding: 2rem;
+  border-radius: 15px;
+}
+/* ================================================================= */
+
+ .td_dom{
+  width: 200px;
+ }
+
+ /* ================================================================= */

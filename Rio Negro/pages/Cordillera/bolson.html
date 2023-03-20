@@ -30,35 +30,52 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#title">RIO NEGRO</a>
+              <a class="nav-link" aria-current="page" href="../../rioNegro.html">Inicio</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
-                Que hacer
+                Río Negro
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./pages/Cordillera/cordillera.html">Cordillera</a></li>
-                <li><a class="dropdown-item" href="#">Costa</a></li>
-                <li><a class="dropdown-item" href="#">Estepa</a></li>
-                <li><a class="dropdown-item" href="#">Valle</a></li>
+                <li><a class="dropdown-item" href="../../rioNegro.html">Río Negro</a></li>
+                <li><a class="dropdown-item" href="./cordillera.html">Cordillera</a></li>
+                <li><a class="dropdown-item" href="../Costa/costa.html">Costa</a></li>
+                <li><a class="dropdown-item" href="../Estepa/estepa.html">Estepa</a></li>
+                <li><a class="dropdown-item" href="../Valle/valle.html">Valle</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html #title">Contactanos</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Cordillera
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./dinaHuapi.html">Dina Huapi</a></li>
+                <li><a class="dropdown-item" href="./manso.html">El Manso</a></li>
+                <li><a class="dropdown-item" href="./bariloche.html">San Carlos de Bariloche</a></li>
+              </ul>
             </li>
-          </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                El Bolsón
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#act_bolson">Qué hacer?</a></li>
+                <li><a class="dropdown-item" href="#hot_bolson">Donde Dormir?</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa interactivo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+            </li>
         </div>
       </div>
     </nav>
-    <section class="img_container">
-      <img src="../../img/page_bolson.jpg" alt="treking en bariloche">
-    </section>
-    <section class="sec_region">
-      <div class="text_mapa" id="bolson">
+    <section class="sec_info">
+      <div class="text_info">
         <h2>El Bolsón</h2>
         <p> Al sudoeste de la provincia de Río Negro y a 18 Km. del Parque Nacional Lago Puelo en la Provincia de
           Chubut, se encuentra el Bolsón, una región que centra su actividad en el cultivo orgánico de la tierra,
@@ -70,12 +87,11 @@
           vacaciones.</p>
         <p><b><i>Qué hacer en El Bolsón....</i></b></p> </i>
       </div>
-      <div class="img_mapa">
-        <img src="../../img/map_dinaHuapi.JPG" alt="">
-        <button type="button" class="btn_map" id="btn_map">ir al mapa</button>
+      <div class="img_info">
+        <img src="./img_cord/hCord_bolson.png" class="img" alt="El Bolsón">
       </div>
     </section>
-    <section class="galeria_actividades">
+    <section class="galeria_actividades" id="act_bolson">
       <div class="activ_cordillera">
         <div class="container_card">
           <div class="card mb-5">
@@ -123,7 +139,7 @@
       </div>
     </section>
     <section class="alojamiento">
-      <table class="table">
+      <table class="table" id="hot_bolson">
         <thead id="Tabla">
           <tr>
             <th scope="col" colspan=3>

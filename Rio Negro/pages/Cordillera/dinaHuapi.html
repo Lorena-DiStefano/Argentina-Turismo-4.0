@@ -17,48 +17,65 @@
 </head>
 
 <body class="body_rioNegro">
-  <main>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="./img/logo.png" alt="" width="150" height="70">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../../rioNegro.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#title">Dina Huapi</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Que hacer
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./pages/Cordillera/cordillera.html">Cordillera</a></li>
-                <li><a class="dropdown-item" href="#">Costa</a></li>
-                <li><a class="dropdown-item" href="#">Estepa</a></li>
-                <li><a class="dropdown-item" href="#">Valle</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html #title">Contactanos</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo.png" alt="" width="150" height="70">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../../rioNegro.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Río Negro
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="../../rioNegro.html">Río Negro</a></li>
+              <li><a class="dropdown-item" href="./cordillera.html">Cordillera</a></li>
+              <li><a class="dropdown-item" href="../Costa/costa.html">Costa</a></li>
+              <li><a class="dropdown-item" href="../Estepa/estepa.html">Estepa</a></li>
+              <li><a class="dropdown-item" href="../Valle/valle.html">Valle</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+             Cordillera
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./bolson.html">El Bolsón</a></li>
+              <li><a class="dropdown-item" href="./manso.html">El Manso</a></li>
+              <li><a class="dropdown-item" href="./bariloche.html">San Carlos de Bariloche</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Dina Huapi
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#act_dinaHuapi">Qué hacer?</a></li>
+              <li><a class="dropdown-item" href="#hot_dinaHuapi">Donde Dormir?</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mapa interactivo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contactanos</a>
+          </li>
       </div>
-    </nav>
-    <section class="img_container">
-      <img src="../../img/page_dinahuapi2.jpg" alt="treking en bariloche">
-    </section>
-    <section class="sec_region">
-      <div class="text_mapa" id="cordillera">
+    </div>
+  </nav>
+  <main>
+    <section class="sec_info">
+      <div class="text_info">
         <h2>Dina Huapi</h2>
         <p>A solo 15 minutos de Bariloche por ruta 40, a orillas del imponente lago Nahuel Huapi y al este de los
           bosques andinos patagónicos; Dina Huapi invita al descanso con su microclima de inviernos de poca nieve
@@ -71,12 +88,11 @@
         </p>
         <p><b><i>Qué hacer en Dina Huapi....</i></b></p> </i>
       </div>
-      <div class="img_mapa">
-        <img src="./img_cord/map_dinaHuapi.JPG" alt="">
-        <button type="button" class="btn_map" id="btn_map">ir al mapa</button>
+      <div class="img_info">
+        <img src="./img_cord/hCord_dinaHuapi.jpg" class="img" alt="Dina Huapi">
       </div>
     </section>
-    <section class="galeria_actividades">
+    <section class="galeria_actividades" id="act_dinaHuapi">
       <div class="activ_cordillera">
         <div class="container_card">
           <div class="card mb-5">
@@ -86,12 +102,10 @@
             <div class="card_textos">
               <h4>Trekking en el Parque Nahuel Huapi</h4>
               <p>Los amantes de las caminatas en la naturaleza disponen en el <i>Parque Nacional Nahuel Huapi</i> de una
-                gran
-                cantidad y
-                variedad de rutas y senderos para disfrutar del entorno.<br>Hay desde recorridos tranquilos, relajantes y
-                de contemplación de paisajes, hasta itinerarios de pocas horas de caminata o travesías que
-                exigen varios días de
-                trekking por la montaña, preparación profesional y acompañamiento de guías especializados.</p>
+                gran cantidad y variedad de rutas y senderos para disfrutar del entorno.<br>Hay desde recorridos
+                tranquilos, relajantes y de contemplación de paisajes, hasta itinerarios de pocas horas de caminata o
+                travesías que exigen varios días de trekking por la montaña, preparación profesional y acompañamiento de
+                guías especializados.</p>
             </div>
           </div>
           <div class="card mb-5">
@@ -102,7 +116,8 @@
               <h4>Cavernas del Viejo Volcán</h4>
               <p>Un viaje a la prehistoria descubriendo el Volcán petríficado de Cerro Leones. Visitarás 3 cavernas
                 donde podrás encontrar desde pinturas rupestres hasta un manantial que forma un lago subterráneo de
-                aguas totalmente trasparentes.<br>Una excursión fascinante, amena y poco cansadora. Dura aproximadamente 2 horas y se realiza en grupos
+                aguas totalmente trasparentes.<br>Una excursión fascinante, amena y poco cansadora. Dura aproximadamente
+                2 horas y se realiza en grupos
                 reducidos.</p>
             </div>
           </div>
@@ -113,17 +128,19 @@
             <div class="card_textos">
               <h4>Turismo y Aventura</h4>
               <p>Las aguas del Nahuel Huapi, conforman un epicentro ideal para paseos lacustres, actividades como el
-                Kitesurf, Windsurf, Rafting, Kayak o simplemente disfrutar de sus playas. <br>También podés elegir excursiones en bicicleta, cabalgatas y trekking de montaña. </p>
+                Kitesurf, Windsurf, Rafting, Kayak o simplemente disfrutar de sus playas. <br>También podés elegir
+                excursiones en bicicleta, cabalgatas y trekking de montaña. </p>
             </div>
           </div>
           <div class="card mb-5">
             <div class="card_img">
-              <img src="./img_card/act_dinaHuapi_pesca.jpg" alt="Pesca en el Limay">
+              <img src="./img_cord/act_dinaHuapi_pesca.jpg" alt="Pesca en el Limay">
             </div>
             <div class="card_textos">
               <h4>Pesca Deportiva</h4>
               <p>Su ubicación privilegiada en el nacimiento del Río Limay, transforma a Dina Huapi como la ciudad
-                elegida por los amantes de la pesca.<br>En la zona se practica la pesca con mosca; en las costas de lagos y ríos la modalidad más elegida es el
+                elegida por los amantes de la pesca.<br>En la zona se practica la pesca con mosca; en las costas de
+                lagos y ríos la modalidad más elegida es el
                 spinning; y la pesca embarcada o trolling es más familiar ya que conjuga con un paseo.</p>
             </div>
           </div>
@@ -131,7 +148,7 @@
       </div>
     </section>
     <section class="alojamiento">
-      <table class="table">
+      <table class="table" id="hot_dinaHuapi">
         <thead id="Tabla">
           <tr>
             <th scope="col" colspan=3>
@@ -141,16 +158,24 @@
         </thead>
         <tbody>
           <tr>
-            <th><h5>Hotel Raíces Patagónicas</h5></td>
+            <th>
+              <h5>Hotel Raíces Patagónicas</h5>
+              </td>
             <td class="td_dom">Quintral 220, <br>Dina Huapi - Río Negro</td>
-            <td class="td_info">Hotel informal con cabañas y apartamentos sencillos, piscina cubierta climatizada, jardín y área de
-            barbacoa. <br> Desayuno y estacionamiento gratis.</td>
+            <td class="td_info">Hotel informal con cabañas y apartamentos sencillos, piscina cubierta climatizada,
+              jardín y área de
+              barbacoa. <br> Desayuno y estacionamiento gratis.</td>
           </tr>
-           <tr>
-            <th><h5>Cabañas Clarita</h5></td>
+          <tr>
+            <th>
+              <h5>Cabañas Clarita</h5>
+              </td>
             <td class="td_dom">Los
-            Notros 861,<br>Dina Huapi - Río Negro</td>
-            <td class="td_info"><p>Las cabañas incluyen TV, microondas, heladera, Wifi, servicio de limpieza.<br> Desayuno y estacionamiento gratis.</td>
+              Notros 861,<br>Dina Huapi - Río Negro</td>
+            <td class="td_info">
+              <p>Las cabañas incluyen TV, microondas, heladera, Wifi, servicio de limpieza.<br> Desayuno y
+                estacionamiento gratis.
+            </td>
           </tr>
           <tr>
             <th>
@@ -158,7 +183,8 @@
               </td>
             <td class="td_dom">El Cóndor 290,<br>Dina Huapi - Río Negro</td>
             <td class="td_info">
-              <p>Alojamiento con habitaciones y apartamentos amueblados, piscina al aire libre y utensilios para barbacoa.<br> Desayuno y estacionamiento gratis.
+              <p>Alojamiento con habitaciones y apartamentos amueblados, piscina al aire libre y utensilios para
+                barbacoa.<br> Desayuno y estacionamiento gratis.
             </td>
           </tr>
           <tr>
@@ -166,9 +192,6 @@
       </table>
     </section>
   </main>
-
-
-
   <section class="botonFlotante">
     <a href="#navbar">
       <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>

@@ -21,7 +21,7 @@ main {
   height: 50%;
 } 
 /* ====================================================================================== */
-.sec_region{
+.sec_info{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -30,43 +30,49 @@ main {
   margin-bottom: 2rem;
 }
 
-.img_mapa{
+.img_info{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  align-items: center;
+  
+}
+
+.img{
+  width: 100%;
   margin: 0;
-}
-
-.img_mapa img{
-  width: 90%;
-  align-self: flex-end;
-  bottom: 0;
-}
-.btn_map{
- font-size: 1rem;
-  color: #2c2c3f;
- padding: 0.15rem 1.5rem;
- margin-top: -1.5rem;
-  align-self: flex-end;
-  border: none;
   border-radius: 5px;
-  /* background-color: */
 }
 
-.btn_map:hover{
-  background-color:cadetblue;
-  color: #fff;
-}
-
-.text_mapa {
+.text_info {
   max-width: 50%;
+  
   margin-left: 2rem;
 }
 
-.text_mapa h2 {
+.text_info h2 {
   margin: 1.5rem 0;
 }
 
+/* ================================================================= */
+  .links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
+  .links a{
+    color: #2c2c3f;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .card_link_img{
+    width: 300px;
+    height: 250px;
+  }
 /* ================================================================= */
 .container_card {
   border-radius: 9px;

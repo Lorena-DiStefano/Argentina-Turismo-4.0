@@ -1,9 +1,7 @@
 let slideIndex = 0;
-showPics();
+showSlides();
 
-function showPics() {
-
-  //let i = 0;
+function showSlides() {
   let slides = document.getElementsByClassName("images");
 
   for (let i = 0; i < slides.length; i++) {
@@ -18,6 +16,6 @@ function showPics() {
   for (i = 0; i < slides.length; i++) {
     slides[slideIndex - 1].style.display = "block";
   }
-  setTimeout(showPics, 2000);
+  setTimeout(showSlides, 2000);
 
 }

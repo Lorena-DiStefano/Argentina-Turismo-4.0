@@ -8,9 +8,19 @@
 
 /* =========Home_nabar======= */
 .navbar {
-  background-color: #f7fbfc;
+  background-color: #f9fafa;
   width: 100%;
+  padding: -0.25rem;
 }
+
+.active{
+  /* background-color:rgb(235, 239, 251);
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #888; */
+color: #2c2c3f;
+font-weight: 700;
+}
+
 
 /*========Section_footer===========*/
 

@@ -14,9 +14,6 @@
 }
 
 .active{
-  /* background-color:rgb(235, 239, 251);
-  border-radius: 5px;
-  box-shadow: 1px 1px 2px #888; */
 color: #2c2c3f;
 font-weight: 700;
 }
@@ -39,11 +36,6 @@ font-weight: 700;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  
-}
-
-.footer_logo {
-  width: 100px;
 }
 
 .footer a {
@@ -55,11 +47,14 @@ font-weight: 700;
   list-style: none;
 }
 
-
 .contacto {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contacto img{
+  padding-bottom: 1rem;
 }
 
 .redes {

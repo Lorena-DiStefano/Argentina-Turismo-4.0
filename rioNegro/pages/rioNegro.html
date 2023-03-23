@@ -11,79 +11,81 @@
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
-  <link rel="stylesheet" href="./main.css">
-  <link rel="stylesheet" href="./rioNegro.css">
+  <link rel="stylesheet" href="../css_rn/main.css">
+  <link rel="stylesheet" href="../css_rn/rioNegro.css">
   <title>Río Negro</title>
 </head>
 
 <body class="body_rioNegro">
-  <main>
-    <section class="nav">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./img_rn/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" width="100">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#title" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Río Negro
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#title">Viví Río Negro</a></li>
-                  <li><a class="dropdown-item" href="#infoUtil">Información útil</a></li>
-                  <hr>
-                  <li><a class="dropdown-item" href="./pages/Cordillera/cordillera.html" target="_blank">Cordillera</a></li>
-                  <li><a class="dropdown-item" href="./pages/Costa/costa.html" target="_blank">Costa</a></li>
-                  <li><a class="dropdown-item" href="./pages/estepa.html" target="_blank">Estepa</a></li>
-                  <li><a class="dropdown-item" href="./pages/valle.html" target="_blank">Valle</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mapa Interactivo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">El Equipo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#title">Contactanos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </section>
-    <section class="slides">
-      <div class="container_slide">
-        <div class="images fade">
-          <img src="./img_rn/hs-trekingb.jpg" alt="Treking">
-        </div>
-        <div class="images fade">
-          <img src="./img_rn/hs-parapenteb.jpg" alt="Parapente en Bariloche">
-        </div>
-        <div class="images fade">
-          <img src="./img_rn/hs-bolson.jpg" alt="El bolsón">
-        </div>
-        <div class="images fade">
-          <img src="./img_rn/hs-trochitab.jpg" alt="La Trochita">
-        </div>
-        <div class="images fade">
-          <img src="./img_rn/hs-raftingb.jpg" alt="Rafting">
-        </div>
-        <div class="images fade">
-          <img src="./img_rn/hs-cervezab.jpg" alt="Cerveza">
+
+  <section class="nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../img_rn/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#title" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Río Negro
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#title">Viví Río Negro</a></li>
+                <li><a class="dropdown-item" href="#infoUtil">Información útil</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="./Cordillera/cordillera.html">Cordillera</a>
+                </li>
+                <li><a class="dropdown-item" href="./Costa/costa.html">Costa</a></li>
+                <li><a class="dropdown-item" href="./estepa.html">Estepa</a></li>
+                <li><a class="dropdown-item" href="./valle.html">Valle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa Interactivo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">El Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Contactanos</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </nav>
+  </section>
+  <section class="slides">
+    <div class="container_slide">
+      <div class="images fade">
+        <img src="../img_rn/hs-trekingb.jpg" alt="Treking">
+      </div>
+      <div class="images fade">
+        <img src="../img_rn/hs-parapenteb.jpg" alt="Parapente en Bariloche">
+      </div>
+      <div class="images fade">
+        <img src="../img_rn/hs-bolson.jpg" alt="El bolsón">
+      </div>
+      <div class="images fade">
+        <img src="../img_rn/hs-trochitab.jpg" alt="La Trochita">
+      </div>
+      <div class="images fade">
+        <img src="../img_rn/hs-raftingb.jpg" alt="Rafting">
+      </div>
+      <div class="images fade">
+        <img src="../img_rn/hs-cervezab.jpg" alt="Cerveza">
+      </div>
+    </div>
+  </section>
+  <main>
     <section class="map" id="map_div">
       <h2 id="title">Viví Río Negro!!!</h2>
       <div class="container_map">
@@ -96,7 +98,7 @@
           <p>Río Negro cuenta con distintas actividades tales como: Cabalgatas, Rafting, Parapente, Travesía en 4x4,
             Agroturismo, Zafari Fotográfico, Cicloturismo, Trekking, Kayak y Canopy.</p>
         </div>
-        <div> <img src="./img_rn/map_rioNegro.JPG" alt="mapa de Río Negro"></div>
+        <div> <img src="../img_rn/map_rioNegro.JPG" alt="mapa de Río Negro"></div>
       </div>
     </section>
     <section class="regiones">
@@ -104,31 +106,31 @@
         <div class="container_card">
           <div class="card mb-5">
             <div class="card_img">
-                <img src="./img_rn/rn_card_cordillera.jpg" class="card-img-top" alt="Cordillera">
+              <img src="../img_rn/rn_card_cordillera.jpg" class="card-img-top" alt="Cordillera">
             </div>
             <div class="card_textos">
               <h3>Visitá su zona de Cordilleras</h3>
               <p>Los paisajes cordilleranos, nevados en invierno y florales en temporada estival, desafían los sentidos
                 del visitante y lo invitan descubrir y a disfrutar de la cultura y el estilo de vida de esta parte de la
                 Patagonia que se da entre valles, lagos, ríos y montañas.</p>
-              <a href="./pages/Cordillera/cordillera.html" target="_blank">Conocé más...</a>
+              <a href="./Cordillera/cordillera.html">Conocé más...</a>
             </div>
           </div>
           <div class="card mb-5">
             <div class="card_img">
-              <img src="./img_rn/rn_card_costa.jpg" class="card-img-top" alt="Cordillera">
+              <img src="../img_rn/rn_card_costa.jpg" class="card-img-top" alt="Cordillera">
             </div>
             <div class="card_textos">
               <h3>Disfrutá de la costa Rionegrina</h3>
               <p>La singular geografía y la diversidad faunística de esta zona funcionan como un gran atractivo todo el
                 año, pero es el verano, principalmente por la belleza y variedad de las playas, la época más elegida por
                 los turistas.</p>
-              <a href="./pages/Costa/costa.html" target="_blank">Conocé más...</a>
+              <a href="./Costa/costa.html">Conocé más...</a>
             </div>
           </div>
           <div class="card mb-5">
             <div class="card_img">
-              <img src="./img_rn/rn_card_estepa.jpg" class="card-img-top" alt="El Manso">
+              <img src="../img_rn/rn_card_estepa.jpg" class="card-img-top" alt="El Manso">
             </div>
             <div class="card_textos">
               <h3>Recorré sus Estepas</h3>
@@ -136,12 +138,12 @@
                 esteparia. Se pueden realizar, además, diferentes tipos de trekking y caminatas, paseos a caballo o en
                 mountain bike, safaris fotográficos y de avistamiento de flora y fauna.
               </p>
-          <a href="./pages/estepa.html" target="_blank">Conocé más...</a>
+              <a href="./estepa.html">Conocé más...</a>
             </div>
           </div>
           <div class="card mb-5">
             <div class="card_img">
-              <img src="./img_rn/rn_card_valle.jpg" class="card-img-top" alt="Bariloche">
+              <img src="../img_rn/rn_card_valle.jpg" class="card-img-top" alt="Bariloche">
             </div>
             <div class="card_textos">
               <h3>Adentrate en sus Valles</h3>
@@ -151,7 +153,7 @@
                 como
                 es la gastronomía, y del entorno natural a través de
                 cabalgatas y paseos en sulky.</p>
-                <a href="./pages/valle.html" target="_blank">Conocé más...</a>
+              <a href="./valle.html">Conocé más...</a>
             </div>
           </div>
         </div>
@@ -196,7 +198,7 @@
   <section class="footer">
     <div class="footer_container">
       <div class="contacto">
-        <img src="./img_rn/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" width="100px">
+          <img src="../img_rn/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" width="100px">
         <div>
           <ul>
             <li>info_at4.0@argentinaturismo4.0.com</li>
@@ -236,8 +238,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
-  <script src="./rioNegro.js"></script>
-  <script src="./map.js"></script>
+  <script src="../rioNegro.js"></script>
   <script src="./main.js"></script>
 
 </body>

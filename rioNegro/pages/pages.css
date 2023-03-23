@@ -74,6 +74,12 @@ span{
   width: 300px;
   height: 250px;
   border-radius: 5px;
+  transition: 1s;
+  object-fit: cover;
+}
+
+.card_link_img:hover{
+  transform:scale(0.95)
 }
 
 /* ================================================================= */
@@ -116,7 +122,6 @@ span{
 
 .card_textos p {
   font-size: 1rem;
-
 }
 
 /* ================================================================= */

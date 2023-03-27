@@ -82,7 +82,11 @@
   }
 
   .title h1 {
-    font-size:3rem ;
+    font-size: 3.5rem;
+  }
+
+  .title p {
+    font-size: 1.3rem;
   }
 
   .logo {
@@ -96,11 +100,10 @@
     margin: 3rem 0;
   }
 
-    .card_link_img {
-      width: 250px;
-      height: 350px;
-    }
+  .card_link_img {
+    width: 250px;
+    height: 350px;
+  }
 
-  
+
 }
-

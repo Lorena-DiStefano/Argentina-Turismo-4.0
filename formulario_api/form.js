@@ -76,6 +76,16 @@ let listResult;
 
 const getInfo = (event) => {
   event.preventDefault()
+  let name = document.getElementById('name')
+  localStorage.setItem('name', name.value)
+  let lastName = document.getElementById('lastName')
+  localStorage.setItem('lastName', lastName.value)
+  let country = document.getElementById('country')
+  localStorage.setItem('country', country.value)
+  let phone = document.getElementById('phone')
+  localStorage.setItem('phone', phone.value)
+  let email = document.getElementById('email')
+  localStorage.setItem('email', email.value)
   localStorage.setItem('city', idCity)
   let hotel = document.querySelector('input[name="hotel"]:checked')
   localStorage.setItem('hotel', hotel.value)

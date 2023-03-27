@@ -1,0 +1,217 @@
+/* #60baf9 */
+/* #85d7fc */
+/* #67d0e6 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.info_contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.info_contact h1 {
+  margin: 2rem 0;
+  color: #60baf9
+}
+
+.input_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+}
+
+.input_row input {
+  border: 1px solid #cfd8eb;
+  box-shadow: 1px 1px 3px #888;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 1rem;
+  padding: 0.25rem;
+
+}
+
+.input_row label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.input_div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===================================== */
+.form_header_title {
+  font-size: 3rem;
+  color: #60baf9;
+  text-align: center;
+  margin: 3rem 0 2rem;
+}
+
+.form_header_select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.select select {
+  border: 1px solid #cfd8eb;
+  box-shadow: 1px 1px 3px #888;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.btn {
+  background-color: #2c2c3f;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  padding: 0 3rem;
+}
+
+.btn:hover {
+  font-weight: 500;
+  color: #2c2c3f;
+  background-color: rgba(96, 185, 249, 0.5);
+  box-shadow: 1px 1px 3px #888;
+}
+
+/* ========================================= */
+
+.card_host_cont {
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px #888;
+}
+
+.form_cards h2 {
+  color: #60baf9;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3rem 0;
+}
+
+.listHotel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card_host {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #888;
+}
+
+.card_host_img img {
+  inset: 0;
+  width: 280px;
+  align-self: center;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #888;
+}
+
+.card_host_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: #777;
+  font-weight: 500;
+}
+
+.card_host_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 1rem;
+  text-align: left;
+}
+
+/* ============================== */
+.radio_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.radio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.radio_title_h3,
+.form_info h5,
+.roomKind h5 {
+  text-align: center;
+  font-size: 2rem;
+  color: #60baf9;
+  margin-top: 2rem;
+}
+
+/* ============================== */
+
+.form_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: first baseline;
+  margin: 2rem 0;
+}
+
+.check_cont,
+.roomKind,
+.mge_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.check,
+.quantity,
+.input_roomKind {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.check input {
+  margin: 0.75rem;
+}
+
+.quantity input {
+  width: 40px;
+  height: fit-content;
+}

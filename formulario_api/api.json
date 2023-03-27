@@ -1,0 +1,98 @@
+[
+  {
+    "prov": "Río Negro",
+    "city": "Dina Huapi",
+    "name": "Hotel Raíces Patagónicas",
+    "address": "Quintral 220",
+    "info": "Hotel informal con cabañas y apartamentos sencillos, piscina cubierta climatizada,jardín y área de             barbacoa. <br> Desayuno y estacionamiento gratis.",
+    "image": "#"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "Dina Huapi",
+    "name": "Cabañas Clarita",
+    "address": "Notros 861,",
+    "info": "Las cabañas incluyen TV, microondas, heladera, Wifi, servicio de limpieza.<br> Desayuno y               estacionamiento gratis",
+    "image": "#"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "Dina Huapi",
+    "name": "Posada del Camino",
+    "address": "El Cóndor 290",
+    "info": "Alojamiento con habitaciones y apartamentos amueblados, piscina al aire libre y utensilios para                barbacoa.<br> Desayuno y estacionamiento gratis.",
+    "image": "#"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "El Bolsón",
+    "name": "La Casa de la Abuela",
+    "address": "Notros 861",
+    "info": "La Casa De La Abuela Departamentos está situada a solo 150 metros de la plaza Pagano. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOHe5WdpKO8N7oy0u2qt8N4lj4gTU_u4Jyk3Izf=s1360-w1360-h1020"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "El Bolsón",
+    "name": "Cabañas Sublime",
+    "address": "Saavedra 3089",
+    "info": "Cabañas Sublime Bolsón ofrece alojamiento a 6 minutos a pie de la plaza Pagano, centro estratégico de la Ciudad. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/174604673.jpg?k=a6b27b2a3e0691a8e3d0cdb15e09cedda95baab97017a9351d4105ada2dcad14&o=&hp=1"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "El Bolsón",
+    "name": "Hotel Luz de Luna",
+    "address": "Dorrego 150",
+    "info": "Ofrece servicio de conserjería, habitaciones para no fumadores, jardín, WiFi en todas las instalaciones y salón compartido. Todas las habitaciones incluyen TV por cable.",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/98130123.jpg?k=3398f70b269cea21efc454fef54caac5c5099a1f3a2e2fdf18862abc7fa94edd&o=&hp=1"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "El Manso",
+    "name": "Cabañas Campestre",
+    "address": "Ruta N°83 km 28",
+    "info": "Las Cabañas ofrecen alojamiento con WiFi y estacionaminto gratuitos, servicio de limpieza y jardín con terraza y vistas a la ciudad. Desayuno y estacionamiento gratis.",
+    "image": "#"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "El Manso",
+    "name":"Camping El Puerto",
+    "address": "Ruta 83 km 11",
+    "info": "A orillas del Río Manso, con la mejor cerveza de la zona y acompañado de una hermosa vista. Podés acampar o utilizar los dormis con duchas, fogones con instalaciones eléctricas. El bar abre por las tardes.",
+    "image": "#"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "El Manso",
+    "name": "La Reserva El Foyel",
+    "address": "Ruta Nac. 40 km 1958.5",
+    "info": "Complejo Turístico de montaña<br>Ofrece servicio de Wifi, TV, heladera, cocina, calefacción y ropa de         cama.<br>Estacionamiento gratis.",
+    "image": "#"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "S.C.de Bariloche",
+    "name": "Hotel Huemul",
+    "address": "Av. Bustillo 1500",
+    "info": "Sus habitaciones ofrecen un entorno tranquilo y baño privado. Algunas gozan de vistas al lago y a las montañas y otras de vistas internas.<br> Desayuno y estacionamiento gratis.",
+    "image": "#"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "S.C.de Bariloche",
+    "name": "Hotel Tres Reyes",
+    "address": "Avenida 12 de Octubre 135",
+    "info":"Ubicado a 200 metros del Centro Cívico. Cuenta con recepción 24 horas y WiFi gratuita. Se halla a 12 km de la estación de esquí y del aeropuerto de Bariloche.",
+    "image": "#"
+  },
+  {
+    "prov": "Río Negro",
+    "city": "S.C.de Bariloche",
+    "name": "Indomito Hostel",
+    "address": "P.Nac. Perito Moreno 31",
+    "info":"Las habitaciones cuentan con armario, ropa de cama, baño privado, aire acondicionado y Wifi.<br>Cuenta con bar, salón compartido, jardín y patio con vistas al lago.",
+    "image": "#"
+  }
+]

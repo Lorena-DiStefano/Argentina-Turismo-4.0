@@ -1,4 +1,4 @@
-const btnBuscar = document.getElementById('btn_city')
+
 let idCity;
 
 
@@ -25,8 +25,8 @@ const printHotel = async () => {
                 <div class="card_host">
                   <div class="card_host_img">
                    <img src="${e.image}")>
-                   </div> 
-                 <div class="card_host_info">   
+                   </div>
+                 <div class="card_host_info">
                   <div class="card_host_title">
                    <h5>${e.name}</h5>
                    </div>
@@ -59,11 +59,9 @@ const printHotel = async () => {
     radioH3.className = 'radio_title_h3'
     radioH3.textContent = "Elije el Hotel"
     radio_title.append(radioH3)
-    // const radioHost = document.getElementById('radioHotel')    
-    // radioHost.style.display = 'block'
 
-    // const form_info = document.getElementById('form_info')
-    // form_info.style.display = 'block'
+    const form_info = document.getElementById('form_info')
+    form_info.style.display = 'flex'
 
     window.location.href = "#listHostel";
 
@@ -72,41 +70,60 @@ const printHotel = async () => {
   }
 }
 
-let listResult;
+const btnBuscar = document.getElementById('btn_city')
+btnBuscar.addEventListener('click', printHotel)
+
+
+const openModal = () => {
+  modal.showModal()
+}
 
 const getInfo = (event) => {
-  event.preventDefault()
-  let name = document.getElementById('name')
-  localStorage.setItem('name', name.value)
-  let lastName = document.getElementById('lastName')
-  localStorage.setItem('lastName', lastName.value)
-  let country = document.getElementById('country')
-  localStorage.setItem('country', country.value)
-  let phone = document.getElementById('phone')
-  localStorage.setItem('phone', phone.value)
-  let email = document.getElementById('email')
-  localStorage.setItem('email', email.value)
-  localStorage.setItem('city', idCity)
-  let hotel = document.querySelector('input[name="hotel"]:checked')
-  localStorage.setItem('hotel', hotel.value)
-  let checkIn = document.getElementById("checkIn")
-  localStorage.setItem('checkIn', checkIn.value)
-  let checkOut = document.getElementById("checkOut")
-  localStorage.setItem('checkOut', checkOut.value)
-  let roomKind = document.querySelector('input[name="room"]:checked')
-  localStorage.setItem('roomKind', roomKind.value)
-  let roomQ = document.getElementById('guestQ')
-  localStorage.setItem('roomQ', roomQ.value)
-  let guestQ = document.getElementById('roomQ')
-  localStorage.setItem('guestQ', guestQ.value)
-  let mge = document.getElementById('mge')
-  localStorage.setItem('mge', mge.value)
+event.preventDefault()
+let hotel = document.querySelector('input[name="hotel"]:checked').value
+let roomKind = document.querySelector('input[name="room"]:checked').value
+let firstName = document.getElementById('name').value
+let lastName = document.getElementById('lastName').value
+let country = document.getElementById('country').value
+let phone = document.getElementById('phone').value
+let email = document.getElementById('email').value
+let checkIn = document.getElementById("checkIn").value
+let checkOut = document.getElementById("checkOut").value
+let guestQ = document.getElementById('guestQ').value
+let roomQ = document.getElementById('roomQ').value
+let mge = document.getElementById('mge').value
+
+const data = document.getElementById('data')
+const modalData = document.createElement('div')
+modalData.innerHTML = `
+<div>
+<p><span>${firstName} ${lastName}</span>, residente en <span>${country}</span>.<br>Teléfono: <span>${phone}</span><br>e-mail: <span>${email}</span></p>
+</div>
+<div>
+En vistas de su visita a la ciudad de <span>${idCity}</span>, solicita la reserva de <span>${roomQ}</span> habitación(s) denominada(s) <span>${roomKind}</span> para <span>${guestQ}</span> persona(s), en <span>${hotel}</span>.</p>
+<p>Con fecha de ingreso <span>${checkIn}</span>y de salida <span>${checkOut}</span>.</p>
+<p>En su mensaje refiere: <span>${mge}</span>.</p>
+</div>
+<div class="greeting">
+<p>El equipo de <span>Argentina Turismo 4.0</span> agradece su visita a nuestro sitio web.</p>
+<p>Saludos Cordiales</p>
+<p><span>La Scaloneta</span></p>
+</div>
+<div>
+<button onclick="window.print()">Imprimir</button>
+</div>`
+data.append(modalData)
+openModal()
 }
 
 
-
-btnBuscar.addEventListener('click', printHotel)
-
 const btn_form = document.getElementById('btn_form')
-
 btn_form.addEventListener('click', getInfo)
+
+
+
+
+
+const closeModal = () => {
+  modal.closest()
+}

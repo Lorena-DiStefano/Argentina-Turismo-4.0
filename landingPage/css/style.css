@@ -79,6 +79,7 @@
   .card_link_img {
     width: 280px;
     height: 320px;
+
   }
 
   .title h1 {
@@ -101,8 +102,9 @@
   }
 
   .card_link_img {
-    width: 250px;
-    height: 350px;
+    /* w250-h350 */
+    width: 200px;
+    height: 300px;
   }
 
 

@@ -213,24 +213,47 @@ span {
 .quantity input {
   width: 40px;
   height: fit-content;
+  padding: 0.25rem;
 }
 
 /* =============nota de contacto=========== */
-
-
-/* a4 21(ancho)x29.7(alto) = 72*595x842 - 150*1240-1754 */
 
 #modal{
   width: 655px;
   height:926px ;
   margin: 0 auto;
-  border: none;
+  border: none; 
+}
+
+#modal[open] {
+  animation: show 200ms ease-in normal;
+}
+
+@keyframes show {
+  from {
+    transform: translateX(-110%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.modal_cont{
+  margin: 3rem ;
+}
+
+.modal_cont span{
+  font-style: italic;
+  color: #2e5b7b;
+  font-weight: 400;
 }
 
 .header{
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .header .logo{
@@ -245,19 +268,19 @@ span {
   line-height: 0.5rem;
 }
 
-
-
-
-#modal[open] {
-  animation: show 200ms ease-in normal;
+.la-print{
+ float: right;
+  font-size: 2rem;
+  color: #888;
+  margin-right: -1rem;
 }
 
-@keyframes show {
-  from {
-    transform: translateX(-110%);
-  }
+.data .btn{
+ float: right;
+}
 
-  to {
-    transform: translateX(0%);
+@media print{
+  .data .btn, .la-print{
+    display: none;
   }
 }

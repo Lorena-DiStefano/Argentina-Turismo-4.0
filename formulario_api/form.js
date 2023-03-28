@@ -73,35 +73,34 @@ const printHotel = async () => {
 const btnBuscar = document.getElementById('btn_city')
 btnBuscar.addEventListener('click', printHotel)
 
-
 const openModal = () => {
   modal.showModal()
 }
 
 const getInfo = (event) => {
-event.preventDefault()
-let hotel = document.querySelector('input[name="hotel"]:checked').value
-let roomKind = document.querySelector('input[name="room"]:checked').value
-let firstName = document.getElementById('name').value
-let lastName = document.getElementById('lastName').value
-let country = document.getElementById('country').value
-let phone = document.getElementById('phone').value
-let email = document.getElementById('email').value
-let checkIn = document.getElementById("checkIn").value
-let checkOut = document.getElementById("checkOut").value
-let guestQ = document.getElementById('guestQ').value
-let roomQ = document.getElementById('roomQ').value
-let mge = document.getElementById('mge').value
+  event.preventDefault()
+  let hotel = document.querySelector('input[name="hotel"]:checked').value
+  let roomKind = document.querySelector('input[name="room"]:checked').value
+  let firstName = document.getElementById('name').value
+  let lastName = document.getElementById('lastName').value
+  let country = document.getElementById('country').value
+  let phone = document.getElementById('phone').value
+  let email = document.getElementById('email').value
+  let checkIn = document.getElementById("checkIn").value
+  let checkOut = document.getElementById("checkOut").value
+  let guestQ = document.getElementById('guestQ').value
+  let roomQ = document.getElementById('roomQ').value
+  let mge = document.getElementById('mge').value
 
-const data = document.getElementById('data')
-const modalData = document.createElement('div')
-modalData.innerHTML = `
+  const data = document.getElementById('data')
+  const modalData = document.createElement('div')
+  modalData.innerHTML = `
 <div>
 <p><span>${firstName} ${lastName}</span>, residente en <span>${country}</span>.<br>Teléfono: <span>${phone}</span><br>e-mail: <span>${email}</span></p>
 </div>
 <div>
 En vistas de su visita a la ciudad de <span>${idCity}</span>, solicita la reserva de <span>${roomQ}</span> habitación(s) denominada(s) <span>${roomKind}</span> para <span>${guestQ}</span> persona(s), en <span>${hotel}</span>.</p>
-<p>Con fecha de ingreso <span>${checkIn}</span>y de salida <span>${checkOut}</span>.</p>
+<p>Con fecha de ingreso <span>${checkIn}</span> y de salida <span>${checkOut}</span>.</p>
 <p>En su mensaje refiere: <span>${mge}</span>.</p>
 </div>
 <div class="greeting">
@@ -109,21 +108,17 @@ En vistas de su visita a la ciudad de <span>${idCity}</span>, solicita la reserv
 <p>Saludos Cordiales</p>
 <p><span>La Scaloneta</span></p>
 </div>
-<div>
-<button onclick="window.print()">Imprimir</button>
-</div>`
-data.append(modalData)
-openModal()
+<button type="button" class="btn" id="btn_close">salir</button>`
+ data.append(modalData)
+  openModal()
+  const btn_close = document.getElementById('btn_close')  
+  btn_close.onclick = () => { window.location.reload() }
+  
 }
 
+const btn_print = document.getElementById('btn_print')
+btn_print.onclick = () => { window.print() }
 
 const btn_form = document.getElementById('btn_form')
 btn_form.addEventListener('click', getInfo)
 
-
-
-
-
-const closeModal = () => {
-  modal.closest()
-}

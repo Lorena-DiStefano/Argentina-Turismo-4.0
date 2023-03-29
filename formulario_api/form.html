@@ -30,10 +30,10 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" href="#title" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link dropdown-toggle" href="#title" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 A donde ir
               </a>
@@ -50,7 +50,7 @@
             <a class="nav-link" href="#">Equipo AT 4.0</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#title">Contactanos</a>
+            <a class="nav-link active " href="#title">Contactanos</a>
           </li>
           </ul>
         </div>
@@ -63,32 +63,31 @@
       <div class="input_row">
         <div class="input_div">
           <label for="name">Nombre</label>
-          <input type="text" name="name" id="name">
+          <input type="text" name="name" id="name" required>
         </div>
         <div class="input_div">
           <label for="lastName">Apellido</label>
-          <input type="text" name="lastName" id="lastName">
+          <input type="text" name="lastName" id="lastName" required>
         </div>
       </div>
       <div class="input_row">
         <div class="input_div">
           <label for="country">País de residencia</label>
-          <input type="text" name="country" id="country">
+          <input type="text" name="country" id="country" required>
         </div>
-
         <div class="input_div">
           <label for="phone">Teléfono</label>
-          <input type="number" name="phone" id="phone" placeholder="000-0000-0000">
+          <input type="number" name="phone" id="phone" placeholder="0000-0000" required>
         </div>
       </div>
       <div class="input_row">
         <div class="input_div">
           <label for="email">e-mail</label>
-          <input type="email" name="email" id="email" placeholder="xxxx@xxxxx.com">
+          <input type="email" name="email" id="email" placeholder="xxxx@xxxxx.com" required>
         </div>
         <div class="input_div">
           <label for="eMail"> Reingrese su e-mail</label>
-          <input type="eMail" name="email" id="eMail" placeholder="xxxx@xxxxx.com">
+          <input type="eMail" name="email" id="eMail" placeholder="xxxx@xxxxx.com" required>
         </div>
       </div>
     </section>
@@ -112,7 +111,7 @@
             <option value="Viedma">Viedma</option>
           </select>
         </div>
-        <button type="button" class="btn" id="btn_city">Buscar</button>
+        <button type="submit" class="btn" id="btn_city">Buscar</button>
       </div>
     </section>
     <section class="form_cards">
@@ -141,16 +140,16 @@
             </div>
             <div class="quantity">
               <label for="pasenger">Huespedes</label>
-              <input type="number" id="guestQ" placeholder="0">
+              <input type="number" id="guestQ" min="1" max="99" value="1">
               <label for="roomQuantity">Habitaciones</label>
-              <input type="number" id="roomQ" placeholder="0">
+              <input type="number" id="roomQ" min="1" max="99" value="1">
             </div>
           </div>
         </div>
         <div class=" roomKind">
           <h5>Elije la habitación</h5>
           <div class="input_roomKind">
-            <input type="radio" name="room" value="Single">
+            <input type="radio" name="room" value="Single" checked>
             <label for="single">Single</label><br>
             <input type="radio" name="room" value="Doble">
             <label for="doble">Doble</label><br>
@@ -161,13 +160,12 @@
         <div class="mge_cont">
           <div class="mje">
             <h5>Amplia los datos de tu consulta</h5>
-            <textarea name="" id="mge" cols="60" rows="5" placeholder="Deje su mensaje"></textarea>
+            <textarea name="" id="mge" cols="65" rows="5" placeholder="Deje su mensaje"></textarea>
           </div>
           <button type="button" class="btn" id="btn_form">Enviar</button>
         </div>
       </div>
     </section>
-    
     <section id="secModal">
       <dialog id="modal">
         <div class="modal_cont">
@@ -193,10 +191,6 @@
       </div>
       </dialog>
     </section>
-
-
-
-
   </main>
   <footer class="footer">
     <div class="footer_container">
@@ -221,7 +215,8 @@
           <a href="#">Entre Ríos -</a>
           <a href="#">Jujuy -</a>
           <a href="#">Río Negro -</a>
-          <a href="#">Santa Fe</a>
+          <a href="#">Santa Fe -</a>
+          <a href="#">Tucumán</a>
         </div>
       </div>
       <div class="redes">

@@ -1,12 +1,12 @@
 
 let idCity;
-
+let search = true
 
 const printHotel = async () => {
 
-  const contenedor = document.getElementById('api')
+  const card_cont = document.getElementById('api')
   const radio = document.getElementById('radioHotel')
-
+  
   idCity = document.getElementById('city').value
 
   try {
@@ -21,22 +21,16 @@ const printHotel = async () => {
     cityApi.forEach(e => {
       let host = document.createElement('div')
       host.clasName = "card_host_cont"
-      host.innerHTML = `
-                <div class="card_host">
-                  <div class="card_host_img">
+      host.innerHTML = `    
+                  <div class="card_host">          
                    <img src="${e.image}")>
-                   </div>
-                 <div class="card_host_info">
-                  <div class="card_host_title">
                    <h5>${e.name}</h5>
-                   </div>
-                   <div class="card_host_text">
+                 <div class="card_host_info">
                    <p><span>${e.address}-${e.city}-${e.prov}</span><br>
                    ${e.info}</p>
                   </div>
-                  </div>
-              </div>`
-      contenedor.append(host)
+                  </div>`
+      card_cont.append(host)
 
       let inputHotel = document.createElement('input')
       inputHotel.type = 'radio'
@@ -64,14 +58,20 @@ const printHotel = async () => {
     form_info.style.display = 'flex'
 
     window.location.href = "#listHostel";
-
+    search = false
+    btnSearch.textContent ="Nueva búsqueda"
+    
   } catch (error) {
     console.log(error)
   }
 }
 
-const btnBuscar = document.getElementById('btn_city')
-btnBuscar.addEventListener('click', printHotel)
+const btnSearch = document.getElementById('btn_city')
+
+btnSearch.addEventListener('click', function () {
+  search ? printHotel() : window.location.reload()
+})
+
 
 const openModal = () => {
   modal.showModal()
@@ -108,7 +108,7 @@ En vistas de su visita a la ciudad de <span>${idCity}</span>, solicita la reserv
 <p>Saludos Cordiales</p>
 <p><span>La Scaloneta</span></p>
 </div>
-<button type="button" class="btn" id="btn_close">salir</button>`
+<button type="submit" class="btn" id="btn_close">cerrar</button>`
  data.append(modalData)
   openModal()
   const btn_close = document.getElementById('btn_close')  

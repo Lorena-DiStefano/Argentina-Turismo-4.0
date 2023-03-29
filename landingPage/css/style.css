@@ -11,9 +11,10 @@
   width: 5rem;
 }
 
-.carousel-item-img {
-  width: 100vw;
-  height: 40vh;
+.carousel-caption h5{
+  text-align: right;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px black;
 }
 
 .title {
@@ -106,6 +107,23 @@
     width: 200px;
     height: 300px;
   }
+}
+
+/* ================================================= */
 
 
+.aboutUs_container{
+  display: flex;
+  justify-content: center;
+}
+
+.aboutUs_img{
+  width: 45%;
+}
+.aboutUs_img img{
+  width: 15rem;
+}
+
+.aboutUs_text{
+  width: 45%;
 }

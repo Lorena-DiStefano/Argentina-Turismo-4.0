@@ -3,12 +3,18 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins';
 }
 
 .navbar {
   background-color: #f9fafa;
+  color: #2c2c3f;
 }
 
+.nav-link active{
+font-weight: 900;
+
+}
 .logo {
   width: 5rem;
 }

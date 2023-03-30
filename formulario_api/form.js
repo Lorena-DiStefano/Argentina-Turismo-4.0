@@ -16,9 +16,9 @@ const printHotel = async () => {
 
     cityApi = apiAlojamiento.filter((e) => e.city.includes(idCity))
     console.log(cityApi)
+    let i = 0
 
-
-    cityApi.forEach(e => {
+    cityApi.forEach(e=> {
       let host = document.createElement('div')
       host.clasName = "card_host_cont"
       host.innerHTML = `    
@@ -41,7 +41,6 @@ const printHotel = async () => {
       inputHotel.className = 'radioHotel'
       labelHotel.for = 'hotel'
       labelHotel.textContent = `${e.name}`
-
       radio.append(inputHotel)
       radio.append(labelHotel)
     })
@@ -122,3 +121,4 @@ btn_print.onclick = () => { window.print() }
 const btn_form = document.getElementById('btn_form')
 btn_form.addEventListener('click', getInfo)
 
+//=====================================================================//

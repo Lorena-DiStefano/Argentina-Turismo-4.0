@@ -7,14 +7,10 @@
 }
 
 .navbar {
-  background-color: #f9fafa;
+  background-color: #e5f7f7;
   color: #2c2c3f;
 }
 
-.nav-link active{
-font-weight: 900;
-
-}
 .logo {
   width: 5rem;
 }

@@ -213,7 +213,7 @@ span {
 
 #modal{
   width: 655px;
-  height:926px ;
+  height: fit-content;
   margin: 0 auto;
   border: none; 
 }
@@ -233,7 +233,7 @@ span {
 }
 
 .modal_cont{
-  margin: 3rem ;
+  margin: 2rem ;
 }
 
 .modal_cont span{
@@ -258,6 +258,7 @@ span {
 }
 
 .header p{
+  font-size: 0.8rem;
   line-height: 0.5rem;
 }
 

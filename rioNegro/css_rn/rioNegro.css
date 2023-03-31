@@ -8,34 +8,100 @@
   font-family: 'Poppins';
 }
 
-main{
+main {
   color: #2c2c3f;
 }
 
 .carousel-item-img {
   width: 100vw;
-  height: 40vh;
+  height: 60vh;
+  border-radius: 5px;
 }
 
-.title {
-  margin: 2rem 1rem;
+.title h1 {
+  color: #67d0e6;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* =================Main - Río Negro====================== */
+.sec_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec_info img {
+  display: none;
+}
+
+.text_info {
+  width: 100vw;
+  margin: 1rem;
+}
+
+span {
+  color: #5f5faa;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* =================Main - Río Negro====================== */
+.container_card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.title h1 {
-  color: #67d0e6;
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0 0.75rem;
 }
 
-.title p {
+.card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+card_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 6px black;
+}
+
+.card_text {
+  width: 100%;
+  padding: 0.75rem 0;
+  line-height-step: 3px;
+}
+
+.card_text h3,
+.card_text h4 {
   text-align: center;
-  color: #888;
-  font-weight: 400;
 }
 
-/* =============================================== */
+.card_text p,
+.card_text a {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+/* ================= - Río Negro====================== */
 .links {
   display: flex;
   flex-wrap: wrap;
@@ -50,11 +116,12 @@ main{
 }
 
 .card_link_img {
-  width: 280px;
-  height: 300px;
+  width: 90vw;
+  height: 350px;
   border-radius: 5px;
   transition: 1s;
   object-fit: cover;
+  box-shadow: 1px 1px 6px black;
 }
 
 .card_link_img:hover {
@@ -69,117 +136,89 @@ main{
   font-weight: 600;
 }
 
+/* ================================================================= */
+
 @media (min-width:768px) {
-  .carousel-item-img {
-    height: 63vh;
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .text_info {
+    margin: 0 2rem;
+  }
+
+  .card_text a {
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .card img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .card_text {
+    max-width: 50%;
+    line-height-step: 3px;
   }
 
   .card_link_img {
     width: 280px;
     height: 320px;
   }
-
-  .title h1 {
-    font-size: 3rem;
-  }
-
-  .logo {
-    width: 6rem;
-  }
 }
 
-@media (min-width:1024px) {
-
+@media (min-width:992px) {
   .title {
     margin: 3rem 0;
   }
 
+  .text_info {
+    width: 50vw;
+  }
+
+  .sec_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .sec_info img {
+    display: block;
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px #888;
+  }
+
+  .text_info {
+    width: 40%;
+  }
+
+  .card img {
+    width: 450px;
+    height: 250px;
+  }
+
   .card_link_img {
-    width: 250px;
+    width: 230px;
     height: 350px;
   }
 }
 
-/* ======================================================== */
-.sec_info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 5rem;
+@media (min-width:1200px) {
+
+  .card_link_img {
+    width: 300px;
+    height: 350px;
 }
-
-.img_info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
-
-.img_info img {
-  width: 500px;
-}
-
-.text_info {
-  max-width: 40%;
-  margin-left: 2rem;
-}
-
-span {
-  color:#444;
-  font-style: italic;
-  font-weight: 400;
-}
-/* ================================================================= */
-.container_card {
-  border-radius: 9px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 100%;
-  margin: 5rem;
-}
-
-.card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 90%;
-  border: none;
-}
-
-.card:nth-child(even) {
-  flex-direction: row-reverse;
-  align-self: flex-end;
-}
-
-.card_rn {
-  width: 430px;
-  height: 250px;
-}
-
-.card img {
-  width: 410px;
-  height: 250px;
-  border-radius: 8px;
-}  
-
-
-
-.card_textos {
-  max-width: 50%;
-  padding: 1rem;
-  line-height-step: 3px;
-}
-
-.card_textos p {
-  font-size: 1rem;
-}
-
-/* ================================================================= */
-
+/* 
 .table {
   width: 90vw;
   margin: 0 auto;
@@ -192,6 +231,6 @@ thead {
 
 .td_dom {
   width: 200px;
-}
+} */
 
 /* ================================================================= */

@@ -7,8 +7,14 @@
 }
 
 .navbar {
-  background-color: #e5f7f7;
   color: #2c2c3f;
+}
+
+.navbar-toggler {
+
+background: rgb(244, 244, 245);
+  background: linear-gradient(90deg, rgb(195, 209, 225) 0%, rgb(121, 136, 201) 100%);
+
 }
 
 .logo {

@@ -52,8 +52,8 @@
 }
 
 .card_link_img {
-  width: 280px;
-  height: 300px;
+  width: 300px;
+  height: 320px;
   border-radius: 5px;
   transition: 1s;
   object-fit: cover;
@@ -71,17 +71,9 @@
   font-weight: 600;
 }
 
-
-
 @media (min-width:768px) {
   .carousel-item-img {
     height: 63vh;
-  }
-
-  .card_link_img {
-    width: 280px;
-    height: 320px;
-
   }
 
   .title h1 {
@@ -97,21 +89,19 @@
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1300px) {
 
   .title {
     margin: 3rem 0;
   }
 
   .card_link_img {
-    /* w250-h350 */
     width: 200px;
     height: 300px;
   }
 }
 
 /* ================================================= */
-
 
 .aboutUs_container{
   display: flex;

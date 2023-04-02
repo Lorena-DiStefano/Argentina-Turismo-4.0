@@ -241,10 +241,11 @@ label {
   outline: none;
 }
 
+.mge_cont{
+  width: 80%;
+}
 .mge_cont .btn {
   align-self: flex-end;
-  padding: 0, 0.15rem;
-  margin-right: 1rem;
 }
 
 /* =============nota de reserva=========== */

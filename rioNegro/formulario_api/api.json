@@ -26,14 +26,6 @@
   {
     "prov": "Río Negro",
     "city": "El Bolsón",
-    "name": "La Casa de la Abuela",
-    "address": "Notros 861",
-    "info": "La Casa De La Abuela ofrece departamentos a sólo 150 metros de la plaza Pagano. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
-    "image": "./api/bolson_h_abuela.jpg"
-  },
-  {
-    "prov": "Río Negro",
-    "city": "El Bolsón",
     "name": "Cabañas Sublime",
     "address": "Saavedra 3089",
     "info": "Ubicado a 6 minutos a pie de la plaza Pagano, centro estratégico de la Ciudad. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
@@ -47,6 +39,14 @@
     "info": "Ofrece servicio de conserjería, habitaciones para no fumadores, jardín, WiFi en todas las instalaciones y salón compartido. Todas las habitaciones incluyen TV por cable.",
     "image": "./api/bolson_h_luna.jpg"
   },
+    {
+      "prov": "Río Negro",
+      "city": "El Bolsón",
+      "name": "La Casa de la Abuela",
+      "address": "Notros 861",
+      "info": "La Casa De La Abuela ofrece departamentos a sólo 150 metros de la plaza Pagano. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
+      "image": "./api/bolson_h_abuela.jpg"
+    },
   {
     "prov": "Río Negro",
     "city": "El Manso",

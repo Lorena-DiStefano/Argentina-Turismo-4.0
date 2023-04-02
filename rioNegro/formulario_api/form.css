@@ -5,15 +5,15 @@
   margin: 0;
   padding: 0;
 }
-.body_reserva{
+/* .body_reserva{
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-}
+} */
 
 .info_contact h1 {
   color: #60baf9;
-  margin-top: -1rem;
+  margin: 0.75rem;
 }
 
 .info_contact {
@@ -241,11 +241,10 @@ label {
   outline: none;
 }
 
-.mge_cont{
-  width: 80%;
-}
+
 .mge_cont .btn {
-  align-self: flex-end;
+  width: 100px;
+ align-self: flex-end;
 }
 
 /* =============nota de reserva=========== */

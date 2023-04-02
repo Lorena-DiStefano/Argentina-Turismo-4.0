@@ -58,7 +58,7 @@ const printHotel = async () => {
 
     window.location.href = "#listHostel";
     search = false
-    btnSearch.textContent ="Nueva búsqueda"
+    btnSearch.textContent ="borrar"
     
   } catch (error) {
     console.log(error)

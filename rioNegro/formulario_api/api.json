@@ -28,7 +28,7 @@
     "city": "El Bolsón",
     "name": "La Casa de la Abuela",
     "address": "Notros 861",
-    "info": "La Casa De La Abuela Departamentos está situada a solo 150 metros de la plaza Pagano. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
+    "info": "La Casa De La Abuela ofrece departamentos a sólo 150 metros de la plaza Pagano. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
     "image": "./api/bolson_h_abuela.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "city": "El Bolsón",
     "name": "Cabañas Sublime",
     "address": "Saavedra 3089",
-    "info": "Cabañas Sublime Bolsón ofrece alojamiento a 6 minutos a pie de la plaza Pagano, centro estratégico de la Ciudad. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
+    "info": "Ubicado a 6 minutos a pie de la plaza Pagano, centro estratégico de la Ciudad. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
     "image": "./api/bolson_h_sublime.jpg"
   },
   {
@@ -52,7 +52,7 @@
     "city": "El Manso",
     "name": "Cabañas Campestre",
     "address": "Ruta N°83 km 28",
-    "info": "Las Cabañas ofrecen alojamiento con WiFi y estacionaminto gratuitos, servicio de limpieza y jardín con terraza y vistas a la ciudad. Desayuno y estacionamiento gratis.",
+    "info": "Alojamiento con WiFi y estacionaminto gratuitos, servicio de limpieza y jardín con terraza y vistas a la ciudad. Desayuno y estacionamiento gratis.",
     "image": "./api/manso_h_campestre.jpg"
   },
   {
@@ -60,7 +60,7 @@
     "city": "El Manso",
     "name": "Camping El Puerto",
     "address": "Ruta 83 km 11",
-    "info": "A orillas del Río Manso, con la mejor cerveza de la zona y acompañado de una hermosa vista. Podés acampar o utilizar los dormis con duchas, fogones con instalaciones eléctricas. El bar abre por las tardes.",
+    "info": "A orillas del Río Manso, con la mejor cerveza de la zona y acompañado de una hermosa vista. Camping o dormis con duchas, fogones con instalaciones eléctricas. El bar abre por las tardes.",
     "image": "./api/manso_h_camping.jpg"
   },
   {
@@ -76,7 +76,7 @@
     "city": "S.C.de Bariloche",
     "name": "Hotel Huemul",
     "address": "Av. Bustillo 1500",
-    "info": "Sus habitaciones ofrecen un entorno tranquilo y baño privado. Algunas gozan de vistas al lago y a las montañas y otras de vistas internas. Desayuno y estacionamiento gratis.",
+    "info": "En un entorno tranquilo, las habitaciones gozan de vistas al lago, a las montañas o vistas internas, todas con baño privado. Desayuno y estacionamiento gratis.",
     "image": "./api/bariloche_h_huemul.jpg"
   },
   {
@@ -100,7 +100,7 @@
     "city": "El Cóndor",
     "name": "El Pinar",
     "address": "P.Nac. Perito Moreno 31",
-    "info": "Ofrece las opciones de casa o chalet.<br>El lugar de alojamiento posee: aire acondicionado, zona de cocina, lavadora, tv de pantalla plana y terraza.",
+    "info": "Opciones de casa o chalet.<br>Los espacios poseen: aire acondicionado, zona de cocina, lavadora, tv de pantalla plana y terraza.",
     "image": "./api/condor_h_pinar.jpg"
   },
   {
@@ -148,7 +148,7 @@
     "city": "Playas Doradas",
     "name": "Complejo Andalhue",
     "address": "Jarillal e/Trofón y Fisurela",
-    "info": "Ofrece departamentos de 1, 2 y 3 ambientes. Calefacción, Microondas, Cocina a gas con horno, Wifi, Televisión 21' con DirecTV y sector de parrillas.",
+    "info": "Departamentos de 1, 2 y 3 ambientes. Calefacción, Microondas, Cocina a gas con horno, Wifi, Televisión 21' con DirecTV y sector de parrillas.",
     "image": "./api/doradas_h_andalhue.jpg"
   },
   {
@@ -156,7 +156,7 @@
     "city": "Playas Doradas",
     "name": "Tres Soles",
     "address": "Telina 745",
-    "info": "Conformado por 3 Duplex para 4 personas a 600mts del mar.<br>Ofrece: Horno, pava eléctrica, Tv led,             Wifi, ropa de cama, estacionamiento y sector de parrillas.",
+    "info": "3 Duplex para 4 personas a 600mts del mar.Ofrece: Horno, pava eléctrica, Tv led, Wifi, ropa de cama, estacionamiento y sector de parrillas.",
     "image": "./api/doradas_h_soles.jpg"
   },
   {

@@ -16,7 +16,6 @@ const printHotel = async () => {
 
     cityApi = apiAlojamiento.filter((e) => e.city.includes(idCity))
     console.log(cityApi)
-    let i = 0
 
     cityApi.forEach(e=> {
       let host = document.createElement('div')
@@ -37,6 +36,7 @@ const printHotel = async () => {
       inputHotel.name = "hotel"
       inputHotel.className = 'radioHotel'
       inputHotel.value = `${e.name}`
+      inputHotel.checked= true
       let labelHotel = document.createElement('label')
       inputHotel.className = 'radioHotel'
       labelHotel.for = 'hotel'
@@ -71,7 +71,6 @@ btnSearch.addEventListener('click', function () {
   search ? printHotel() : window.location.reload()
 })
 
-
 const openModal = () => {
   modal.showModal()
 }
@@ -80,27 +79,28 @@ const getInfo = (event) => {
   event.preventDefault()
   let hotel = document.querySelector('input[name="hotel"]:checked').value
   let roomKind = document.querySelector('input[name="room"]:checked').value
-  let firstName = document.getElementById('name').value
-  let lastName = document.getElementById('lastName').value
-  let country = document.getElementById('country').value
+  let firstName =( document.getElementById('name').value).toUpperCase()
+  let lastName = (document.getElementById('lastName').value).toUpperCase()
+  let address = (document.getElementById('address').value).toUpperCase()
+  let location = (document.getElementById('location').value).toUpperCase()
   let phone = document.getElementById('phone').value
   let email = document.getElementById('email').value
   let checkIn = document.getElementById("checkIn").value
   let checkOut = document.getElementById("checkOut").value
   let guestQ = document.getElementById('guestQ').value
   let roomQ = document.getElementById('roomQ').value
-  let mge = document.getElementById('mge').value
+  let message = document.getElementById('message').value
 
   const data = document.getElementById('data')
   const modalData = document.createElement('div')
   modalData.innerHTML = `
 <div>
-<p><span>${firstName} ${lastName}</span>, residente en <span>${country}</span>.<br>Teléfono: <span>${phone}</span><br>e-mail: <span>${email}</span></p>
+<p><span>${firstName} ${lastName}</span>,<br>Con domicilio en <span>${address}</span>, <span>${location}</span>.<br>Teléfono: <span>${phone}</span><br>e-mail: <span>${email}</span></p>
 </div>
 <div>
-En vistas de su visita a la ciudad de <span>${idCity}</span>, solicita la reserva de <span>${roomQ}</span> habitación(s) denominada(s) <span>${roomKind}</span> para <span>${guestQ}</span> persona(s), en <span>${hotel}</span>.</p>
+En vistas de su visita a la ciudad de <span>${idCity}</span> en la Provincia de <i>Río Negro</i>, solicita la reserva de <span>${roomQ}</span> habitación(s) denominada(s) <span>${roomKind}</span> para <span>${guestQ}</span> persona(s), en <span>${hotel}</span>.</p>
 <p>Con fecha de ingreso <span>${checkIn}</span> y de salida <span>${checkOut}</span>.</p>
-<p>En su mensaje refiere: <span>${mge}</span>.</p>
+<p>En su mensaje refiere: <span>${message}</span>.</p>
 </div>
 <div class="greeting">
 <p>El equipo de <span>Argentina Turismo 4.0</span> agradece su visita a nuestro sitio web.</p>
@@ -112,7 +112,6 @@ En vistas de su visita a la ciudad de <span>${idCity}</span>, solicita la reserv
   openModal()
   const btn_close = document.getElementById('btn_close')  
   btn_close.onclick = () => { window.location.reload() }
-  
 }
 
 const btn_print = document.getElementById('btn_print')

@@ -3,15 +3,21 @@
   padding: 0;
 }
 
-body{
+.body_map{
   display: grid;
-  grid-template-rows: auto,1fr,auto;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+.navbar{
+  background: transparent;
 }
 
 #map{
-height: 80vh;
+height:80vh;
 }
 
 img{
   width: 100px;
 }
+

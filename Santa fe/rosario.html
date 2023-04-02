@@ -8,36 +8,29 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+  <ink rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
   <link rel="stylesheet" href="./main.css">
   <link rel="stylesheet" href="./santafe.css">
   <title>Rosario</title>
 </head>
 
-<body class="body">
+<body>
+<main class="home">
   <section class="nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./logo.png" alt="" width="100">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" aria-current="page" href="./santafe.html">Inicio</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Rosario
-              </a>
-              
-            
+            <li class="nav-link">
+              <a>Rosario</a>
             <li class="nav-item">
               <a class="nav-link" href="#">El Equipo</a>
             </li>
@@ -49,57 +42,37 @@
       </div>
     </nav>
   </section>
-  <main>
-    <main class="hero">
-      <h1 class="title" >Actividades en Rosario</h1>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/bandera.jpg" class="d-block w-100 h-75" alt="Monumento a la Banders">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Monumento a la Bandera</h5>
-              <p>Icono de nuestra ciudad.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./img/kayak.jpg" class="d-block w-80" alt="kayac">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Paseo en kayac</h5>
-              <p>Una forma diferente de recorrer el Rio</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./img/barcorosario.jpg" class="d-block w-100" alt="barco">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Paseo en barco</h5>
-              <p>Paseo por el Rio</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Proxima</span>
-        </button>
-    
-      </div>
-    
-    
-    
-    
-    
-      </main>
+ 
+  <section class="slides">
+    <div class="container_slide">
+     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+       <div class="carousel-item active">
+        <img src="./img/bandera.jpg" class="d-block w-100" alt="bandera">
+       </div>
+       <div class="carousel-item">
+        <img src="./img/kayak.jpg" class="d-block w-100" alt="kayac">
+       </div>
+       <div class="carousel-item">
+        <img src="./img/banrcorosario2.jpg" class="d-block w-100" alt="barco">
+       </div>
+       <div class="carousel-item">
+        <img src="./img/mural le3.jpg" class="d-block w-100" alt="mural-leo">
+       </div>
+       <div class="carousel-item">
+        <img src="./img/rosario-central-1.jpg" class="d-block w-100" alt="central">
+       </div>
+       <div class="carousel-item">
+        <img src="./img/newells-all-boys-1.jpg" class="d-block w-100" alt="newells-all-boys">
+       </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  
       <div class="container">
         <!-- columna izquierda -->
-        <article class="row">
+       <article class="row">
           <h2 class="my-5 display-2">Monumento a la Bandera</h2>
           <div class="col-lg-8 border-1 ">
             <h3 class="mt-5 mb-3 subtitle">Historia y emocion</h3>
@@ -128,13 +101,7 @@
         </article>
       </div>
 
-    
-
-
-
-
-
-  </main>
+</main>
   <section class="botonFlotante">
     <a href="#navbar">
       <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>

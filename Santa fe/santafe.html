@@ -17,7 +17,8 @@
 </head>
 <body>
     <main class="home">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <section class="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light opacity-100" id="navbar">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="./logo.png" alt="" width="100">  
@@ -32,23 +33,22 @@
                     <a class="nav-link active" aria-current="page" href="#">SANTA FE</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./LaCapital.html" target="_blank"> La Capital </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./rosario.html" target="_blank"> Rosario </a>
+                    <a class="nav-link" href="#">Inicio</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      Menu
+                      Destinos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item"  href="./Norte.html" target="_blank">Norte</a></li>
-                      <li><a class="dropdown-item" href="./Costa.html" target="_blank">Costa</a></li>
-                                          
-                
+                      <li><a class="dropdown-item" href="./LaCapital.html"> La Capital </a></li>
+                      <li><a class="dropdown-item" href="./rosario.html" > Rosario </a></li>
+                      <li><a class="dropdown-item" href="./Norte.html"> Norte</a></li>
+                      <li><a class="dropdown-item" href="./Costa.html"> Costa</a></li>
                     </ul>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#title">El Equipo</a></li>
                   <li class="nav-item">
                     <a class="nav-link" href="#title">Contactanos</a>
                   </li>
@@ -56,30 +56,46 @@
               </div>
             </div>  
       
-           </nav> 
-            <section class="slides">
-                <div class="container_slide">
-                  <div class="images fade">
-                    <img src="./img/Santa fe.jpg" alt="Santa Fe">
+        </nav> 
+      </section>
+      <section class="slides">
+              <div class="container_slide">
+               <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                 <div class="carousel-item active">
+                  <img src="./img/Santa fe.jpg" class="d-block w-100" alt="Santa Fe">
+                  <div class="carousel-caption d-none d-md-block ">
+                    <h5>Puente Colgante</h5>
                   </div>
-                  <div class="images fade">
-                    <img src="./img/bandera.jpg" alt="Monumento a la bandera">
+                 </div>
+                 <div class="carousel-item">
+                  <img src="./img/bandera.jpg" class="d-block w-100" alt="Bandera">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Momumento a la Bandera</h5>
                   </div>
-                  <div class="images fade">
-                    <img src="./img/humedales.jpg" alt="Humedales">
+                 </div>
+                 <div class="carousel-item">
+                  <img src="./img/humedales.jpg" class="d-block w-100" alt="Humedales">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Humedales</h5>
                   </div>
-                  <div class="images fade">
-                    <img src="./img/laguna-paiva-2480311_1280.jpg" alt="Laguna Paiva">
+                 </div>
+                 <div class="carousel-item">
+                  <img src="./img/TC2000.jpg" class="d-block w-100" alt="TC2000">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>TC-2000</h5>
                   </div>
-                  <div class="images fade">
-                    <img src="./img/TC2000.jpg" alt="TC2000">
-                  </div>
-                </div>
-            </section> 
-            <section class="cards_regionlitoral">
+                 </div>
+               </div>
+              </div>
+             </div>
+            </div>
+      </section>
+
+      <section class="cards_regionlitoral">
               <div class="container_card">
                 <div class="title">
-                <h2>Vivì Santa Fe</h2>
+                <h1 >Viví Santa Fe</h1>
                 </div>
                 <div class="card mb-5">
                   <div class="card_img">
@@ -87,10 +103,14 @@
                   </div>
                   <div class="card_textos">
                     <h3>Paseos en Kayak</h3>
-                    <p>Un paseo diferente por el rio Paranà para disfrutar la naturaleza.</p>
-                    <a href="#">Conocé más...</a>
+                    <p>
+                      Un paseo diferente por el rio Parana para disfrutar la naturaleza. 
+                      Proponemos vivir una experiencia grupal que rompa la cotidianidad laboral generando nuevas interacciones entre los miembros del equipo.
+                      La experiencia debe ser relajada para crear intimidad y fuera de lo común para crear la sensación de vivir algo único.
+                      </p> 
+                    </div>
                   </div>
-                </div>
+                
                 <div class="card mb-5">
                   <div class="card_img">
                     <img src="./img/jaaukanigas-pesca.jpg" class="card-img-top" alt="Rio ">
@@ -98,7 +118,7 @@
                   <div class="card_textos">
                     <h3>Corredor turistico rio Carcaraña</h3>
                     <p>Jaaukanigas un paraje escondido. En este corredor se puede disfrutar de la naturaleza, recorrer el rio, avistar la flora y la fauna, paseos a caballo y probar la mas variada gastronomia. </p>
-                    <a href="#">Conocé más...</a>
+                    
                   </div>
                 </div>
                 <div class="card mb-5">
@@ -107,9 +127,10 @@
                   </div>
                   <div class="card_textos">
                     <h3>Fiestas Religiosas</h3>
-                    <p>Esta fiesta religiosa congrega a miles de fieles que vienen en peregrinacion de distintas ciudades.
+                    <p>La fiesta de la Virgen de Guadalupe es la fiesta religiosa que congrega a miles de fieles que vienen en peregrinacion de distintas ciudades.
+                    Se realiza dos semanas despues de Pascua.
                     </p>
-                    <a href="#">Conocé más...</a>
+                    
                   </div>
                 </div>
                 <div class="card mb-5">
@@ -118,9 +139,11 @@
                   </div>
                   <div class="card_textos">
                     <h3>Fiestas Populares</h3>
-                    <p>La fiesta de la cumbia santafesina se realiza en Santa Fe Capital. En la costanera de Coronda se realiza la Fiesta de la Frutilla. En Monje la fiesta se realiza en la playa con presencia de grupos musicales y la eleccion de la reina.
+                    <p>Las fiestas Populares como la de la cumbia santafesina, que se realiza en Santa Fe Capital,la fiesta de la frutilla, que se realiza en la costanera de Coronda.
+                      La fiesta de la Playa, que se realiza en Monje, con presencia de grupos musicales y la eleccion de la reina.
+                      Son fiestas que tienen una gran convocatoria.
                     </p>
-                    <a href="#">Conocé más...</a>
+                    
                   </div>
                 </div>
                 <div class="card mb-5">
@@ -129,18 +152,25 @@
                   </div>
                   <div class="card_textos">
                     <h3>Destino tierra adentro</h3>
-                    <p>Esperanza ofrece las comidas tìpicas suizo-alemanas. Rafaela ofrece vuelos de bautismo en aeroplano para el pùblico en general. Ramona ofrece cabalgatas, paseo en carro, visitas a tambos. Reconquista es sede del concurso argentino de la pesca del surubì con devoluciòn.</p>
-                    <a href="#">Conocé más...</a>
+                    <p>Esperanza ofrece las comidas tìpicas suizo-alemanas. 
+                      Rafaela ofrece vuelos de bautismo en aeroplano para el pùblico en general. 
+                      Ramona ofrece cabalgatas, paseo en carro y visitas a tambos. 
+                      Reconquista es sede del concurso argentino de la pesca del surubì con devoluciòn.</p>
+                    
                   </div>
                 </div>
               </div>
-            </section>  
+      </section>  
+      <section class="botonFlotante">
+              <a href="#navbar">
+                <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>
+              </a>
+      </section> 
 
 
 
 
-
-
+    </main>
             
 
               
@@ -187,12 +217,14 @@
               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
                integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
                crossorigin="anonymous"></script>
-              <script src="./santafe.js"></script>
-    
+            <!--  <script src="./santafe.js"></script>-->
+              <script src="./rioNegro.js"></script>
+              <script src="./map.js"></script>
+              <script src="./main.js"></script>
 
               
               
-    </main>
+    
     
 </body>
 </html>

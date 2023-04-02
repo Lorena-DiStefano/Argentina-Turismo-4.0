@@ -5,11 +5,11 @@
   margin: 0;
   padding: 0;
 }
-.body_reserva{
+/* .body_reserva{
   display: grid;
   grid-template-areas: auto 1fr auto;
   height: 100vh;
-}
+} */
 
 .info_contact h1 {
   color: #60baf9;

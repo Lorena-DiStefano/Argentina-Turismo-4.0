@@ -12,7 +12,7 @@ button.addEventListener("click", function() {
   let apellido = document.querySelector("#apellido").value;
   let celular = document.querySelector("#celular").value;
   let email = document.querySelector("#email").value;
-  let comentarios = document.querySelector("#textarea");
+  let comentarios = document.querySelector("#textarea").value;
   // mostrar resumen en el segundo paso
   summary.innerHTML = `Nombre: ${nombre}<br>
   Apellido: ${apellido}<br>

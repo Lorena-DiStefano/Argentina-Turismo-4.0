@@ -88,16 +88,19 @@ input::-webkit-inner-spin-button {
   padding: 0.25rem;
 }
 
-.btn {
+.btn_booked {
+  width: fit-content;
   background-color: #2c2c3f;
   color: white;
   border-radius: 5px;
   border: none;
   font-size: 1rem;
   padding: 0 1rem;
+  align-self: center;
+  margin: 1rem;
 }
 
-.btn:hover {
+.btn_booked:hover {
   font-weight: 500;
   color: #2c2c3f;
   background-color: white;

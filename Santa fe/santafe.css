@@ -36,39 +36,6 @@
     width: 50%;
   }
   
-  /* =========Sección_map======= */
-  
-  .container_map {
-    margin: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .select_map {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .text_map {
-    max-width: 45%;
-  }
-  
-  .text_map p {
-    font-size: 1.2rem;
-  }
-  
-  .select_map {
-    display: flex;
-    flex-direction: column;
-    max-width: 45%;
-  }
-  
-  #map {
-    height: 350px;
-    width: 550px;
-  }
   
   /*  */
   
@@ -117,11 +84,13 @@
     font-size: 1.1rem;
   }
   .carousel-caption{
-    background-color: rgb(0, 0, 0,.5);
+    background-color: rgba(0, 0, 0,.5);
     border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 20px;
 
 }
-
+ 
 .title{
   padding: auto;
   text-align: center;
@@ -138,3 +107,5 @@
   vertical-align: top;
   
 }
+
+

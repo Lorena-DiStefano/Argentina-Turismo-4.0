@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
 <link rel="stylesheet" href="../../landingPage/css/main.css">
+<link rel="stylesheet" href="/entreRios/public/css/entrerioslogin.css">
   <title>Argentina Turismo 4.0</title>
 </head>
 
@@ -59,82 +60,53 @@
       </section>
       <main>
 
-    <header>
-        <!--
-        <div class='top-header'>          
-            <div class="logo">
-            <img src="/public/images/Portada.jpg" alt="Logo">
-            </div>
--->
-        <nav>
-                <ul class="right-navbar">
-                <li><a href="/login.html">Ingresá <i class="fas fa-sign-in-alt"></i></a> </li>
-                </ul>
-        </nav>   
 
-        <div class="burger-menu" > 
-            <i class="fas fa-bars"></i>
-        </div>
-        
-    </header>
-        <main class="login">
-            <form action="/" method="POST" class="create-form">
-
-                <div class="control-formulario">    
-                    <label>Nombre de Usuario</label>
-                    <input type="text" name="user" class="control">
-                </div>
-
-                <div class="control-formulario">        
-                    <label>Elegí tu contraseña</label>
-                    <input type="password" name="pass" class="control" >
-                </div> 
-
-                <div>   
-                    <button type="submit" value="Enviar" class="button-submit">Enviar</button>                
-                </div>
-                <p>
-                    
-                </p>
-
-            </form>
+    <section class="form-register">
+      <h4>Ingresá a tu cuenta</h4>
+      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su usuario">
+      <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su contraseña">
+      <input class="botons" type="submit" value="Enviar">
+      <p><a href="#">¿Olvidó su contraseña?</a></p>
+    </section>
         </main>
+
+
         <footer class="footer">
-            <div class="footer_container">
-              <div class="contac_container">
-                <div>
-                </div>
-                </div>
-                <div class="contact">
-                  <ul>
-                    <li>info_at4.0@argentinaturismo4.0.com</li>
-                    <li>Sarmiento 440 - CABA</li>
-                    <li><a href="#">El Equipo</a></li>
-                    <li><a href="#">Contactanos</a></li>
-                  </ul>
-                </div>
+          <div class="footer_container">
+            <div class="contac_container">
+              <div>
+                <img src="/entreRios/public/images/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
               </div>
-        
-              <div class="items">
-                <div>
-                  <h6>A donde ir</h6>
-                  <a href="#">Córdoba -</a>
-                  <a href="#">Entre Ríos -</a>
-                  <a href="#">Río Negro -</a>
-                  <a href="#">Salta -</a>
-                  <a href="#">Santa Fe</a>
-                </div>
-              </div>
-              <div class="redes">
-                <h6>Seguinos en:</h6>
-                <ul class="footer_links">
-                  <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
-                  <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
-                  <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
-                  <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+              <div class="contact">
+                <ul>
+                  <li>info_at4.0@argentinaturismo4.0.com</li>
+                  <li>Sarmiento 440 - CABA</li>
+                  <li><a href="#">El Equipo</a></li>
+                  <li><a href="#">Contactanos</a></li>
                 </ul>
               </div>
             </div>
-          </footer>
+      
+            <div class="items">
+              <div>
+                <h6>A donde ir</h6>
+                <a href="#">Córdoba -</a>
+                <a href="#">Entre Ríos -</a>
+                <a href="#">Río Negro -</a>
+                <a href="#">Salta -</a>
+                <a href="#">Santa Fe</a>
+              </div>
+            </div>
+            <div class="redes">
+              <h6>Seguinos en:</h6>
+              <ul class="footer_links">
+                <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+                <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
 </body>
 </html>

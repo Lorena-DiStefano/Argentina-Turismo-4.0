@@ -1,0 +1,180 @@
+<html lang="es">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="jujuy.css">
+      
+    <title>Jujuy</title>
+</head>
+<body>
+       <header>
+              
+           <nav class="navbar navbar-expand-lg bg-body tertiary">
+             <div class="container-fluid">
+                <div>
+                   <img src="./images/AT40-LOGO-05.png" alt="" width="100">
+                </div>  
+              <a class="navbar-brand" href="#" Navbar></a> 
+              </a>
+              </div>
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                  
+              <ul class="navbar-nav me-auto mb-2 lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     A donde ir
+                    </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#"> Córdoba </a></li>
+                    <li><a class="dropdown-item" href="#"> Entre Rios </a></li>
+                    <li><a class="dropdown-item" href="#"> Rio Negro </a></li> 
+                    <li><a class="dropdown-item" href="#"> Jujuy </a></li>
+                    <li><a class="dropdown-item" href="#"> Santa Fe </a></li>
+                  </ul>
+                </li>  
+                     <li class="nav-item">
+                      <a class="nav-link" href="#">Equipo AT 4.0</a>
+                     </li>
+              </ul>
+                    <form class="d-flex">
+                      <button class="btn btn-outline-success" type="submit">Reservar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+                 
+        </header>
+        <main class="hero"> 
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/Img_Hornocal-844785117.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/salinas_5.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/Pucara.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </main>   
+ <section>  
+    <h1>Todo el encanto de Jujuy</h1>
+    <p> Conectate con lo auténtico, con la energía pura de una tierra extraordinaria. Jujuy te invita a descubrir sus paisajes, pueblos, sabores, colores, naturaleza, 
+        selvas y montañas y en especial su gente amable y hospitalaria.</p>
+        <h2>Jujuy te espera </h2>
+        <br>
+        <p>La provincia de Jujuy es el destino para tu próximo viaje de vacaciones? Descubrí los destinos y atractivos turísticos jujeños durante todo el año, animate contactanos y te daremos
+             los mejores tips para que lo pases realmente de pelicula.</p>
+             <br>
+           <p>
+            <img src="images/paisaje desde el Pucara.jpg" alt="Paisaje desde el Pucara de Tilcara" width="622" height="215">
+        <br>
+        </p>
+        <div class="entry-content">
+            <h3 style="text-transform: none; text-align: left;"><span style="color: #f9b342;">Regiones de Jujuy</span></h3>
+        <p style="text-align: left;">El relieve de la provincia de Jujuy se divide en cuatro regiones bien definidas Puna, Quebrada, Valles y Yungas, cada una de ellas bien diferenciada por su clima, biomas y actividades económicas.</p>
+        <p style="text-align: left;">El resultando es una riqueza cultural y paisajística con características propias, que el turista ávido de experiencias puede encontrar recorriendo pocos kilómetros de distancia.</p>
+        <p>&nbsp;</p>
+        <table style="width: 100%;">
+        <tbody>
+            <div class="card" style="width: 18rem;">
+                <img src="./images/Huancar.png" class="card-img-top" alt="Huancar">
+                <div class="card-body">
+                  <p class="card-text">Se trata de un médano gigante, acompañado de cerros con escasa vegetación y poblados de llamas. Al pie del cerro existe una laguna, allí se puede hacer observación de aves, sacar fotos o simplemente disfrutar del paisaje.</p>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Img_Hornocal-844785117.png " class="card-img-top" alt="Hornocal">
+                    <div class="card-body">
+                      <p class="card-text">La Quebrada, mejor conocida como “de Humahuaca” es la región contigua a la anterior. Constituye una hendidura o cañadón...</p>
+                </div> 
+                
+
+                <div class="card" style="width: 18rem;">
+                <img src="./images/Img_TermasDeReyes-1822478583.png" class="card-img-top" alt="Termas de Reyes">
+                <div class="card-body">
+                  <p class="card-text">Los Valles que nacen al sur de la Quebrada, desde Lozano hasta el Río de Las Pavas, en El Carmen, poseen clima templado y temperaturas moderadas todo el año que oscilan entre los 10°C y los 25°C de promedio anual, aunque en invierno los días fríos bajan los valores produciendo heladas y nevadas frecuentes en las altas cumbres.</p>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Img_San-Francisco-3793894319.png" class="card-img-top" alt="San Francisco">
+                    <div class="card-body">
+                      <p class="card-text">Las Yungas extenso corredor biomático, por sus características climáticas y fitogeográficas son la continuación hacia el este de la Quebrada separados de esta por la Cordillera Oriental. La flora es muy rica en especies arbóreas desarrolladas a modo de estratos en pisos de vegetación. Exponentes como el ceibo, nogal, cebil, laurel, cedro, palo santo, guayacán, jacarandá, lapacho, etc., visten las montañas de colores en la primavera, quedando a mayor altura (1000 a 1700 m.s.n.m.) las coníferas y alisos perennes que reflejan la humedad permanente del lugar. </p>
+                    </div>
+                
+                
+            </div>
+        
+        </section>    
+        <section> 
+            <p><h4>Informacion </h4> 
+            
+            <h6>Links recomendados:</h6></p>
+
+            <p>
+             <a href="https://www.jujuyturismo.com.ar/salinas-grandes.php" > Salinas Grandes: informacion, visitas y horarios; <br></a>
+              
+             <a href="https://www.jujuyturismo.com.ar/purmamarca.php" target="_blank"> Purmamarca: qué visitar, Cerro de los 7 colores;  </br>
+             </a>
+             
+             <a href="https://www.jujuyturismo.com.ar/humahuaca.php" target="_blank">  Humahuaca: información, luagares para visitar, hoteles; <br>
+
+             </a> 
+             <a href="https://www.jujuyturismo.com.ar/san-francisco.php" target="_blank">  San Francisco: portal de las yungas;</a>
+             </p>
+        </section>
+
+            </div>
+            <div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; will-change: transform; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><span id="18F25599-736D-4250-9585-415DF4BD9765" style="display: none;">Para navegar, presiona las teclas de flecha.</span></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"><button type="button" title="Deshacer la modificación más reciente" aria-label="Deshacer la modificación más reciente" style="background: transparent; border: none; margin: 0px; padding: 0px; z-index: -202; cursor: pointer; display: none; touch-action: none;"><span style="display: inline-block;"><div style="width: 30px; height: 27px; overflow: hidden; position: relative;"><img alt="" src="https://maps.gstatic.com/mapfiles/undo_poly.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 90px; height: 27px;">
+            </div></span></button></div></div></div> 
+        <p></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/S2wJxDBZ_l0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1M1vnqHOmjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" 
+        integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebapitta/Mercadoliebre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebapitta/Mercadoliebre/issues"
+  },
+  "homepage": "https://github.com/sebapitta/Mercadoliebre#readme",
+  "keywords": [],
+  "description": ""
+}

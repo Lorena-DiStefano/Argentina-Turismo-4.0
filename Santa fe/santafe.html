@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <link rel="stylesheet"href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <link rel="shortcut icon" href="./logo.png" type="image/png">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./santafe.css">
+    <title>AT-4.0 Santa fe</title>
+</head>
+<body>
+    <main class="home">
+      <section class="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light opacity-100" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./logo.png" alt="" width="100">  
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button> 
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">SANTA FE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Destinos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./LaCapital.html"> La Capital </a></li>
+                      <li><a class="dropdown-item" href="./rosario.html" > Rosario </a></li>
+                      <li><a class="dropdown-item" href="./Norte.html"> Norte</a></li>
+                      <li><a class="dropdown-item" href="./Costa.html"> Costa</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./elequipo.html">El Equipo</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#title">Contactanos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>  
+      
+        </nav> 
+      </section>
+      <section class="slides">
+              <div class="container_slide">
+               <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                 <div class="carousel-item active">
+                  <img src="./img/Santa fe.jpg" class="d-block w-100" alt="Santa Fe">
+                  <div class="carousel-caption d-none d-md-block ">
+                    <h5>Puente Colgante</h5>
+                  </div>
+                 </div>
+                 <div class="carousel-item">
+                  <img src="./img/bandera.jpg" class="d-block w-100" alt="Bandera">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Momumento a la Bandera</h5>
+                  </div>
+                 </div>
+                 <div class="carousel-item">
+                  <img src="./img/humedales.jpg" class="d-block w-100" alt="Humedales">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Humedales</h5>
+                  </div>
+                 </div>
+                 <div class="carousel-item">
+                  <img src="./img/TC2000.jpg" class="d-block w-100" alt="TC2000">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>TC-2000</h5>
+                  </div>
+                 </div>
+               </div>
+              </div>
+             </div>
+            
+      </section>
+
+      <section class="cards_regionlitoral">
+              <div class="container_card">
+                <div class="title">
+                <h1 >Viví Santa Fe</h1>
+                </div>
+                <div class="card mb-5">
+                  <div class="card_img">
+                    <img src="./img/kayac1.jpg" class="card-img-top" alt="Kayak por el rio ">
+                  </div>
+                  <div class="card_textos">
+                    <h3>Paseos en Kayak</h3>
+                    <p>
+                      Un paseo diferente por el rio Parana para disfrutar la naturaleza. 
+                      Proponemos vivir una experiencia grupal que rompa la cotidianidad laboral generando nuevas interacciones entre los miembros del equipo.
+                      La experiencia debe ser relajada para crear intimidad y fuera de lo común para crear la sensación de vivir algo único.
+                      </p> 
+                    </div>
+                  </div>
+                
+                <div class="card mb-5">
+                  <div class="card_img">
+                    <img src="./img/jaaukanigas-pesca.jpg" class="card-img-top" alt="Rio ">
+                  </div>
+                  <div class="card_textos">
+                    <h3>Corredor turistico rio Carcaraña</h3>
+                    <p>Jaaukanigas un paraje escondido. En este corredor se puede disfrutar de la naturaleza, recorrer el rio, avistar la flora y la fauna, paseos a caballo y probar la mas variada gastronomia. </p>
+                    
+                  </div>
+                </div>
+                <div class="card mb-5">
+                  <div class="card_img">
+                    <img src="./img/guadalupe.jpg" class="card-img-top" alt="Basilica de Guadalupe">
+                  </div>
+                  <div class="card_textos">
+                    <h3>Fiestas Religiosas</h3>
+                    <p>La fiesta de la Virgen de Guadalupe es la fiesta religiosa que congrega a miles de fieles que vienen en peregrinacion de distintas ciudades.
+                    Se realiza dos semanas despues de Pascua.
+                    </p>
+                    
+                  </div>
+                </div>
+                <div class="card mb-5">
+                  <div class="card_img">
+                    <img src="./img/cerveza.jpg" class="card-img-top" alt="Cerveza">
+                  </div>
+                  <div class="card_textos">
+                    <h3>Fiestas Populares</h3>
+                    <p>Las fiestas Populares como la de la cumbia santafesina, que se realiza en Santa Fe Capital,la fiesta de la frutilla, que se realiza en la costanera de Coronda.
+                      La fiesta de la Playa, que se realiza en Monje, con presencia de grupos musicales y la eleccion de la reina.
+                      Son fiestas que tienen una gran convocatoria.
+                    </p>
+                    
+                  </div>
+                </div>
+                <div class="card mb-5">
+                  <div class="card_img">
+                    <img src="./img/Avellaneda3.jpg" class="card-img-top" alt="Destino tierra adentro">
+                  </div>
+                  <div class="card_textos">
+                    <h3>Destino tierra adentro</h3>
+                    <p>Esperanza ofrece las comidas tìpicas suizo-alemanas. 
+                      Rafaela ofrece vuelos de bautismo en aeroplano para el pùblico en general. 
+                      Ramona ofrece cabalgatas, paseo en carro y visitas a tambos. 
+                      Reconquista es sede del concurso argentino de la pesca del surubì con devoluciòn.</p>
+                    
+                  </div>
+                </div>
+              </div>
+      </section>  
+      <section class="botonFlotante">
+              <a href="#navbar">
+                <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>
+              </a>
+      </section> 
+
+
+
+
+    </main>
+            
+
+              
+              
+            <section class="footer">
+              <div class="footer_container">
+                <div class="contacto">
+                  <img src="./logo.png" alt="logo" width="100px">
+                  <div>
+                    <ul>
+                      <li>info_at4.0@argentinaturismo4.0.com</li>
+                      <li>Sarmiento 440 - CABA</li>
+                      <li><a href="#">El Equipo</a></li>
+                      <li><a href="#">Contactanos</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="provincia">
+                  <div>
+                    <a href="#">Córdoba -</a>
+                    <a href="#">Entre Ríos -</a>
+                    <a href="#">Río Negro -</a>
+                    <a href="#">Salta -</a>
+                    <a href="#">Santa Fe -</a>
+                    <a href="#">Tucumán </a>
+                  </div>
+                </div>
+                <div class="redes">
+                  <h6>Seguinos en:</h6>
+                  <ul>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+                    <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+              <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+               integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+               integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+               crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+               integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+               crossorigin="anonymous"></script>
+            <!--  <script src="./santafe.js"></script>-->
+            <!--  <script src="./rioNegro.js"></script>-->
+             <!-- <script src="./map.js"></script>-->
+              <script src="./main.js"></script>
+
+              
+              
+    
+    
+</body>
+</html>

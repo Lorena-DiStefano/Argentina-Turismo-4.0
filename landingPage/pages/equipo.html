@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -11,18 +11,18 @@
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
-  <title>Argentina Turismo 4.0</title>
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/style.css">
-
+  <title>Argentina Turismo 4.0</title>
 </head>
 
-<body>
-  <header>
+<body class="body">
+
+  <section class="nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="../img/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
+          <img src="../img/AT40-LOGO-05.png" alt="logo Argentina Turismo 4.0" width="100">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,21 +34,23 @@
               <a class="nav-link" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" href="#title" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
-                A donde ir
+                Qué conocer?
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Córdoba</a></li>
-                <li><a class="dropdown-item" href="#">Entre Ríos</a>
-                </li>
-                <li><a class="dropdown-item" href="./rioNegro/pages_rn/rioNegro.html">Río Negro</a></li>
-                <li><a class="dropdown-item" href="#">Salta</a></li>
-                <li><a class="dropdown-item" href="#">Santa Fe</a></li>
+                <li><a class="dropdown-item" href="#" target="_blank">Córdoba</a></li>
+                <li><a class="dropdown-item" href="#" target="_blank">Entre Ríos</a></li>
+                <li><a class="dropdown-item" href="../rioNegro/pages/rioNegro.html" target="_blank">Río Negro</a></li>
+                <li><a class="dropdown-item" href="#" target="_blank">Salta</a></li>
+                <li><a class="dropdown-item" href="#" target="_blank">Santa Fe</a></li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Equipo AT 4.0</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa Interactivo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#title">Contactanos</a>
@@ -57,31 +59,36 @@
         </div>
       </div>
     </nav>
-  </header>
-<main>
-<seccion class="aboutUs">
-  <div aboutUs_container>
-    <div aboutUs_text>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet aspernatur minima nulla. Ratione obcaecati in quidem temporibus, odit dolor autem perspiciatis molestiae repudiandae eius labore impedit cumque rem doloremque!
-      Ut dicta rerum sint, facilis odio molestias perferendis, porro, voluptas assumenda in deleniti harum fugiat pariatur? Numquam facere exercitationem dolor quae architecto, laboriosam deleniti. Praesentium atque animi sit! Dicta, nihil.</p>
-    </div>
-    <div class="aboutUs_img">
-      <img src="../img/AT40-LOGO-05.png" alt="logo Argentina Turismo 4.0">
-    </div>
-    
-  </div>
-
-</seccion>
-
-
-</main>
-  <footer class="footer">
-    <div class="footer_container">
-      <div class="contac_container">
-        <div>
-          <img src="../img/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
+  </section>
+  <main>
+    <section class="intro">
+      <div className="card_intro">
+        <img className="card_intro_img" src="../img/AT40-LOGO-05.png" alt="logo Argentina Turismo 4.0" />
+        <div className="card_intro_bodyContainer">
+          <div className="card_intro_body">
+            <div className="card_intro_top">
+              <h2></h2>
+            </div>
+            <h5></h5>
+          </div>
+          <div className="card_detail_btn">
+          </div>
         </div>
-        <div class="contact">
+      </div>
+
+    </section>
+  </main>
+
+  <section class="botonFlotante">
+    <a href="#navbar">
+      <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>
+    </a>
+  </section>
+  <section class="footer">
+    <div class="footer_container">
+      <div class="contacto">
+        <img src="../img/AT40-LOGO-05.png" alt="logo Argentina Turismo 4.0" width="100">
+        <div>
           <ul>
             <li>info_at4.0@argentinaturismo4.0.com</li>
             <li>Sarmiento 440 - CABA</li>
@@ -90,20 +97,19 @@
           </ul>
         </div>
       </div>
-
-      <div class="items">
+      <div class="provin">
         <div>
-          <h6>A donde ir</h6>
           <a href="#">Córdoba -</a>
           <a href="#">Entre Ríos -</a>
-          <a href="#">Jujuy -</a>
           <a href="#">Río Negro -</a>
-          <a href="#">Santa Fe</a>
+          <a href="#">Salta -</a>
+          <a href="#">Santa Fe -</a>
+          <a href="#">Tucumán </a>
         </div>
       </div>
       <div class="redes">
         <h6>Seguinos en:</h6>
-        <ul class="footer_links">
+        <ul>
           <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
           <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
           <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
@@ -111,23 +117,20 @@
         </ul>
       </div>
     </div>
-  </footer>
+  </section>
 
-
-
-
-
-
-
-
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="./rioNegro.js"></script>
+  <script src="./map.js"></script>
+  <script src="./main.js"></script>
+
 </body>
 
 </html>

@@ -5,15 +5,16 @@
   margin: 0;
   padding: 0;
 }
-.body_reserva{
+
+/* .body_reserva{
   display: grid;
-  grid-template-areas: auto 1fr auto;
-  height: 100vh;
-}
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+} */
 
 .info_contact h1 {
   color: #60baf9;
-  margin-top: -1rem;
+  margin: 1.75rem 0;
 }
 
 .info_contact {
@@ -82,24 +83,27 @@ input::-webkit-inner-spin-button {
   border: 1px solid #cfd8eb;
   box-shadow: 1px 1px 3px #888;
   border-radius: 5px;
-  width: 150px;
+  width: 170px;
   font-size: 1rem;
   padding: 0.25rem;
 }
 
-.btn {
+.btn_booked, .btn_select {
+  width: fit-content;
   background-color: #2c2c3f;
   color: white;
   border-radius: 5px;
   border: none;
   font-size: 1rem;
   padding: 0 1rem;
+  align-self: center;
+  margin: 1rem;
 }
 
-.btn:hover {
-  font-weight: 500;
+.btn_booked:hover, .btn_select:hover {
+  font-weight: 600;
   color: #2c2c3f;
-  background-color:white;
+  background-color:aliceblue;
   box-shadow: 1px 1px 3px #888;
 }
 
@@ -123,7 +127,7 @@ input::-webkit-inner-spin-button {
 
 .card_host {
   width: 95vw;
-  height: 450px;
+  height: fit-content
 }
 
 .card_host img {
@@ -157,7 +161,6 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
 }
 
 .radio {
@@ -166,15 +169,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-}
-
-.radio_title_h3,
-.form_info h5,
-.roomKind h5 {
-  text-align: center;
-  font-size: 2rem;
-  color: #60baf9;
+  gap: 0.5rem;
 }
 
 /* ============================== */
@@ -185,13 +180,12 @@ span {
   text-align: center;
   font-size: 1.5rem;
   color: #60baf9;
+  margin-top: 1rem;
 }
 
 .form_info_div {
   display: none;
   flex-direction: column;
-  margin: 0 auto;
-  margin: 2rem 0;
 }
 
 .check_cont,
@@ -206,13 +200,11 @@ span {
 
 .check,
 .quantity,
-.input_roomKind,
-.message {
+.input_roomKind {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
 }
 
 .check input {
@@ -241,11 +233,7 @@ label {
   outline: none;
 }
 
-.mge_cont .btn {
-  align-self: flex-end;
-  padding: 0, 0.15rem;
-  margin-right: 1rem;
-}
+
 
 /* =============nota de reserva=========== */
 #modal {
@@ -256,7 +244,7 @@ label {
 }
 
 #modal[open] {
-  animation: show 200ms ease-in normal;
+  animation: show 2s ease-in;
 }
 
 @keyframes show {
@@ -358,9 +346,9 @@ label {
     width: 6rem;
   }
 
-    .la-print {
-      font-size: 2rem;
-    }
+  .la-print {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width:768px) {
@@ -384,16 +372,17 @@ label {
   .radio {
     flex-direction: row;
   }
-.check,
-.quantity,
-.input_roomKind {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 1rem;
-}
+
+  .check,
+  .quantity,
+  .input_roomKind {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width:992px) {

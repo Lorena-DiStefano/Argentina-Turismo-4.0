@@ -9,14 +9,17 @@
 
 h1{
   color: #67d0e6;
+  justify-content: center;
 }
 
 /* carrusell*/
 .carousel-caption{
   background-color: rgba(0, 0, 0,0.2);
   border-radius: 15px;
-  bor;
+  
 }
+
+  
 
 
 .subtitle {
@@ -34,15 +37,33 @@ h1{
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 1000px;
+  flex-direction: column;
   margin: auto;
+  gap: 30px;
   
 }
+
+.text-card{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+
+.card{
+display: flex;
+flex-direction: row;
+width: 80%;
+justify-content: space-around;
+align-items: center;
+border: none;
+}
+
 .galery-images{
-  width: 300px;
-  height: 200px;
-  margin-bottom: 30px;
-  object-fit: ;
+  width: 400px;
+  height: 250px;
+ 
+  
+  border-radius: 15px;
   
 }
 

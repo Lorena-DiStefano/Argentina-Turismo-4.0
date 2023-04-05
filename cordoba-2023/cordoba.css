@@ -87,6 +87,16 @@ border: none;
   border-radius: 5%;
 
 }
+h4{
+  color:#67d0e6 ;
+}
+#seccion-formulario {
+  background-image: url(./image-cordoda-2023/cordoba-2023-punilla/carlos-paz2.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
 /*========Section_footer===========*/
 
 

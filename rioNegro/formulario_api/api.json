@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "prov": "Río Negro",
     "city": "Dina Huapi",
     "name": "Hotel Raíces Patagónicas",
@@ -8,6 +9,7 @@
     "image": "./api/dinaHuapi_h_raices.jpg"
   },
   {
+    "id": 2,
     "prov": "Río Negro",
     "city": "Dina Huapi",
     "name": "Cabañas Clarita",
@@ -16,6 +18,7 @@
     "image": "./api/dinaHuapi_h_clarita.jpg"
   },
   {
+    "id": 3,
     "prov": "Río Negro",
     "city": "Dina Huapi",
     "name": "La Posada del Camino",
@@ -24,6 +27,7 @@
     "image": "./api/dinaHuapi_h_camino.jpg"
   },
   {
+    "id": 4,
     "prov": "Río Negro",
     "city": "El Bolsón",
     "name": "Cabañas Sublime",
@@ -32,6 +36,7 @@
     "image": "./api/bolson_h_sublime.jpg"
   },
   {
+    "id": 5,
     "prov": "Río Negro",
     "city": "El Bolsón",
     "name": "Hotel Luz de Luna",
@@ -39,15 +44,17 @@
     "info": "Ofrece servicio de conserjería, habitaciones para no fumadores, jardín, WiFi en todas las instalaciones y salón compartido. Todas las habitaciones incluyen TV por cable.",
     "image": "./api/bolson_h_luna.jpg"
   },
-    {
-      "prov": "Río Negro",
-      "city": "El Bolsón",
-      "name": "La Casa de la Abuela",
-      "address": "Notros 861",
-      "info": "La Casa De La Abuela ofrece departamentos a sólo 150 metros de la plaza Pagano. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
-      "image": "./api/bolson_h_abuela.jpg"
-    },
   {
+    "id": 6,
+    "prov": "Río Negro",
+    "city": "El Bolsón",
+    "name": "La Casa de la Abuela",
+    "address": "Notros 861",
+    "info": "La Casa De La Abuela ofrece departamentos a sólo 150 metros de la plaza Pagano. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
+    "image": "./api/bolson_h_abuela.jpg"
+  },
+  {
+    "id": 7,
     "prov": "Río Negro",
     "city": "El Manso",
     "name": "Cabañas Campestre",
@@ -56,6 +63,7 @@
     "image": "./api/manso_h_campestre.jpg"
   },
   {
+    "id": 8,
     "prov": "Río Negro",
     "city": "El Manso",
     "name": "Camping El Puerto",
@@ -64,6 +72,7 @@
     "image": "./api/manso_h_camping.jpg"
   },
   {
+    "id": 9,
     "prov": "Río Negro",
     "city": "El Manso",
     "name": "La Reserva El Foyel",
@@ -72,6 +81,7 @@
     "image": "./api/manso_h_campestre.jpg"
   },
   {
+    "id": 10,
     "prov": "Río Negro",
     "city": "S.C.de Bariloche",
     "name": "Hotel Huemul",
@@ -80,6 +90,7 @@
     "image": "./api/bariloche_h_huemul.jpg"
   },
   {
+    "id": 11,
     "prov": "Río Negro",
     "city": "S.C.de Bariloche",
     "name": "Hotel Tres Reyes",
@@ -88,6 +99,7 @@
     "image": "./api/bariloche_h_reyes.jpg"
   },
   {
+    "id": 12,
     "prov": "Río Negro",
     "city": "S.C.de Bariloche",
     "name": "Indomito Hostel",
@@ -96,6 +108,7 @@
     "image": "./api/bariloche_h_indomito.jpg"
   },
   {
+    "id": 13,
     "prov": "Río Negro",
     "city": "El Cóndor",
     "name": "El Pinar",
@@ -104,6 +117,7 @@
     "image": "./api/condor_h_pinar.jpg"
   },
   {
+    "id": 14,
     "prov": "Río Negro",
     "city": "El Cóndor",
     "name": "Complejo Lavandas",
@@ -112,6 +126,7 @@
     "image": "./api/condor_h_lavandas.jpg"
   },
   {
+    "id": 15,
     "prov": "Río Negro",
     "city": "El Cóndor",
     "name": "Casa al lado del Mar",
@@ -120,6 +135,7 @@
     "image": "./api/condor_h_delmar.jpg"
   },
   {
+    "id": 16,
     "prov": "Río Negro",
     "city": "Las Grutas",
     "name": "Hotel Acantilado",
@@ -128,6 +144,7 @@
     "image": "./api/grutas_h_acantilado.jpg"
   },
   {
+    "id": 17,
     "prov": "Río Negro",
     "city": "Las Grutas",
     "name": "Hotel Riviera",
@@ -136,6 +153,7 @@
     "image": "./api/grutas_h_riviera.jpg"
   },
   {
+    "id": 18,
     "prov": "Río Negro",
     "city": "Las Grutas",
     "name": "Complejo Tamariscos",
@@ -144,6 +162,7 @@
     "image": "./api/grutas_h_tamariscos.jpg"
   },
   {
+    "id": 19,
     "prov": "Río Negro",
     "city": "Playas Doradas",
     "name": "Complejo Andalhue",
@@ -152,6 +171,7 @@
     "image": "./api/doradas_h_andalhue.jpg"
   },
   {
+    "id": 20,
     "prov": "Río Negro",
     "city": "Playas Doradas",
     "name": "Tres Soles",
@@ -160,6 +180,7 @@
     "image": "./api/doradas_h_soles.jpg"
   },
   {
+    "id": 21,
     "prov": "Río Negro",
     "city": "Playas Doradas",
     "name": "Complejo Gaitha's",
@@ -168,6 +189,7 @@
     "image": "./api/doradas_h_ghaita.jpg"
   },
   {
+    "id": 22,
     "prov": "Río Negro",
     "city": "Viedma",
     "name": "Hotel Austral Viedma",
@@ -176,6 +198,7 @@
     "image": "./api/viedma_h_austral.jpg"
   },
   {
+    "id": 23,
     "prov": "Río Negro",
     "city": "Viedma",
     "name": "Las Maras Suites",
@@ -184,6 +207,7 @@
     "image": "./api/viedma_h_maras.jpg"
   },
   {
+    "id": 24,
     "prov": "Río Negro",
     "city": "Viedma",
     "name": "Hotel Nijar",
@@ -192,6 +216,7 @@
     "image": "./api/viedma_h_nijar.jpg"
   },
   {
+    "id": 25,
     "prov": "Río Negro",
     "city": "Ing. Jacobacci",
     "name": "Hotel Candilejas",
@@ -200,6 +225,7 @@
     "image": "./api/estepa_h_candilejas.jpg"
   },
   {
+    "id": 26,
     "prov": "Río Negro",
     "city": "Ing. Jacobacci",
     "name": "Hospedaje La Trochita",
@@ -208,6 +234,7 @@
     "image": "./api/estepa_h_trochita.jpg"
   },
   {
+    "id": 27,
     "prov": "Río Negro",
     "city": "Ing. Jacobacci",
     "name": "Gran Hotel Argentino",
@@ -216,6 +243,7 @@
     "image": "./api/estepa_h_argentino.jpg"
   },
   {
+    "id": 28,
     "prov": "Río Negro",
     "city": "Gral.Roca",
     "name": "Hotel Bait",
@@ -224,6 +252,7 @@
     "image": "./api/valle_h_bait.jpg"
   },
   {
+    "id": 29,
     "prov": "Río Negro",
     "city": "Gral.Roca",
     "name": "Center Loft",
@@ -232,6 +261,7 @@
     "image": "./api/valle_h_loft.jpg"
   },
   {
+    "id": 30,
     "prov": "Río Negro",
     "city": "Gral.Roca",
     "name": "Hotel El Recreo",

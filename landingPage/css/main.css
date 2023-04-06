@@ -6,8 +6,15 @@
   font-family: 'Poppins';
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar {
   color: #2c2c3f;
+  font-size: 1.1rem;
 }
 
 .navbar-toggler {
@@ -34,8 +41,9 @@
   background-color: #2c2c3f;
   color: white;
   height: auto;
-  font-size: 0.9rem;
+  font-size: 0.9rem;  
   padding-top: 1.5rem;
+  margin-top: auto;
 }
 
 .footer li {
@@ -67,7 +75,6 @@
 }
 
 .items {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -76,7 +83,14 @@
   margin-bottom: 1rem;
 }
 
+.redes{
+  text-align: center;
+}
 .footer_links {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
   gap: 1rem;
+  left: 0 ;
 }

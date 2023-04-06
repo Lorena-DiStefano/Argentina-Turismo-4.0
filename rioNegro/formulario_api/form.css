@@ -1,53 +1,21 @@
 /* #60baf9 */
 /* #85d7fc */
 /* #67d0e6 */
+/* #2c2c3f */
+/* #1d86d1; ok! */
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins';
 }
 
-/* .body_reserva{
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-} */
 
-.info_contact h1 {
-  color: #60baf9;
-  margin: 1.75rem 0;
-}
-
-.info_contact {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.input_row input {
-  border: 1px solid #cfd8eb;
-  box-shadow: 1px 1px 3px #888;
-  border-radius: 5px;
-  width: 300px;
-  font-size: 1rem;
-  padding: 0.25rem;
-}
-
-.input_row label {
-  font-size: 1.1rem;
-  font-weight: 500;
-  padding: 0.25rem;
-}
-
-.input_div {
-  display: flex;
-  flex-direction: column;
-}
-
-input:focus,
-select:focus {
-  outline: none;
+h2,
+h3 {
+  color: #1d86d1;
+  text-align: center;
+  margin: 2rem 0;
 }
 
 input::-webkit-outer-spin-button,
@@ -56,82 +24,154 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* ===================================== */
-.form_header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-}
-
-.form_header_title {
-  width: 80%;
-  color: #60baf9;
-  text-align: center;
-  padding: 0.5rem;
-}
-
-.form_header_select {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.select select {
-  border: 1px solid #cfd8eb;
-  box-shadow: 1px 1px 3px #888;
-  border-radius: 5px;
-  width: 170px;
-  font-size: 1rem;
-  padding: 0.25rem;
-}
-
-.btn_booked, .btn_select {
-  width: fit-content;
+.btn, .btn_submit {
   background-color: #2c2c3f;
   color: white;
   border-radius: 5px;
-  border: none;
-  font-size: 1rem;
-  padding: 0 1rem;
+  padding: 0.15rem;
+  margin: 1rem 0;
+  width: 130px;
   align-self: center;
-  margin: 1rem;
 }
 
-.btn_booked:hover, .btn_select:hover {
+.btn:hover {
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
   font-weight: 600;
-  color: #2c2c3f;
-  background-color:aliceblue;
-  box-shadow: 1px 1px 3px #888;
+  box-shadow: 3px 3px 3px #444;
 }
 
-/* ===================================== */
-.form_cards h2 {
-  color: #60baf9;
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 0.75rem 0;
-}
-
-
-/* cards container */
-.listHotel {
+form,
+#sectione_one,
+#section_two,
+#section_three,
+#section_four {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 98vw;
+  margin: 0 auto;
+}
+
+.rowInput {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowInput {
+  gap: 1rem;
+}
+
+.buttons {
+  width: 98vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.divInput,
+.message_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.message_cont textarea {
+  align-self: center;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.message_cont textarea:focus {
+  outline: none;
+}
+
+form label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+form input,
+form select {
+  width: 300px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #888;
+  padding: 0.15rem 0.5rem;
+}
+
+form input,
+form select:focus {
+  outline: none;
+}
+
+.rowInput,
+.rowThree_check, .rowThree_room {
+  width: 98vw;
+}
+
+.rowThree_room{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.check input,
+.room input,
+.radioK imput,
+.roomKind input {
+  width: min-content;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+.divSelect,
+.checkInput {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px;
+}
+
+#section_two,
+#section_three,
+#section_four{
+  display: none;
+}
+
+/* //===================DOM=================================// */
+/* contenedor card */
+.listHotel {
+  width: 98vw;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
+/* card */
 .card_host {
-  width: 95vw;
-  height: fit-content
+  height: fit-content;
 }
 
 .card_host img {
   width: 100%;
+  padding: 8px;
   border-radius: 5px;
   box-shadow: 3px 3px 8px #888;
 }
@@ -154,8 +194,6 @@ span {
   font-weight: 500;
 }
 
-/* ============================== */
-
 .radio_cont {
   display: flex;
   flex-direction: column;
@@ -164,76 +202,18 @@ span {
 }
 
 .radio {
-  width: 100%;
+  width: 98vw;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-/* ============================== */
-
-.radio_title_h3,
-.form_info h5,
-.roomKind h5 {
-  text-align: center;
-  font-size: 1.5rem;
-  color: #60baf9;
-  margin-top: 1rem;
+.radio input {
+  width: fit-content;
+  background-color: #2c2c3f;
 }
-
-.form_info_div {
-  display: none;
-  flex-direction: column;
-}
-
-.check_cont,
-.roomKind,
-.mge_cont {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-}
-
-.check,
-.quantity,
-.input_roomKind {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.check input {
-  margin: 0.75rem;
-}
-
-.quantity input {
-  width: 30px;
-  height: fit-content;
-  text-align: center;
-  margin: 0.5rem;
-  border: none;
-  border-radius: 3px;
-  box-shadow: 1px 1px 3px #888;
-}
-
-label {
-  font-weight: 500;
-}
-
-.message textarea {
-  padding: 0.25rem;
-}
-
-.message textarea:focus {
-  outline: none;
-}
-
-
 
 /* =============nota de reserva=========== */
 #modal {
@@ -324,7 +304,7 @@ label {
     font-size: 2rem;
   }
 }
-
+/* ===================MEDIAQUERY======================= */
 @media (min-width: 576px) {
   .card_host {
     width: 400px;
@@ -352,14 +332,6 @@ label {
 }
 
 @media (min-width:768px) {
-  .input_row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 5rem;
-  }
-
   .card_host {
     width: 240px;
     height: 450px;
@@ -367,27 +339,29 @@ label {
 
   .listHotel {
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .radio {
     flex-direction: row;
-  }
-
-  .check,
-  .quantity,
-  .input_roomKind {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 2rem;
-    margin-bottom: 1rem;
+
+
   }
 }
 
 @media (min-width:992px) {
+
+  .rowInput{
+    width: 768px;
+    justify-content:space-between;
+  }
+
   .card_host {
-    width: 320px;
+    width: 300px;
     height: 450px;
   }
+
 }

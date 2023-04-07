@@ -116,7 +116,7 @@
 #modal {
   border: none;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   margin: 0 auto;
   border-radius: 10px;
   background-color: #2c2c3f;
@@ -162,7 +162,7 @@
 }
 
 .team_card {
-  width: 350px;
+  width: 250px;
   height: fit-content;
 }
 
@@ -194,7 +194,7 @@
 
 .aboutUs_container h1 {
   text-align: center;
-  color: #67d0e6;
+  color: #1d86d1;
   margin-top: -1rem;
 }
 

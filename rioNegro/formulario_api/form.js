@@ -107,8 +107,7 @@ const getInfo = (event) => {
 </div>
 <div>
 <p>En vistas de su visita a la ciudad de <span>${idCity}</span>, Provincia de <span>Río Negro</span>.<br>Solicita la reserva de <span>${roomQ}</span> habitación(s) denominada(s) <span>${roomKind}</span>.<br>En <span>"${hotel}"</span>.<br>Se hospedaran <span>${guestQ}</span> persona(s).<br>
-Con fecha de ingreso <span>${checkIn}</span> y de salida <span>${checkOut}</span>.
-En su mensaje refiere: <span>${message}</span>.</p>
+Con fecha de ingreso <span>${checkIn}</span> y de salida <span>${checkOut}</span>.<br>En su mensaje refiere: <span>${message}</span>.</p>
 </div>
 <div class="greeting">
 <p>El equipo de <span>Argentina Turismo 4.0</span> se contactará a la brevedad para confirmar su reserva.</p>

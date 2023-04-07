@@ -2,7 +2,7 @@
 /* #85d7fc */
 /* #67d0e6 */
 /* #2c2c3f */
-/* #1d86d1; ok! */
+/* #1d86d1 */
 
 * {
   margin: 0;
@@ -18,13 +18,8 @@ h3 {
   margin: 2rem 0;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.btn, .btn_submit {
+.btn,
+.btn_submit {
   background-color: #2c2c3f;
   color: white;
   border-radius: 5px;
@@ -37,6 +32,7 @@ input::-webkit-inner-spin-button {
 .btn:hover {
   background-color: cadetblue;
   color: white;
+  text-shadow: 1px 1px #888;
   font-size: 1rem;
   font-weight: 600;
   box-shadow: 3px 3px 3px #444;
@@ -76,6 +72,12 @@ form,
   gap: 3rem;
 }
 
+#phone::-webkit-outer-spin-button,
+#phone::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .divInput,
 .message_cont {
   display: flex;
@@ -100,8 +102,11 @@ form label {
   align-self: flex-start;
 }
 
-form input,
-form select {
+
+.rowInput input,
+.check input,
+select,
+textarea {
   width: 300px;
   border: 1px solid #c4c4c4;
   border-radius: 5px;
@@ -109,31 +114,31 @@ form select {
   padding: 0.15rem 0.5rem;
 }
 
-form input,
-form select:focus {
+.rowInput input,
+.check input,
+select,
+textarea:focus {
   outline: none;
 }
 
 .rowInput,
-.rowThree_check, .rowThree_room {
+.rowThree_check,
+.rowThree_room {
   width: 98vw;
 }
 
-.rowThree_room{
+.rowThree_room {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
- 
+
 }
 
-.check input,
-.room input,
-.radioK imput,
-.roomKind input {
+.check input {
   width: min-content;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 0.75rem 1rem
 }
 
 
@@ -148,9 +153,10 @@ form select:focus {
   padding: 10px;
 }
 
+
 #section_two,
 #section_three,
-#section_four{
+#section_four {
   display: none;
 }
 
@@ -210,21 +216,20 @@ span {
   margin-bottom: 1rem;
 }
 
-.radio input {
-  width: fit-content;
-  background-color: #2c2c3f;
+.radioHotel {
+  padding-right: 0.25rem;
 }
 
 /* =============nota de reserva=========== */
 #modal {
-  width: 100vw;
+  width: 90vw;
   height: fit-content;
   margin: 0 auto;
   border: none;
 }
 
 #modal[open] {
-  animation: show 2s ease-in;
+  animation: show 1s ease-in;
 }
 
 @keyframes show {
@@ -240,11 +245,12 @@ span {
 .modal_cont {
   font-size: 0.9rem;
   padding: 0 0.5rem;
+  margin: 0 auto;
 }
 
 .modal_cont span {
   font-style: italic;
-  color: #2e5b7b;
+  color:blue;
   font-weight: 400;
 }
 
@@ -304,6 +310,7 @@ span {
     font-size: 2rem;
   }
 }
+
 /* ===================MEDIAQUERY======================= */
 @media (min-width: 576px) {
   .card_host {
@@ -354,9 +361,9 @@ span {
 
 @media (min-width:992px) {
 
-  .rowInput{
+  .rowInput {
     width: 768px;
-    justify-content:space-between;
+    justify-content: space-between;
   }
 
   .card_host {

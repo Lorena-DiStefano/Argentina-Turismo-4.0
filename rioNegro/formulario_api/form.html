@@ -63,7 +63,7 @@
     </nav>
   </header>
   <main>
-    <div id="section_one">
+    <section id="section_one">
       <h2>Solicitud de Reserva</h2>
       <form class="form_one" action="">
         <div class="rowInput">
@@ -84,9 +84,9 @@
             <input type="email" name="email" id="email" required placeholder="xxxx@xxxxx.com">
           </div>
         </div>
-        <button type="submit" class="btn btn_one" id="btn_one">Siguiente</button>
+        <button type="submit" id="btn_fwd1" class="btn btn_booking" >Siguiente</button>
       </form>
-    </div>
+    </section>
 
     <section id="section_two">
       <h2>Donde dormir durante tu visita</h2>
@@ -108,7 +108,7 @@
               <option value="Viedma">Viedma</option>
             </select>
             <div>
-              <button type="submit" class="btn btn_two" id="btn_city">Buscar</button>
+              <button type="submit" class="btn btn_city" id="btn_city">Buscar</button>
             </div>
           </div>
         </div>
@@ -130,8 +130,8 @@
         </div>
 
         <div class="buttons">
-          <button type="button" id="btn_back" class="btn btn_two">Volver</button>
-          <button type="submit" id="btn_fwd2" class="btn btn_two">Siguiente</button>
+          <button type="button" id="btn_back2" class="btn btn_booking">Volver</button>
+          <button type="button" id="btn_fwd2" class="btn btn_booking">Siguiente</button>
         </div>
       </form>
     </section>
@@ -153,11 +153,11 @@
         </div>
         <div class="rowThree_room">
           <div class="check">
-            <label for="pasenger">Adultos</label>
+            <label for="guestQ">Adultos</label>
             <input type="number" id="guestQ" min="1" max="99" value="1" required>
           </div>
-          <div class="room">
-            <label for="roomQuantity">Habitaciones</label>
+          <div class="check">
+            <label for="roomQ">Habitaciones</label>
             <input type="number" id="roomQ" min="1" max="99" value="1" required>
           </div>
           <div class="roomKind">
@@ -170,8 +170,8 @@
           </div>
         </div>
         <div class="buttons">
-          <button type="button" id="btn_back" class="btn">Volver</button>
-          <button type="submit" id="btn_fwd2" class="btn">Siguiente</button>
+          <button type="button" id="btn_back3" class="btn btn_booking">Volver</button>
+          <button type="button" id="btn_fwd3" class="btn btn_booking">Siguiente</button>
         </div>
         </div>
       </form>
@@ -185,8 +185,8 @@
             <textarea name="message" id="message" cols="30" rows="5"></textarea>
           </div>
           <div class="buttons">
-            <button type="button" id="btn_back" class="btn">Volver</button>
-            <button type="submit" id="btn_submit" class="btn_submit">Enviar</button>
+            <button type="button" id="btn_back4" class="btn btn_booking">Volver</button>
+            <button type="submit" id="btn_submit" class="btn btn_submit">Enviar</button>
           </div>
         </div>
       </form>

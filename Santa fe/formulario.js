@@ -2,8 +2,7 @@ const button = document.querySelector("#button");
 const step1 = document.querySelector("#step-1");
 const step2 = document.querySelector("#step-2");
 const summary = document.querySelector("#summary");
-const button_b =document.querySelector("#button_b");
-const button_c= document.getElementById('button_c');
+
 
 //agregar evento onclick al botón siguiente
 button.addEventListener("click", function() {
@@ -24,7 +23,6 @@ button.addEventListener("click", function() {
   // ocultar el primer paso y mostrar el segundo paso
   step1.style.display = "none";
   step2.style.display = "block";
-
- 
-
+  
 });
+

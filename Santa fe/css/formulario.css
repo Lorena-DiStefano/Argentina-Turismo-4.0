@@ -44,6 +44,7 @@ h3{
     font-size:1rem;
     font-weight: 300;
 }  
+
   
 .button{
     width: 100%;
@@ -54,14 +55,31 @@ h3{
     cursor: pointer;
 } 
 
+.button_c{
+    margin:10px;
+    float:right;
+    width: 50px;
+    height: 30px;
+    background: #3b95b8;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 5rem;
+} 
 
-.btn_print{
-    width: 20px;
+#btn_print{
+    border-style: solid;
+    float: right;
+    font-size: 50px;
+    margin: 10px;
+    margin-bottom: 5rem;
 }
+
   
   
 #step-2 {
     display: none;
+
 }
 #step-2 span{
     margin-left: 2rem;
@@ -76,6 +94,7 @@ h3{
     border: 1px solid #ccc;
     box-sizing: content-box;
     margin-left: 2rem;
+    margin-bottom: 5rem;
     padding: 1rem;
     font-size: 1.3rem;
 }

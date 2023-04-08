@@ -1,5 +1,5 @@
 
-let idCity;
+let idCity
 //let search = true
 
 const printHotel = async () => {
@@ -7,6 +7,7 @@ const printHotel = async () => {
   const card_cont = document.getElementById('api')
   const radio = document.getElementById('radioHotel')
   idCity = document.getElementById('city').value
+  
 
   try {
     const respuesta = await fetch(`./api.json`)
@@ -15,6 +16,8 @@ const printHotel = async () => {
 
     cityApi = apiAlojamiento.filter((e) => e.city.includes(idCity))
     console.log(cityApi)
+
+  
 
     cityApi.forEach(e => {
       let host = document.createElement('div')
@@ -45,8 +48,9 @@ const printHotel = async () => {
       radio.append(divRadio)
       divRadio.append(labelHotel)
       divRadio.append(inputHotel)
-
     })
+
+
     const card_title = document.getElementById('card_title')
     card_title.textContent = `Hoteles en ${idCity}`
     const radio_title = document.getElementById('radio_title')
@@ -56,7 +60,7 @@ const printHotel = async () => {
     radio_title.append(radioH3)
 
     //search = false
-   
+
   } catch (error) {
     console.log(error)
   }
@@ -66,13 +70,13 @@ const printHotel = async () => {
 // const form_two = document.getElementById('form_two')
 // const sec_two = document.getElementById('sec_two')
 const btnSearch = document.getElementById('btn_city')
-btnSearch.onclick = (e) => { e.preventDefault(),printHotel()}
+btnSearch.onclick = (e) => { e.preventDefault(), printHotel() }
 
 
 // btnSearch.addEventListener('click', function (e) {
-//   e.preventDefault();
+//   e.preventDefault()
 
-//   search ? printHotel() : sec_two.style.display = "none"; search = true;
+//   search ? printHotel() : sec_two.style.display = "none" search = true
 // })
 
 //=================================================================//
@@ -102,12 +106,11 @@ const getInfo = (event) => {
 <p><span>${firstName} ${lastName}</span>,<br>Teléfono: <span>${phone}</span><br>e-mail: <span>${email}</span></p>
 </div>
 <div>
-En vistas de su visita a la ciudad de <span>${idCity}</span> en la Provincia de <i>Río Negro</i>, solicita la reserva de <span>${roomQ}</span> habitación(s) denominada(s) <span>${roomKind}</span> para <span>${guestQ}</span> persona(s), en <span>"${hotel}"</span>.</p>
-<p>Con fecha de ingreso <span>${checkIn}</span> y de salida <span>${checkOut}</span>.</p>
-<p>En su mensaje refiere: <span>${message}</span>.</p>
+<p>En vistas de su visita a la ciudad de <span>${idCity}</span>, Provincia de <span>Río Negro</span>.<br>Solicita la reserva de <span>${roomQ}</span> habitación(s) denominada(s) <span>${roomKind}</span>.<br>En <span>"${hotel}"</span>.<br>Se hospedaran <span>${guestQ}</span> persona(s).<br>
+Con fecha de ingreso <span>${checkIn}</span> y de salida <span>${checkOut}</span>.<br>En su mensaje refiere: <span>${message}</span>.</p>
 </div>
 <div class="greeting">
-<p>El equipo de <span>Argentina Turismo 4.0</span> agradece su visita a nuestro sitio web.</p>
+<p>El equipo de <span>Argentina Turismo 4.0</span> se contactará a la brevedad para confirmar su reserva.</p>
 <p>Saludos Cordiales</p>
 <p><span>La Scaloneta</span></p>
 </div>
@@ -125,3 +128,52 @@ const btn_submit = document.getElementById('btn_submit')
 btn_submit.addEventListener('click', getInfo)
 
 //=====================================================================//
+
+const secOne = document.getElementById('section_one')
+const secTwo = document.getElementById('section_two')
+const secThree = document.getElementById('section_three')
+const secFour = document.getElementById('section_four')
+
+document.getElementById('btn_fwd1').addEventListener('click', (e) => {
+  e.preventDefault() 
+  secOne.style.display = "none"
+  secTwo.style.display = "block"
+})
+
+document.getElementById('btn_back2').addEventListener('click', (e) => {
+  e.preventDefault()
+  secOne.style.display = "block"
+  secTwo.style.display = "none"
+})
+
+document.getElementById('btn_fwd2').addEventListener('click', (e) => {
+  e.preventDefault()
+  secTwo.style.display = "none"
+  secThree.style.display = "block"
+})
+
+document.getElementById('btn_back3').addEventListener('click', (e) => {
+  e.preventDefault()
+  secTwo.style.display = "block"
+  secThree.style.display = "none"
+})
+
+document.getElementById('btn_fwd3').addEventListener('click', (e) => {
+  e.preventDefault()
+  secThree.style.display = "none"
+  secFour.style.display = "block"
+})
+
+document.getElementById('btn_back4').addEventListener('click', (e) => {
+  e.preventDefault()
+  secThree.style.display = "block"
+  secFour.style.display = "none"
+})
+
+
+
+
+
+
+
+

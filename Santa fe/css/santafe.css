@@ -35,6 +35,9 @@
   .select_santafe {
     width: 50%;
   }
+  .container{
+     display: flex;
+  }
   
   
   /*  */

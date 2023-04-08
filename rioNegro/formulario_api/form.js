@@ -8,7 +8,6 @@ const printHotel = async () => {
   const radio = document.getElementById('radioHotel')
   idCity = document.getElementById('city').value
 
-
   try {
     const respuesta = await fetch(`./api.json`)
     const data = await respuesta.json()
@@ -16,7 +15,6 @@ const printHotel = async () => {
 
     cityApi = apiAlojamiento.filter((e) => e.city.includes(idCity))
     console.log(cityApi)
-
 
     cityApi.forEach(e => {
       let host = document.createElement('div')
@@ -48,7 +46,6 @@ const printHotel = async () => {
       divRadio.append(labelHotel)
       divRadio.append(inputHotel)
     })
-
 
     const card_title = document.getElementById('card_title')
     card_title.textContent = `Hoteles en ${idCity}`

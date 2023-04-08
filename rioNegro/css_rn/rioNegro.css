@@ -137,30 +137,39 @@ card_img {
 
 /* ================================================================= */
 .infoUtil {
-  width: 90vw;
+  width: 95vw;
   margin: 0 auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.infoUtil h3 {
+
+thead {
+  background-color: #2c2c3f;
+  color: white;
   text-align: center;
 }
 
-.accordion-button {
-  border-radius: 5px;
-  font-size: 0.9rem;
-  color:white;
-  background-color: #2c2c3f;
+thead h4 {
+  padding: 0.25rem 2rem;
 }
 
-.accordion-button:focus {
-  color: #2c2c3f;
-  background-color: #fff;
+tbody th, tbody td{
+  padding: 0.5rem;
 }
 
-.accordion-body {
-  font-size: 1rem;
-  font-weight: 500;
+tbody td {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color:rgba(103, 208, 230,0.1);
+}
+
+.table_two {
+  display: none;
 }
 
 /* ================================================================= */
@@ -198,14 +207,6 @@ card_img {
     height: 320px;
   }
 
-  .infoUtil {
-    width: 80vw;
-  }
-
-  .accordion-button,
-  .accordion-body {
-    font-size: 1.1rem;
-  }
 }
 
 @media (min-width:992px) {
@@ -251,9 +252,15 @@ card_img {
     height: 350px;
   }
 
-  .infoUtil {
-    width: 70vw;
+  .table_one {
+    display: none;
   }
+
+  .table_two {
+    display: block;
+  }
+
+
 
 }
 
@@ -264,14 +271,6 @@ card_img {
     height: 350px;
   }
 
-  .accordion-button,
-  .accordion-body {
-    font-size: 1.2rem;
-  }
-
-  .infoUtil {
-    width: 60vw;
-  }
 }
 
 /* ================================================================= */

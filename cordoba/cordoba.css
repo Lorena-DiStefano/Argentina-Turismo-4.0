@@ -132,15 +132,33 @@ h2{
 }
 .mb-3{
   margin: 2px;
-;
 }
+
+/* punilla*/
+.title-punilla{
+  color: #67d0e6;
+  text-align: center;
+}
+.card-img-punilla img{
+  width: 300px;
+  height: 300px;
+  float: left;
+  border-radius: 5%;
+  margin: 1%;
+  
+
+}
+
+}
+
+ 
+
 
 
 
 
 
 .container h2{
-  
   text-align: center;
   margin-top: 20%;
 }

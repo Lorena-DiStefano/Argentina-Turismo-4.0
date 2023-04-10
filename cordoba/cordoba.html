@@ -14,7 +14,7 @@
 
 </head>
 <body>
-
+<header>
     
         <section class="home">
           <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
@@ -52,7 +52,7 @@
               </div>
             </div>
           </nav>
-
+        </header>
           <main>
 
           <!-- carrusel-->
@@ -93,13 +93,15 @@
             </button>
           </div>
          
-              <h1 style="text-align: center;">
+          <div class="text1">
+              <h1>
                 VISITA CORDOBA
               </h1>
-              <P style="text-align: center;">La Provincia de Córdoba es un destino ideal para experimentar las más diversas sensaciones que a un viajero le puedan provocar placer. Con una indeleble impronta cultural e histórica, nuestro territorio combina tradición, modernidad y una excepcional riqueza paisajística. Por la variedad de destinos que propone su geografía, es un lugar donde el turista podrá disfrutar todo el año propuestas siempre novedosas.</P>
-              </div>
-          </div>
-  
+              <div class="text1parraf">
+              <P>La Provincia de Córdoba es un destino ideal para experimentar las más diversas sensaciones que a un viajero le puedan provocar placer. Con una indeleble impronta cultural e histórica, nuestro territorio combina tradición, modernidad y una excepcional riqueza paisajística. Por la variedad de destinos que propone su geografía, es un lugar donde el turista podrá disfrutar todo el año propuestas siempre novedosas.</P>
+            </div>
+            </div>
+                
 
 <!-- imagenes con texto-->
 
@@ -107,7 +109,7 @@
 
 
 
-<!--  PROBANDO-->
+<!--primera galeria de actividades-->
 
 
 
@@ -143,14 +145,12 @@
   <img src="./image-cordoda/cordoba-punilla/parapente-lacumbre.jpg"
   alt="parapente" class="galery-images">
 <div class="text-card">
-
   <h3>DEPORTES DE AVENTURA</h3>
   <p>Una de las mejores formas de conocer los imponentes paisajes de la provincia de Córdoba es a través del turismo aventura donde se puede disfrutar de una sana interacción con el medio ambiente y con la cultura local </p>
 </div>
 </div>
 
 <div class="card" >
-
   <img src="./image-cordoda/cordoba-traslasierra/valle-enca-las-rabonas.jpg" alt="las rabo" class="galery-images">
 <div class="text-card">
   <h3>PARQUES ACUATICOS</h3>
@@ -158,10 +158,8 @@
 </div>
 </div>
 
-<div class="card" >
-  
+<div class="card" > 
   <img src="./image-cordoda/cordoba-punilla/festival-de-cosquin2.jpg" alt="festivales" class="galery-images">
-
 <div class="text-card">
   <h3>CORDOBA, TIERRA DE FESTIVALES</h3>
   <p>Cada verano, la provincia cuenta con eventos artísticos y culturales que son un motor para el turismo. Alrededor de cada uno es posible aprovechar los paisajes increíbles y destinos culturales e históricos.</p>
@@ -169,55 +167,44 @@
 </div>
 </div>
 
+<!-- eventos-->
 
+<div class="card-prox-eventos">
 <div id="eventos">
-<h3 style="text-align: center;"><strong>"PROXIMOS EVENTOS"</strong></h3>
-
-<!-- 3 cardspegadas-->
- 
-<div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-
-<div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
+  <div class="text-eventos">
+<h3><strong>"PROXIMOS EVENTOS"</strong></h3>
 </div>
 
 
+<div class="card-group-prox-eventos">
+    <div class="card-evento">
+      <img src="./image-cordoda/imagenes-actividades/cuanticuenticos.jpg"  alt="cuaticuenticos" class="img-eventos">
+      <div class="card-body">
+        <h5 class="card-title">El reconocido grupo argentino de música para las infancias y familias presenta sus canciones más queridas y nuevo material en Quality Arena el próximo 7 de mayo.</h5>
+        
+      </div>
+    </div>
+    
+  
+
+    <div class="card-evento">
+      <img src="./image-cordoda/imagenes-actividades/cuarto-soda.png"  alt="..." class="img-eventos">
+      <div class="card-body">
+        <h5 class="card-title">El grupo tributo a Soda Stereo más reconocido en Argentina y Latinoamérica llega a Quality Espacio el próximo 28 de abril con un show que incluirá un recorrido por todos los éxitos de la banda de Gustavo Cerati.</h5> 
+      </div>
+    </div>
+  
+
+
+    <div class="card-evento">
+      <img src="./image-cordoda/imagenes-actividades/rachmaninoff-irina.jpg"  alt="..." class="img-eventos">
+      <div class="card-body">
+        <h5 class="card-title">150° Aniversario de Rachmaninoff por Irina Dichkovskaia y la Orquesta Sinfónica de Córdoba, 22 de Abril</h5>
+       
+      </div>
+    </div>
+     </div>
+
 
 
 
@@ -246,7 +233,7 @@
     
     
     
-    
+</main>
        
             
           <section class="botonFlotante">
@@ -300,7 +287,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
         <script src="./rioNegro.js"></script>
         <script src="./map.js"></script>
-      </main>
+     
 
 
     

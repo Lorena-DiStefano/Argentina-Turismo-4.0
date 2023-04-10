@@ -9,7 +9,7 @@ const printHotel = async () => {
   idCity = document.getElementById('city').value
 
   try {
-    const respuesta = await fetch(`./api.json`)
+    const respuesta = await fetch(`../assets-rioNegro/api.json`)
     const data = await respuesta.json()
     let apiAlojamiento = [...data]
 
@@ -155,6 +155,7 @@ document.getElementById('btn_back4').addEventListener('click', (e) => {
   secThree.style.display = "block"
   secFour.style.display = "none"
 })
+
 
 
 

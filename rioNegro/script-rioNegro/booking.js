@@ -11,9 +11,9 @@ const printHotel = async () => {
   try {
     const respuesta = await fetch(`../assets-rioNegro/api.json`)
     const data = await respuesta.json()
-    let apiAlojamiento = [...data]
+    let apiHotels = [...data]
 
-    cityApi = apiAlojamiento.filter((e) => e.city.includes(idCity))
+    cityApi = apiHotels.filter((e) => e.city.includes(idCity))
     console.log(cityApi)
 
     cityApi.forEach(e => {

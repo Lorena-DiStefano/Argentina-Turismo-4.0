@@ -26,7 +26,7 @@
 }
 
 .title h1 {
-  color: #1d86d1 ;
+  color: #1d86d1;
 }
 
 .title p {
@@ -140,7 +140,7 @@
 #modal h1 {
   text-align: center;
   color: #67d0e6;
-  margin: 2rem 0;
+  margin: 1.3rem 1rem;
 }
 
 .btn_closeTeam {
@@ -158,16 +158,16 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: first baseline;
-
 }
 
 .team_card {
-  width: 250px;
+  width: 300px;
   height: fit-content;
 }
 
 .team_card img {
   width: 100%;
+  margin: 0 auto;
   height: 300px;
   border-radius: 5px;
   box-shadow: 1px 1px 8px black;
@@ -179,18 +179,13 @@
 }
 
 .team_card p {
+  width: 100%;
   padding: 0.75rem;
   font-size: 0.9rem;
 }
 
 
 /* =============Equipo=================== */
-
-.body_team {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
 
 .aboutUs_container h1 {
   text-align: center;
@@ -217,6 +212,31 @@
   padding: 0.25rem 3rem;
   border-radius: 5px;
   margin-bottom: 1rem;
-float: right;
+  float: right;
 }
 
+@media (min-width:576px) {
+  .team_card {
+    width: 300px;
+  }
+
+  .team_card img {
+    height: 360px;
+  }
+
+}
+
+@media (min-width:992px) {
+  .team_card {
+    width: 330px;
+  }
+
+  .team_card img {
+    height: 360px;
+  }
+
+    .team_container {
+      padding: 2rem;
+   
+    }
+}

@@ -1,23 +1,20 @@
 
 let idCity
-//let search = true
+let search = true
 
 const printHotel = async () => {
 
   const card_cont = document.getElementById('api')
   const radio = document.getElementById('radioHotel')
   idCity = document.getElementById('city').value
-  
 
   try {
-    const respuesta = await fetch(`./api.json`)
+    const respuesta = await fetch(`../assets-rioNegro/api.json`)
     const data = await respuesta.json()
     let apiAlojamiento = [...data]
 
     cityApi = apiAlojamiento.filter((e) => e.city.includes(idCity))
     console.log(cityApi)
-
-  
 
     cityApi.forEach(e => {
       let host = document.createElement('div')
@@ -50,7 +47,6 @@ const printHotel = async () => {
       divRadio.append(inputHotel)
     })
 
-
     const card_title = document.getElementById('card_title')
     card_title.textContent = `Hoteles en ${idCity}`
     const radio_title = document.getElementById('radio_title')
@@ -59,25 +55,15 @@ const printHotel = async () => {
     radioH3.textContent = "Elije el Hotel"
     radio_title.append(radioH3)
 
-    //search = false
+    search = false
 
   } catch (error) {
     console.log(error)
   }
 }
 
-
-// const form_two = document.getElementById('form_two')
-// const sec_two = document.getElementById('sec_two')
 const btnSearch = document.getElementById('btn_city')
-btnSearch.onclick = (e) => { e.preventDefault(), printHotel() }
-
-
-// btnSearch.addEventListener('click', function (e) {
-//   e.preventDefault()
-
-//   search ? printHotel() : sec_two.style.display = "none" search = true
-// })
+btnSearch.onclick = (e) => { e.preventDefault(), search === true ? printHotel() : window.location.reload() }
 
 //=================================================================//
 
@@ -135,7 +121,7 @@ const secThree = document.getElementById('section_three')
 const secFour = document.getElementById('section_four')
 
 document.getElementById('btn_fwd1').addEventListener('click', (e) => {
-  e.preventDefault() 
+  e.preventDefault()
   secOne.style.display = "none"
   secTwo.style.display = "block"
 })
@@ -169,6 +155,7 @@ document.getElementById('btn_back4').addEventListener('click', (e) => {
   secThree.style.display = "block"
   secFour.style.display = "none"
 })
+
 
 
 

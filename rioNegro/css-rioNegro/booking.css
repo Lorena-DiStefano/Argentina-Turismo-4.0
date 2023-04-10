@@ -122,12 +122,12 @@ textarea:focus {
 }
 
 .rowInput,
-.rowThree_check,
-.rowThree_room {
+.row_check,
+.row_room {
   width: 98vw;
 }
 
-.rowThree_room {
+.row_room {
   display: flex;
   flex-direction: column;
   justify-content: space-around;

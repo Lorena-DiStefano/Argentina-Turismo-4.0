@@ -6,7 +6,8 @@
     "name": "Hotel Raíces Patagónicas",
     "address": "Quintral 220",
     "info": "Hotel informal con cabañas y apartamentos sencillos, piscina cubierta climatizada, jardín y área de barbacoa. <br> Desayuno y estacionamiento gratis.",
-    "image": "./api/dinaHuapi_h_raices.jpg"
+    "image": "../img-rioNegro/img_api/dinaHuapi_h_raices.jpg"
+  
   },
   {
     "id": 2,
@@ -15,7 +16,7 @@
     "name": "Cabañas Clarita",
     "address": "Notros 861,",
     "info": "Las cabañas incluyen TV, microondas, heladera, Wifi, servicio de limpieza.<br> Desayuno y estacionamiento gratis",
-    "image": "./api/dinaHuapi_h_clarita.jpg"
+    "image": "../img-rioNegro/img_api/dinaHuapi_h_clarita.jpg"
   },
   {
     "id": 3,
@@ -24,7 +25,7 @@
     "name": "La Posada del Camino",
     "address": "El Cóndor 290",
     "info": "Alojamiento con habitaciones y apartamentos amueblados, piscina al aire libre y utensilios para barbacoa.<br> Desayuno y estacionamiento gratis.",
-    "image": "./api/dinaHuapi_h_camino.jpg"
+    "image": "../img-rioNegro/img_api/dinaHuapi_h_camino.jpg"
   },
   {
     "id": 4,
@@ -33,7 +34,7 @@
     "name": "Cabañas Sublime",
     "address": "Saavedra 3089",
     "info": "Ubicado a 6 minutos a pie de la plaza Pagano, centro estratégico de la Ciudad. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
-    "image": "./api/bolson_h_sublime.jpg"
+    "image": "../img-rioNegro/img_api/bolson_h_sublime.jpg"
   },
   {
     "id": 5,
@@ -42,7 +43,7 @@
     "name": "Hotel Luz de Luna",
     "address": "Dorrego 150",
     "info": "Ofrece servicio de conserjería, habitaciones para no fumadores, jardín, WiFi en todas las instalaciones y salón compartido. Todas las habitaciones incluyen TV por cable.",
-    "image": "./api/bolson_h_luna.jpg"
+    "image": "../img-rioNegro/img_api/bolson_h_luna.jpg"
   },
   {
     "id": 6,
@@ -51,7 +52,7 @@
     "name": "La Casa de la Abuela",
     "address": "Notros 861",
     "info": "La Casa De La Abuela ofrece departamentos a sólo 150 metros de la plaza Pagano. WiFi en todas las instalaciones. Desayuno y estacionamiento gratis.",
-    "image": "./api/bolson_h_abuela.jpg"
+    "image": "../img-rioNegro/img_api/bolson_h_abuela.jpg"
   },
   {
     "id": 7,
@@ -60,7 +61,7 @@
     "name": "Cabañas Campestre",
     "address": "Ruta N°83 km 28",
     "info": "Alojamiento con WiFi y estacionaminto gratuitos, servicio de limpieza y jardín con terraza y vistas a la ciudad. Desayuno y estacionamiento gratis.",
-    "image": "./api/manso_h_campestre.jpg"
+    "image": "../img-rioNegro/img_api/manso_h_campestre.jpg"
   },
   {
     "id": 8,
@@ -69,7 +70,7 @@
     "name": "Camping El Puerto",
     "address": "Ruta 83 km 11",
     "info": "A orillas del Río Manso, con la mejor cerveza de la zona y acompañado de una hermosa vista. Camping o dormis con duchas, fogones con instalaciones eléctricas. El bar abre por las tardes.",
-    "image": "./api/manso_h_camping.jpg"
+    "image": "../img-rioNegro/img_api/manso_h_camping.jpg"
   },
   {
     "id": 9,
@@ -78,7 +79,7 @@
     "name": "La Reserva El Foyel",
     "address": "Ruta Nac. 40 km 1958.5",
     "info": "Complejo Turístico de montaña<br>Ofrece servicio de Wifi, TV, heladera, cocina, calefacción y ropa de cama.<br>Estacionamiento gratis.",
-    "image": "./api/manso_h_campestre.jpg"
+    "image": "../img-rioNegro/img_api/manso_h_campestre.jpg"
   },
   {
     "id": 10,
@@ -87,7 +88,7 @@
     "name": "Hotel Huemul",
     "address": "Av. Bustillo 1500",
     "info": "En un entorno tranquilo, las habitaciones gozan de vistas al lago, a las montañas o vistas internas, todas con baño privado. Desayuno y estacionamiento gratis.",
-    "image": "./api/bariloche_h_huemul.jpg"
+    "image": "../img-rioNegro/img_api/bariloche_h_huemul.jpg"
   },
   {
     "id": 11,
@@ -96,7 +97,7 @@
     "name": "Hotel Tres Reyes",
     "address": "Avenida 12 de Octubre 135",
     "info": "Ubicado a 200 metros del Centro Cívico. Cuenta con recepción 24 horas y WiFi gratuita. Se halla a 12 km de la estación de esquí y del aeropuerto de Bariloche.",
-    "image": "./api/bariloche_h_reyes.jpg"
+    "image": "../img-rioNegro/img_api/bariloche_h_reyes.jpg"
   },
   {
     "id": 12,
@@ -105,7 +106,7 @@
     "name": "Indomito Hostel",
     "address": "P.Nac. Perito Moreno 31",
     "info": "Las habitaciones cuentan con armario, ropa de cama, baño privado, aire acondicionado y Wifi.<br>Cuenta con bar, salón compartido, jardín y patio con vistas al lago.",
-    "image": "./api/bariloche_h_indomito.jpg"
+    "image": "../img-rioNegro/img_api/bariloche_h_indomito.jpg"
   },
   {
     "id": 13,
@@ -114,7 +115,7 @@
     "name": "El Pinar",
     "address": "P.Nac. Perito Moreno 31",
     "info": "Opciones de casa o chalet.<br>Los espacios poseen: aire acondicionado, zona de cocina, lavadora, tv de pantalla plana y terraza.",
-    "image": "./api/condor_h_pinar.jpg"
+    "image": "../img-rioNegro/img_api/condor_h_pinar.jpg"
   },
   {
     "id": 14,
@@ -123,7 +124,7 @@
     "name": "Complejo Lavandas",
     "address": "Calle Arenas 1058",
     "info": "Esta casa cuenta con 2 dormitorios, TV de pantalla plana y cocina.<br> Estacionamiento gratuito y Wifi.",
-    "image": "./api/condor_h_lavandas.jpg"
+    "image": "../img-rioNegro/img_api/condor_h_lavandas.jpg"
   },
   {
     "id": 15,
@@ -132,7 +133,7 @@
     "name": "Casa al lado del Mar",
     "address": "Calle 20",
     "info": "Los huéspedes de esta casa tienen acceso a una cocina totalmente equipada y a un balcón.<br>La casa da a una terraza y consta de 5 dormitorios. Hay TV de pantalla plana.",
-    "image": "./api/condor_h_delmar.jpg"
+    "image": "../img-rioNegro/img_api/condor_h_delmar.jpg"
   },
   {
     "id": 16,
@@ -141,7 +142,7 @@
     "name": "Hotel Acantilado",
     "address": "San Antonio 1065",
     "info": "Hotel informal con habitaciones sencillas, un restaurante, una piscina cubierta/al aire libre y una tina.Estacionamiento y Desayuno incluído.",
-    "image": "./api/grutas_h_acantilado.jpg"
+    "image": "../img-rioNegro/img_api/grutas_h_acantilado.jpg"
   },
   {
     "id": 17,
@@ -150,7 +151,7 @@
     "name": "Hotel Riviera",
     "address": "Av. Costanera 897",
     "info": "Hotel informal con cafetería y habitaciones sencillas (algunas con balcón y vista al golfo). Estacionamiento gratuito y Wifi.",
-    "image": "./api/grutas_h_riviera.jpg"
+    "image": "../img-rioNegro/img_api/grutas_h_riviera.jpg"
   },
   {
     "id": 18,
@@ -159,7 +160,7 @@
     "name": "Complejo Tamariscos",
     "address": "Aguada Cecilio 560",
     "info": "Habitaciones:Cama de dos plazas, baño en suite y servicio de desayuno a la habitación.<br>Departamentos:Amplios, luminosos y totalmente equipados para hasta 2,4,6 y 8 personas.",
-    "image": "./api/grutas_h_tamariscos.jpg"
+    "image": "../img-rioNegro/img_api/grutas_h_tamariscos.jpg"
   },
   {
     "id": 19,
@@ -168,7 +169,7 @@
     "name": "Complejo Andalhue",
     "address": "Jarillal e/Trofón y Fisurela",
     "info": "Departamentos de 1, 2 y 3 ambientes. Calefacción, Microondas, Cocina a gas con horno, Wifi, Televisión 21' con DirecTV y sector de parrillas.",
-    "image": "./api/doradas_h_andalhue.jpg"
+    "image": "../img-rioNegro/img_api/doradas_h_andalhue.jpg"
   },
   {
     "id": 20,
@@ -177,7 +178,7 @@
     "name": "Tres Soles",
     "address": "Telina 745",
     "info": "3 Duplex para 4 personas a 600mts del mar.Ofrece: Horno, pava eléctrica, Tv led, Wifi, ropa de cama, estacionamiento y sector de parrillas.",
-    "image": "./api/doradas_h_soles.jpg"
+    "image": "../img-rioNegro/img_api/doradas_h_soles.jpg"
   },
   {
     "id": 21,
@@ -186,7 +187,7 @@
     "name": "Complejo Gaitha's",
     "address": "Av Jarillal y Tegula",
     "info": "Departamentos para 4 personas frente al mar. Baño y cocina completos. Microondas, Tv, Wifi, playón para autos. Se aceptan mascotas.",
-    "image": "./api/doradas_h_ghaita.jpg"
+    "image": "../img-rioNegro/img_api/doradas_h_ghaita.jpg"
   },
   {
     "id": 22,
@@ -195,7 +196,7 @@
     "name": "Hotel Austral Viedma",
     "address": "Villarino 292",
     "info": "Este hotel sencillo con vista al Río Negro se encuentra en pleno centro de Viedma. Aire acondicionado, Wifi, estacionamiento gratis.",
-    "image": "./api/viedma_h_austral.jpg"
+    "image": "../img-rioNegro/img_api/viedma_h_austral.jpg"
   },
   {
     "id": 23,
@@ -204,7 +205,7 @@
     "name": "Las Maras Suites",
     "address": "Moreno 920",
     "info": "Alojamientos con aire acondicionado, TV, cocina bien equipada, comedor y baño privado. Hay microondas, nevera, horno y hervidor de agua.",
-    "image": "./api/viedma_h_maras.jpg"
+    "image": "../img-rioNegro/img_api/viedma_h_maras.jpg"
   },
   {
     "id": 24,
@@ -213,7 +214,7 @@
     "name": "Hotel Nijar",
     "address": "Mitre 490",
     "info": "Hotel simple que ofrece habitaciones sencillas, Wi-Fi gratis, desayuno incluido, un restaurante y un bar.",
-    "image": "./api/viedma_h_nijar.jpg"
+    "image": "../img-rioNegro/img_api/viedma_h_nijar.jpg"
   },
   {
     "id": 25,
@@ -222,7 +223,7 @@
     "name": "Hotel Candilejas",
     "address": "Rogelio Cortizo y Alberdi",
     "info": "Hotel Familiar<br>Las habitaciones poseen: aire acondicionado, zona de cocina, lavadora,ropa de cama y Wifi.",
-    "image": "./api/estepa_h_candilejas.jpg"
+    "image": "../img-rioNegro/img_api/estepa_h_candilejas.jpg"
   },
   {
     "id": 26,
@@ -231,7 +232,7 @@
     "name": "Hospedaje La Trochita",
     "address": "Entraigas y 20 de Junio",
     "info": "Alquiler Semanal y Diario, servicio de WI-FI, cochera, parrilla y mucho más.",
-    "image": "./api/estepa_h_trochita.jpg"
+    "image": "../img-rioNegro/img_api/estepa_h_trochita.jpg"
   },
   {
     "id": 27,
@@ -240,7 +241,7 @@
     "name": "Gran Hotel Argentino",
     "address": "Av.San Martín 295",
     "info": "Atención cálida y personalizada. Menú con múltiples opciones. Espacio ideal para realajarse y disfrutar.",
-    "image": "./api/estepa_h_argentino.jpg"
+    "image": "../img-rioNegro/img_api/estepa_h_argentino.jpg"
   },
   {
     "id": 28,
@@ -249,7 +250,7 @@
     "name": "Hotel Bait",
     "address": "Canadá 1465",
     "info": "Hotel informal con desayuno, estacionamiento y habitaciones sencillas con Wi-Fi y aire acondicionado.",
-    "image": "./api/valle_h_bait.jpg"
+    "image": "../img-rioNegro/img_api/valle_h_bait.jpg"
   },
   {
     "id": 29,
@@ -258,7 +259,7 @@
     "name": "Center Loft",
     "address": "Italia 1479",
     "info": "Apartotel ubicado en zona comercial. Ofrece alojamientos independientes con cocina equipada, aire acondicionado y conexión de wifi gratis",
-    "image": "./api/valle_h_loft.jpg"
+    "image": "../img-rioNegro/img_api/valle_h_loft.jpg"
   },
   {
     "id": 30,
@@ -267,6 +268,6 @@
     "name": "Hotel El Recreo",
     "address": "Ruta 22 y ruta 6",
     "info": "Este hotel familiar. Desayuno rico y variado con tortas, facturas, bizcochos, tostadas acompañados por variedad de dulces y mermeladas.",
-    "image": "./api/valle_h_recreo.jpg"
+    "image": "../img-rioNegro/img_api/valle_h_recreo.jpg"
   }
 ]

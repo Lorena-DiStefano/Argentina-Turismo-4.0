@@ -14,11 +14,11 @@
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
   <title>Argentina Turismo 4.0 - Reservas</title>
   <link rel="stylesheet" href="../../landingPage/css/main.css">
-  <link rel="stylesheet" href="./form.css">
+  <link rel="stylesheet" href="../css-rioNegro/booking.css">
 </head>
 
 <body>
-  <header>
+    <header>
     <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="../../index.html">
@@ -39,22 +39,22 @@
                 A donde ir
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="../../cordoba-2023/cordoba.html">Córdoba</a></li>
+                <li><a class="dropdown-item" href="../../cordoba/cordoba.html">Córdoba</a></li>
                 <li><a class="dropdown-item" href="../../entreRios/pages/entrerios.html">Entre Ríos</a>
                 </li>
-                <li><a class="dropdown-item" href="../pages_rn/rioNegro.html">Río Negro</a></li>
+                <li><a class="dropdown-item" href="./rioNegro.html">Río Negro</a></li>
                 <li><a class="dropdown-item" href="../../Jujuy/index.html">Jujuy</a></li>
-                <li><a class="dropdown-item" href="../../Santa fe/santafe.html">Santa Fe</a></li>
+                <li><a class="dropdown-item" href="../../Santa fe/pages_santafe/santafe.html">Santa Fe</a></li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../../landingPage/pages/team.html">Equipo AT 4.0</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../Santa fe/formulario.html">Contactanos</a>
+              <a class="nav-link" href="../../landingPage/pages/formContacto.html">Contactanos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="../formulario_api/form.html">Reserva</a>
+              <a class="nav-link active" href="#">Reserva</a>
             </li>
 
           </ul>
@@ -63,36 +63,12 @@
     </nav>
   </header>
   <main>
+
     <section id="section_one">
       <h2>Solicitud de Reserva</h2>
-      <form class="form_one" action="">
-        <div class="rowInput">
-          <div class="divInput">
-            <label for="firstName">Nombre</label>
-            <input type="text" firstName="firstName" id="firstName" required placeholder="Lionel">
-          </div>
-          <div class=" divInput">
-            <label for="lastName">Apellido</label>
-            <input type="text" name="lastName" id="lastName" required placeholder="Scaloni">
-          </div>
-          <div class="divInput">
-            <label for="phone">Teléfono</label>
-            <input type="number" name="phone" id="phone" required placeholder="17042023">
-          </div>
-          <div class="divInput">
-            <label for="email"> Ingrese su e-mail</label>
-            <input type="email" name="email" id="email" required placeholder="xxxx@xxxxx.com">
-          </div>
-        </div>
-        <button type="submit" id="btn_fwd1" class="btn btn_booking" >Siguiente</button>
-      </form>
-    </section>
-    <section id="section_two">
-      <h2>Donde dormir durante tu visita</h2>
-      <form id="form_two"  action="">
+      <form id="form_one" action="">
         <div class="rowSelect">
           <div class="divSelect">
-            <!-- idCiti=>city -->
             <select name="city" id="city">
               <option>Seleccionar Ciudad</option>
               <option value="Dina Huapi">Dina Huapi</option>
@@ -111,32 +87,29 @@
             </div>
           </div>
         </div>
-        <div id="sec_two">
-        <div class="form_cards">
-          <div id="listHostel">
-            <h2 id="card_title"></h2>
-            <div class="listHotel" id="api">
+        <form id="sec_two">
+          <div class="form_cards">
+            <div id="listHostel">
+              <h2 id="card_title"></h2>
+              <div class="listHotel" id="api">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="radio_cont">
-          <div id="radio_title">
+          <div class="radio_cont">
+            <div id="radio_title">
+            </div>
+            <div class="radio" id="radioHotel">
+            </div>
           </div>
-          <div class="radio" id="radioHotel">
-          </div>
+          <button type="submit" id="btn_fwd1" class="btn btn_booking">Siguiente</button>
         </div>
-        </div>
-        </div>
-        <div class="buttons">
-          <button type="button" id="btn_back2" class="btn btn_booking">Volver</button>
-          <button type="button" id="btn_fwd2" class="btn btn_booking">Siguiente</button>
-        </div>
+        </form>
       </form>
     </section>
-    <section id="section_three">
+    <section id="section_two">
       <h2>Datos de tu estadía</h2>
       <form action="">
-        <div class="rowThree_check">
+        <div class="row_check">
           <div class="checkInput">
             <div class="check">
               <label for="checkIn">Check in</label>
@@ -148,7 +121,7 @@
             </div>
           </div>
         </div>
-        <div class="rowThree_room">
+        <div class="row_room">
           <div class="check">
             <label for="guestQ">Adultos</label>
             <input type="number" id="guestQ" min="1" max="99" value="1" required>
@@ -167,9 +140,36 @@
           </div>
         </div>
         <div class="buttons">
+          <button type="button" id="btn_back2" class="btn btn_booking">Volver</button>
+          <button type="button" id="btn_fwd2" class="btn btn_booking">Siguiente</button>
+        </div>
+        </div>
+      </form>
+    </section>
+    <section id="section_three">
+      <h2>Ingresa tus datos</h2>
+      <form action="">
+        <div class="rowInput">
+          <div class="divInput">
+            <label for="firstName">Nombre</label>
+            <input type="text" firstName="firstName" id="firstName" required placeholder="Lionel">
+          </div>
+          <div class=" divInput">
+            <label for="lastName">Apellido</label>
+            <input type="text" name="lastName" id="lastName" required placeholder="Scaloni">
+          </div>
+          <div class="divInput">
+            <label for="phone">Teléfono</label>
+            <input type="number" name="phone" id="phone" required placeholder="17042023">
+          </div>
+          <div class="divInput">
+            <label for="email"> Ingrese su e-mail</label>
+            <input type="email" name="email" id="email" required placeholder="xxxx@xxxxx.com">
+          </div>
+        </div>
+        <div class="buttons">
           <button type="button" id="btn_back3" class="btn btn_booking">Volver</button>
           <button type="button" id="btn_fwd3" class="btn btn_booking">Siguiente</button>
-        </div>
         </div>
       </form>
     </section>
@@ -220,18 +220,18 @@
             <li>info_at4.0@argentinaturismo4.0.com</li>
             <li>Sarmiento 440 - CABA</li>
             <li><a href="../../landingPage/pages/team.html">El Equipo</a></li>
-            <li><a href="../../Santa fe/formulario.html">Contactanos</a></li>
+            <li><a href="../../landingPage/pages/formContacto.html">Contactanos</a></li>
           </ul>
         </div>
       </div>
       <div class="items">
         <div>
           <h6>A donde ir</h6>
-          <a href="../../cordoba-2023/cordoba.html">Córdoba -</a>
+          <a href="../../cordoba/cordoba.html">Córdoba -</a>
           <a href="../../entreRios/pages/entrerios.html">Entre Ríos -</a>
           <a href="../../Jujuy/index.html">Jujuy -</a>
-          <a href="../pages_rn/rioNegro.html">Río Negro -</a>
-          <a href="../../Santa fe/santafe.html">Santa Fe</a>
+          <a href="./rioNegro.html">Río Negro -</a>
+          <a href="../../Santa fe/pages_santafe/santafe.html">Santa Fe</a>
         </div>
       </div>
       <div class="redes">
@@ -254,7 +254,7 @@
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-  <script src="./form.js"></script>
+  <script src="../script-rioNegro/booking.js"></script>
 </body>
 
 </html>

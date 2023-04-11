@@ -115,23 +115,30 @@ border-radius: 50px;
 
 }
 h2{
-  color:#67d0e6 ;
+  color:white ;
+  
 }
+
+
+
 #seccion-formulario {
   background-image: url(./image-cordoda/cordoba-punilla/carlos-paz2.jpg);
-  margin: 30%;
-  margin-top: 10%;
+  margin: 15%;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 650px;
   background-repeat: no-repeat;
   border-radius: 3%;
- box-shadow: 10px 20px 20px rgba(0,0,0,.8);
+  box-shadow: 10px 20px 20px rgba(0,0,0,.8);
 
 }
 .mb-3{
-  margin: 2px;
+  margin: 1px;
+  width: 300PX;
+
+  
 }
 
 /* punilla*/
@@ -139,23 +146,84 @@ h2{
   color: #67d0e6;
   text-align: center;
 }
+
 .card-img-punilla img{
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
   float: left;
   border-radius: 5%;
-  margin: 1%;
-  
-
+  margin: 2px;
 }
 
+
+.img-villa{
+  width: 200px;
+  height: 200px;
+  float: right;
+  border-radius: 3%;
+}
+.parraf-villa{
+  border-style: none;
+  height: 210px;
+  text-align: center;
+  margin: 8px;
+}
+.parraf-capilla{
+  border-style: none;
+  height: 210px;
+  text-align: center;
+  margin: 8px;
+}
+.img-capilla{
+  width: 200px;
+  height: 200px;
+  float: left;
+  border-radius: 3%;
+  margin: 2px;
+}
+.parraf-lafalda{
+border-style: none;
+height: 210px;
+text-align: center;
+margin: 8px;
 }
 
- 
+.img-lafalda{
+  width: 200px;
+  height: 200px;
+  float: right;
+  border-radius: 3%;
+  margin: 2px;
+}
+.img-lacumbres{
+  width: 200px;
+  height: 200px;
+  float:right;
+  border-radius: 3%;
+  margin: 2px
+}
+.parraf-lacumbres{
+  border-style:none;
+  height: 210px;
+  text-align: center;
+  margin: 8px;
+}
 
+.img-cosquin{
+  width: 200px;
+  height: 200px;
+  float:left;
+  border-radius: 3%;
+  margin: 2px;
+}
+.parraf-cosquin{
+  border-style:none;
+  height: 210px;
+  text-align: center;
+  margin: 8px;
+}
 
-
-
+/*traslasierra*/
 
 
 .container h2{

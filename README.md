@@ -1,8 +1,8 @@
 ![AT4.0](./landingPage/img/AT40-readme.png) 
 
-**Argentina Turismo 4.0** es el resultado del Trabajo Práctico Integrador presentado en el nivel inicial de **Argentina Programa 4.0**
+**Argentina Turismo 4.0** es el resultado del **Trabajo Práctico Integrador** presentado por el "Equipo 4", en el nivel inicial de **Argentina Programa 4.0.**
 
-La idea de desarrollar una página de turismo que proponga recorrer Argentina, es el resultante de haber descubierto que ese era nuestro punto en común, además de ofrecer la posibilidad de que todos pudieran crear "su" página dentro de una web, en lugar de sólo una sección.
+La idea de desarrollar una página de turismo que proponga recorrer Argentina, refleja nuestro placer en común, además de ofrecer la posibilidad de que todos pudieran crear **su** página dentro de una web en lugar de sólo una sección. Manteniendo su identidad única en el manejo de espacios como navbar y footer; la paleta de colores, fuentes, etc.
 
 ![AT4.0_principal](./landingPage/img/AT40-landingPage.JPG)
 

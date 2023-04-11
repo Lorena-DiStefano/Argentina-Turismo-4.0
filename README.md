@@ -1,4 +1,4 @@
-![AT4.0](./landingPage/img/AT40-readme.png) 
+  ![AT4.0](./landingPage/img/AT40-readme.png) 
 
 **Argentina Turismo 4.0** es el resultado del Trabajo Práctico Integrador presentado en el nivel inicial de **Argentina Programa 4.0**
 

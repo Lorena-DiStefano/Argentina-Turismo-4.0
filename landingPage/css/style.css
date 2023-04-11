@@ -26,7 +26,7 @@
 }
 
 .title h1 {
-  color: #1d86d1 ;
+  color: #1d86d1;
 }
 
 .title p {
@@ -103,13 +103,13 @@
 
 /* ================================================= */
 
-.btn_equipo {
+#modal .btn_team {
   border: none;
   background-color: transparent;
   color: #67d0e6;
 }
 
-.btn_equipo:focus {
+#modal .btn_team:focus {
   outline: none;
 }
 
@@ -140,7 +140,7 @@
 #modal h1 {
   text-align: center;
   color: #67d0e6;
-  margin: 2rem 0;
+  margin: 1.3rem 1rem;
 }
 
 .btn_closeTeam {
@@ -158,16 +158,16 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: first baseline;
-
 }
 
 .team_card {
-  width: 250px;
+  width: 300px;
   height: fit-content;
 }
 
 .team_card img {
   width: 100%;
+  margin: 0 auto;
   height: 300px;
   border-radius: 5px;
   box-shadow: 1px 1px 8px black;
@@ -179,25 +179,13 @@
 }
 
 .team_card p {
+  width: 100%;
   padding: 0.75rem;
   font-size: 0.9rem;
 }
 
 
 /* =============Equipo=================== */
-
-.body_team {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
-.aboutUs_container h1 {
-  text-align: center;
-  color: #1d86d1;
-  margin-top: -1rem;
-}
-
 .aboutUs_container {
   display: flex;
   flex-direction: column;
@@ -206,17 +194,58 @@
   gap: 1.3rem;
 }
 
+.aboutUs_container h1 {
+  text-align: center;
+  color: #1d86d1;
+  margin-top: -1rem;
+}
+
 .aboutUs_text {
   width: 85%;
 }
 
-.btn_equipo {
+.btn_team {
   background-color: #2c2c3f;
   color: white;
   font-size: 1.1rem;
   padding: 0.25rem 3rem;
   border-radius: 5px;
   margin-bottom: 1rem;
-float: right;
+  float: right;
 }
 
+.btn_team:hover {
+  background-color:cadetblue;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #888;
+  border: none;
+  box-shadow: 2px 2px 4px #888;
+}
+
+@media (min-width:576px) {
+  .team_card {
+    width: 300px;
+  }
+
+  .team_card img {
+    height: 360px;
+  }
+
+}
+
+@media (min-width:992px) {
+  .team_card {
+    width: 330px;
+  }
+
+  .team_card img {
+    height: 360px;
+  }
+
+  .team_container {
+    padding: 2rem;
+
+  }
+}

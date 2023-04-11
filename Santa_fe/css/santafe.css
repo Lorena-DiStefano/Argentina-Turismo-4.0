@@ -95,15 +95,25 @@
 }
  
 .title{
-  padding: auto;
+  padding: 0;
   text-align: center;
   text-decoration: underline;
   height: 100px;
-  color: #3b95b8;
+  color: #2c4f6f;
   
 }
-.subtitle{
-  color: blue;
+h2{
+  color: #3b95b8;
+}
+h3{
+  color:#87d2e2;
+}
+h4{
+  color:#9cd7e5;
+}
+h5{
+  color:#67d0e6;
+
 }
 .texto{
   display:inline-block;

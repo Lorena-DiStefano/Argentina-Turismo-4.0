@@ -15,4 +15,5 @@ Link a la página: https://lorena-distefano.github.io/Argentina-Turismo-4.0/    
 Agradecemos a **Argentina Programa 4.0** la oportunidad de sumar herramientas y conocimientos que nos abrirán puertas en el mundo IT.
 
 ✒️ El equipo: **Cristina Alegre, Lorena Di Stefano, Silvina Gaitan, Marcos Gaso, Sebastián Pittaluga**
+
 Abril 2023

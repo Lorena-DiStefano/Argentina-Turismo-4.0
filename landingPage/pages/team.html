@@ -9,6 +9,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="shortcut icon" href="../../landingPage/img/AT40-LOGO-05.png" type="image/.png">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
   <title>Argentina Turismo 4.0</title>
@@ -33,21 +34,24 @@
               <a class="nav-link" aria-current="page" href="../../index.html">Inicio</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle" href="#title" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link  dropdown-toggle" href="#title" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 A donde ir
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Córdoba</a></li>
-                <li><a class="dropdown-item" href="#">Entre Ríos</a>
+                <li><a class="dropdown-item" href="../../cordoba-2023/cordoba.html">Córdoba</a></li>
+                <li><a class="dropdown-item" href="../../entreRios/pages/entrerios.html">Entre Ríos</a>
                 </li>
-                <li><a class="dropdown-item" href="../../rioNegro/pages_rn/rioNegro.html">Río Negro</a></li>
-                <li><a class="dropdown-item" href="#">Salta</a></li>
-                <li><a class="dropdown-item" href="#">Santa Fe</a></li>
+                <li><a class="dropdown-item" href="../../rioNegro/pages-rioNegro/rioNegro.html">Río Negro</a></li>
+                <li><a class="dropdown-item" href="../../Jujuy/jujuy.html">Jujuy</a></li>
+                <li><a class="dropdown-item" href="../../Santa fe/santafe.html">Santa Fe</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#title">Contactanos</a>
+              <a class="nav-link active" href="#">El Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/formContacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -57,72 +61,65 @@
   <main>
     <seccion class="aboutUs">
       <div class="aboutUs_container">
-        <h1>Argentina Turismo 4.0</h1>
+        <h1>Bienvenid@ a Argentina Turismo 4.0</h1>
         <div class="aboutUs_text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet aspernatur minima nulla. Ratione
-            obcaecati in quidem temporibus, odit dolor autem perspiciatis molestiae repudiandae eius labore impedit
-            cumque rem doloremque!
-            Ut dicta rerum sint, facilis odio molestias perferendis, porro, voluptas assumenda in deleniti harum fugiat
-            pariatur? Numquam facere exercitationem dolor quae architecto, laboriosam deleniti. Praesentium atque animi
-            sit! Dicta, nihil.</p>
+          <p>Te estabamos esperando...</p>
+          <p>Somos una pequeña comunidad viajera de seis integrantes, que como su nombre lo
+            indica, amamos viajar por nuestro país, por nuestra bella Argentina.
+          <p>Nos encanta conocer nuevos lugares, maravillarnos con sus imponentes paisajes,
+            descubrir nuevas culturas y costumbres, colores y sabores.</p>
+          <p>Juntos ideamos esta página para animarte a que vos también puedas descubrir esos
+            paisajes inolvidables en la tranquilidad de tu casa o desde donde vos prefieras, con
+            tan solo un “click” podrás obtener toda la información necesaria para planificar tus
+            próximas vacaciones o “escapadas” de fin de semana, y lanzarte a la aventura de ese
+            viaje soñado.</p>
+          <p>Te invitamos a que visites nuestra página viajera, aquí podrás recorrer los distintos
+            destinos de nuestro hermoso país con datos de interés, fotos y videos ilustrativos que
+            hemos elegido muy especialmente para vos.</p>
+          <p>Animate a descubrir y elegir tu lugar en el mundo donde ser feliz.</p>
+          <button type="button" class="btn_team" onclick="openModal()">El Equipo</button>
         </div>
-        <button type="button" class="btn_equipo" onclick="openModal()">Nuestro Equipo</button>
       </div>
     </seccion>
+    
     <section class="team">
       <dialog id="modal">
         <button type="button" class="btn_closeTeam" onclick="closeModal()">X</button>
         <h1>Equipo: Argentina Turismo 4.0</h1>
         <div class="team_container">
           <div class="team_card">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0uF54NTl8Aon1lBKwfJXOVUUiWVgX7SqqybOdHi0r09aYzY71zcACwupurgZ6Ju5SbbQ&usqp=CAU"
-              alt="">
+            <img src="../img/CristinaAlegre.jpg" alt="Cristina Alegre">
             <h5>Cristina Alegre</h5>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere impedit sequi accusantium tempora
-              praesentium ea
-              error, quo, qui fugiat atque, eveniet eum vitae repellat sint suscipit sapiente? Maiores, magnam ipsum.
+            <p> Soy Cristina, mamá de Maria Belen, tengo dos gatas y una perrita rescatada, me gusta la música, bailar,
+              las plantas...<br>Gracias a AP4.0 estoy al fin incursionando en el mundo de la programación y cumpliendo
+              una meta que tenía pendiente.
             </p>
           </div>
           <div class="team_card">
-            <img src="../img/LorenaDiStefano.jpg" alt="">
+            <img src="../img/LorenaDiStefano.jpg" alt="Lorena Di Stefano">
             <h5>Lorena Di Stefano</h5>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere impedit sequi accusantium tempora
-              praesentium ea
-              error, quo, qui fugiat atque, eveniet eum vitae repellat sint suscipit sapiente? Maiores, magnam ipsum.
+            <p> Mamá de Andrea. Amante del cine, la música y las largas caminatas.<br>Después de muchos años como
+              analista de créditos, el mundo IT resultó un desafío de constante aprendizaje que me invitó a salir de mi
+              zona de confort para adentrarme en un mundo que realmente me apasiona.
             </p>
           </div>
           <div class="team_card">
-            <img src="../img/SilvinaGaitan2.jpeg" alt="">
+            <img src="../img/SilvinaGaitan2.jpeg" alt="Silvina Gaitan">
             <h5>Silvina Gaitan</h5>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere impedit sequi accusantium tempora
-              praesentium ea error, quo, qui fugiat atque, eveniet eum vitae repellat sint suscipit sapiente? Maiores,
-              magnam ipsum.</p>
+            <p> Mamá de Santiago y Milagros. Emprendedora. Vendedora . Fanática de Colón de Santa Fe.<br>Me gustó mucho
+              la propuesta de AP 4.0 y fue todo un desafío de conocimiento y tiempo, pero en esta etapa de mi vida mi
+              prioridad soy yo. Mi lema es: <span>Siempre adelante!!!</span></p>
           </div>
           <div class="team_card">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0t5lOyW5wj42MDOc5xjE0VD7oLVxDkH1iyQ&usqp=CAU"
-              alt="">
+            <img src="../img/MarcosGaso.jpeg" alt="Marcos Gaso">
             <h5>Marcos Gaso</h5>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere impedit sequi accusantium tempora
-              praesentium ea
-              error, quo, qui fugiat atque, eveniet eum vitae repellat sint suscipit sapiente? Maiores, magnam ipsum.
+            <p> Casado. Papá de Lucía y Julian, trabajo como asesor de ventas.<br>Este curso me abrió la puerta a un mundo increíble,derribando prejuicios como la edad para aprender .
             </p>
           </div>
           <div class="team_card">
-            <img src="https://uploads.vibra.co/1/2021/08/peliculas-de-bruce-willis-01.jpg" alt="">
+            <img src="../img/SebastianPittaluga.jpg" alt="Sebastián Pittaluga"> 
             <h5>Sebastian Pittaluga</h5>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere impedit sequi accusantium tempora
-              praesentium ea
-              error, quo, qui fugiat atque, eveniet eum vitae repellat sint suscipit sapiente? Maiores, magnam ipsum.
-            </p>
-          </div>
-          <div class="team_card">
-            <img src="https://www.trendingmexico.com/u/fotografias/m/2022/5/20/f960x540-2449_76524_0.jpg" alt="">
-            <h5>Lorena Teseira</h5>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere impedit sequi accusantium tempora
-              praesentium ea
-              error, quo, qui fugiat atque, eveniet eum vitae repellat sint suscipit sapiente? Maiores, magnam ipsum.
+            <p> Papá x 2 , viajero errante, sino llevo el cuerpo puedo ir con mi mente, deportes, asado, amigos, familia!
             </p>
           </div>
         </div>
@@ -134,14 +131,14 @@
     <div class="footer_container">
       <div class="contac_container">
         <div>
-          <img src="../img/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
+          <img src="../img/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo" onclick=""topFunction()>
         </div>
         <div class="contact">
           <ul>
             <li>info_at4.0@argentinaturismo4.0.com</li>
             <li>Sarmiento 440 - CABA</li>
             <li><a href="#">El Equipo</a></li>
-            <li><a href="#">Contactanos</a></li>
+            <li><a href="../pages/formContacto.html">Contactanos</a></li>
           </ul>
         </div>
       </div>
@@ -149,11 +146,11 @@
       <div class="items">
         <div>
           <h6>A donde ir</h6>
-          <a href="#">Córdoba -</a>
-          <a href="../../entreRios/pages/entrerios.html">Entre Ríos -</a>
-          <a href="#">Jujuy -</a>
-          <a href="../../rioNegro/pages_rn/rioNegro.html">Río Negro -</a>
-          <a href="#">Santa Fe</a>
+        <a href="../../cordoba/cordoba.html">Córdoba -</a>
+        <a href="../../entreRios/pages/entrerios.html">Entre Ríos -</a>
+        <a href="../../Jujuy/jujuy.html">Jujuy -</a>
+        <a href="../../rioNegro/pages-rioNegro/rioNegro.html">Río Negro -</a>
+        <a href="../../Santa_fe/pages_santafe/santafe.html">Santa Fe</a>
         </div>
       </div>
       <div class="redes">
@@ -164,6 +161,9 @@
           <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
           <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
         </ul>
+      </div>
+      <div class="goUp">
+        <i class="las la-angle-double-up" onclick="topFunction()"></i>
       </div>
     </div>
   </footer>
@@ -177,7 +177,7 @@
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-  <script src="../../landingPage/script.js"></script>
+  <script src="../script/script.js"></script>
 </body>
 
 </html>

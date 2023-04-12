@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
   <link rel="shortcut icon" href="../../landingPage/img/AT40-LOGO-05.png" type="image/png">
-  <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/santafe.css">
   <title>Costa</title>
 </head>
@@ -20,29 +19,46 @@
 <main class="home">
   <section class="nav">
     <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="../../landingPage/img/AT40-LOGO-05.png" alt="" width="100">
-        </a>
-        
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../pages_santafe/santafe.html">Inicio</a>
-            </li>
-            <li class="nav-link">
-              <a> Costa Santafesina</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../landingPage/pages/team.html">El Equipo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages_santafe/formulario.html">Contactanos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html">
+            <img src="../../landingPage/img/AT40-LOGO-05.png" alt="Logo" width="100">  
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button> 
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="../../index.html">Inicio</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  SANTA FE 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../pages_santafe/LaCapital.html"> La Capital </a></li>
+                  <li><a class="dropdown-item" href="../pages_santafe/rosario.html" > Rosario </a></li>
+                  <li><a class="dropdown-item" href="../pages_santafe/Norte.html"> Norte</a></li>
+                  <li><a class="dropdown-item" href="../pages_santafe/Costa.html"> Costa</a></li>
+                </ul>
+              </li>
+              <li class="nav-link active">
+                <a>Costa Santafesina</a>
+              <li class="nav-item">
+                <a class="nav-link " href="../../landingPage/pages/team.html">El Equipo</a></li>
+              <li class="nav-item">
+                <a class="nav-link " href="../pages_santafe/formulario.html">Contactanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+  
+    </nav> 
   </section>
+  
   <section class="slides">
     <div class="container_slide">
      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -94,20 +110,25 @@
         <article class="row">
           <h2 class="my-5 display-2">La Costa de nuestros rios</h2>
           <div class="col-lg-8 border-1 ">
-            <h3 class="mt-5 mb-3 subtitle">Pesca</h3>
+            <h3>Pesca</h3>
             <p> En la región se encuentra el sitio RAMSAR más extenso del país que tiene como objetivo la conservación y uso racional de todos los humedales para logar un desarrollo sostenible en el mundo.
 
               Un sitio ideal para la aventura, si es que nos atrevemos. Pasar una noche en la isla es la opción para los valientes pero también la más intensa, en la mañana un paseo en kayak y a disfrutar de un día de pesca con lancha, guías instruidos y con licencia, paseando y teniendo un almuerzo en la isla culminando en la tarde mientras se contempla la puesta del sol.
               
               Como  ventaja se puede llegar a Reconquista en avión y desde el aeropuerto emprender la aventura. Un dato a tener en cuenta es que en Octubre se realiza el tradicional Concurso Argentino de Pesca del Surubi</p>
-    
-             <figure class="float-xl-start my-4 me-4">
-              <img src="../img/Rio.jpg" alt="" width="300">
+            <h5>Pesca con devolucion</h5>
+            <div class="container">
+             <figure class="float-xl-start text-center my-4 me-4">
+              <img src="../img/Rio.jpg" alt="" width="400">
               <figcaption> Foto: Anònimo</figcaption>
              </figure>
-             <h5>Pesca con devolucion</h5>
-             <p>La pesca con devolución es uno de los deportes que reúne una gran cantidad de turistas y aficionados</p>
-             <p>Una opción cómoda y encantadora es la ofrecida por las cabañas. La misma consiste en contratar excursiones guiadas de pesca que suelen recorrer las islas cercanas y contar con la posibilidad de experimentar jornadas de campamentismo isleño. Otra alternativa en las afueras la constituye el paraje Vuelta del Pirata, donde el arroyo Leyes cautiva pescadores provenientes de los más diversos destinos.
+             
+             <p>La pesca con devolución es uno de los deportes que reúne una gran cantidad de turistas y aficionados
+             Una opción cómoda y encantadora es la ofrecida por las cabañas.</p>
+            </div>          
+             <p> La misma consiste en contratar excursiones guiadas de pesca que suelen recorrer las islas cercanas y contar con la posibilidad de experimentar jornadas de campamentismo isleño.</p>
+            
+             <p> Otra alternativa en las afueras la constituye el paraje Vuelta del Pirata, donde el arroyo Leyes cautiva pescadores provenientes de los más diversos destinos.
 
               <p>Pesqueros recomendados, Santa Rosa de Calchines es la puerta de entrada a un universo de arroyos, lagunas y ríos como La Brícola, el San Javier, el Leyes, el Yacaré y, por supuesto, el gran río Paraná, todos muy rendidores para la pesca deportiva.</p>
           </div>
@@ -138,15 +159,11 @@
 
 
   </main>
-  <section class="botonFlotante">
-    <a href="#navbar">
-      <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>
-    </a>
-  </section>
-  <section class="footer">
+  
+  <footer class="footer">
     <div class="footer_container">
-      <div class="contacto">
-        <img src="../../landingPage/img/AT40-LOGO-05.png" alt="logo" width="100px">
+      <div class="contact_container">
+        <img src="../../landingPage/img/AT40-LOGO-05.png" alt="logo" width="100px" class="logo" onclick="topFunction()">
         <div>
           <ul>
             <li>info_at4.0@argentinaturismo4.0.com</li>
@@ -160,10 +177,10 @@
         <div>
           <a href="../../cordoba/cordoba.html">Córdoba -</a>
           <a href="../../entreRios/pages/entrerios.html">Entre Ríos -</a>
-          <a href="../../rioNegro/pages_rn/rioNegro.html">Río Negro -</a>
-          <a href="#">Jujuy -</a>
-          <a href="../pages_santafe/santafe.html">Santa Fe -</a>
-          <a href="#">Tucumán </a>
+          <a href="../../rioNegro/pages-rioNegro/rioNegro.html">Río Negro -</a>
+          <a href="../../Jujuy/jujuy.html">Jujuy -</a>
+          <a href="../../Santa_fe/pages_santafe/santafe.html">Santa Fe -</a>
+          
         </div>
       </div>
       <div class="redes">
@@ -175,8 +192,11 @@
           <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
         </ul>
       </div>
+      <div class="goUp">
+        <i class="las la-angle-double-up" onclick="topFunction()"></i>
+      </div>
     </div>
-  </section>
+  </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
@@ -186,10 +206,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
-  <!--<script src="./rioNegro.js"></script>
-  <script src="./map.js"></script>-->
-  <script src="./main.js"></script>
-    
+    <script src="../../landingPage/script/script.js"></script>
+    <script src="../../landingPage/css/main.css"></script>
 </head>
 
 <body>

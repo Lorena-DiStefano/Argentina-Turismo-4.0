@@ -5,10 +5,6 @@ let osm =L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-
-
-
-
 let marker
 marker = L.marker([-41.071300, -71.161822], { title: 'Dina Huapi' }).addTo(map).bindPopup('<img src="../img-rioNegro/img_map/map_dinaHuapi.jpg"  alt="Dina Huapi"><h6>Dina Huapi</h6>')
 marker = L.marker([-41.966113, -71.529783], { title: 'El Bolsón' }).addTo(map).bindPopup(' <img src="../img-rioNegro/img_map/map_bolson.jpg" alt="bolsón"><h6>El Bolsón</h6>')

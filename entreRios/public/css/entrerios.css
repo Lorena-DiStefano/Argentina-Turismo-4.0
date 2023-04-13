@@ -111,7 +111,7 @@ main{
 .img_info {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .img_info img {

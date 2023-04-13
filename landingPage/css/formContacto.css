@@ -46,12 +46,10 @@ h3{
 }  
   
 .buttonc,.button{
-    height: 30px;
     background: #3b95b8;
     font-size: 1rem;
     text-align: center;
     cursor: pointer;
-   
     border-radius: 3px;
     padding: 0.25rem 3rem;
     color: white;

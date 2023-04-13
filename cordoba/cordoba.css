@@ -137,11 +137,16 @@ h2{
 .mb-3{
   margin: 1px;
   width: 300PX;
-
-  
 }
 
+
+
 /* punilla*/
+.region{
+  width: 95vw;
+  margin-left: 10px;
+}
+
 .title-punilla{
   color: #67d0e6;
   text-align: center;
@@ -152,7 +157,7 @@ h2{
   height: 400px;
   float: left;
   border-radius: 5%;
-  margin: 2px;
+  margin: 10px;
 }
 
 
@@ -223,12 +228,37 @@ margin: 8px;
   margin: 8px;
 }
 
-/*traslasierra*/
+/*actividades en cordoba*/
+.actividades-cba{
+  text-align: center;
 
+}
+.ruta-vino{
+ 
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  box-shadow: 10px 20px 20px rgba(0,0,0,.8);
+  margin: 3%;
+
+  
+}
+.imagenes-vino{
+margin-left: 100px;
+  display: flex;
+  align-items: center;
+  width: 80vw;
+ flex-wrap: wrap;
+ justify-content: center;
+;
+  
+
+}
 
 .container h2{
   text-align: center;
   margin-top: 20%;
+  padding:30px;
 }
 
 

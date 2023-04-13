@@ -14,7 +14,6 @@ const printHotel = async () => {
     let apiHotels = [...data]
 
     cityApi = apiHotels.filter((e) => e.city.includes(idCity))
-    console.log(cityApi)
 
     cityApi.forEach(e => {
       let host = document.createElement('div')

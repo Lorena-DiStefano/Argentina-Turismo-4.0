@@ -13,16 +13,16 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
     <link rel="shortcut icon" href="../../landingPage/img/AT40-LOGO-05.png" type="image/png">
-    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/santafe.css">
     <title>AT-4.0 Santa fe</title>
 </head>
 <body>
     <main class="home">
+      
       <section class="nav">
         <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="../../index.html">
                 <img src="../../landingPage/img/AT40-LOGO-05.png" alt="Logo" width="100">  
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -32,15 +32,13 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../pages_santafe/santafe.html">SANTA FE</a>
+                    <a class="nav-link " aria-current="page" href="../../index.html">Inicio</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../index.html">Inicio</a>
-                  </li>
+                  
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      Destinos
+                      SANTA FE 
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" href="../pages_santafe/LaCapital.html"> La Capital </a></li>
@@ -49,10 +47,11 @@
                       <li><a class="dropdown-item" href="../pages_santafe/Costa.html"> Costa</a></li>
                     </ul>
                   </li>
+                  
                   <li class="nav-item">
-                    <a class="nav-link" href="../../landingPage/pages/team.html">El Equipo</a></li>
+                    <a class="nav-link " href="../../landingPage/pages/team.html">El Equipo</a></li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages_santafe/formulario.html">Contactanos</a>
+                    <a class="nav-link " href="../pages_santafe/formulario.html">Contactanos</a>
                   </li>
                 </ul>
               </div>
@@ -164,11 +163,6 @@
                 </div>
               </div>
       </section>  
-      <section class="botonFlotante">
-              <a href="#navbar">
-                <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>
-              </a>
-      </section> 
 
 
 
@@ -178,10 +172,10 @@
 
               
               
-            <section class="footer">
+            <footer class="footer">
               <div class="footer_container">
-                <div class="contacto">
-                  <img src="../../landingPage/img/AT40-LOGO-05.png" alt="logo" width="100px">
+                <div class="contac_container">
+                  <img src="../../landingPage/img/AT40-LOGO-05.png" alt="logo" width="100px" class="logo" onclick="topFunction()">
                   <div>
                     <ul>
                       <li>info_at4.0@argentinaturismo4.0.com</li>
@@ -195,10 +189,10 @@
                   <div>
                     <a href="../../cordoba/cordoba.html">Córdoba -</a>
                     <a href="../../entreRios/pages/entrerios.html">Entre Ríos -</a>
-                    <a href="../../rioNegro/pages_rn/rioNegro.html">Río Negro -</a>
-                    <a href="#">Jujuy -</a>
-                    <a href="../pages_santafe/santafe.html">Santa Fe -</a>
-                    <a href="#">Tucumán </a>
+                    <a href="../../rioNegro/pages-rioNegro/rioNegro.html">Río Negro -</a>
+                    <a href="../../Jujuy/jujuy.html">Jujuy -</a>
+                    <a href="../../Santa_fe/pages_santafe/santafe.html">Santa Fe -</a>
+                    
                   </div>
                 </div>
                 <div class="redes">
@@ -210,8 +204,11 @@
                     <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
                   </ul>
                 </div>
+                <div class="goUp">
+                  <i class="las la-angle-double-up" onclick="topFunction()"></i>
+                </div>
               </div>
-            </section>
+            </footer>
               <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
                integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
               <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -220,10 +217,9 @@
               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
                integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
                crossorigin="anonymous"></script>
-            <!--  <script src="./santafe.js"></script>-->
-            <!--  <script src="./rioNegro.js"></script>-->
-             <!-- <script src="./map.js"></script>-->
-              <script src="./main.js"></script>
+           
+              <script src="../../landingPage/script/script.js"></script>
+              <script src="../../landingPage/css/main.css"></script>
 
               
               

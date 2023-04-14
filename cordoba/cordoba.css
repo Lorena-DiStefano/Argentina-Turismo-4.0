@@ -49,6 +49,11 @@
   color:  #67d0e6;
 }
 
+.boton-actividades{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
 .card-group-prox-eventos{
   display: flex;
   flex-wrap: wrap;
@@ -93,7 +98,9 @@ border-radius: 50px;
   border-radius: 150px;
   
 }
-
+.form-recuadro{
+  margin-bottom: 5rem;
+}
 
 .galeriatrasla {
   padding: 15px;
@@ -123,8 +130,8 @@ h2{
 
 #seccion-formulario {
   background-image: url(./image-cordoda/cordoba-punilla/carlos-paz2.jpg);
-width: 80%;
-margin-left: 10%;
+  width: 80%;
+  margin-left: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,11 +139,22 @@ margin-left: 10%;
   background-repeat: no-repeat;
   border-radius: 3%;
   box-shadow: 10px 20px 20px rgba(0,0,0,.8); 
+  
 }
-.titulo-formulario{
+
+#paso-2{
+  display:none ;
+  border-style: double;
   text-align: center;
-  color: white;
+  width: 80%;
+  margin-left: 100px;
+  height: 350px;
+padding: 10%;
+
+
+
 }
+
 
 
 

@@ -6,4 +6,8 @@ form {
     display: none;
   }
   
- 
+ .h3 {
+  text-align: center ;
+  flex-direction: column;
+ }
+  

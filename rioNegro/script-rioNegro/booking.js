@@ -20,7 +20,7 @@ const printHotel = async () => {
       host.clasName = "card_host_cont"
       host.innerHTML = `    
                   <div class="card_host">          
-                   <img src="${e.image}")>
+                   <img src="${e.image}" alt="${e.name}">
                    <h5>${e.name}</h5>
                  <div class="card_host_info">
                    <p><span>${e.address}-${e.city}-${e.prov}</span><br>

@@ -148,6 +148,7 @@ h1, h2{
 }
 
 .redes ul,
+
 .provincia {
   gap: 2rem;
   display: flex;
@@ -177,3 +178,19 @@ h1, h2{
   background-color: rgb(152, 202, 243);
   color: rgb(44, 44, 63);
 }
+
+/*=== formulario================ */
+#contacto-jujuy {
+  width: 400px;
+  background-color: #0e6a95;
+  font-family: Poppins;
+  color: #ffffff;
+  padding: 40px;
+  margin: auto;
+  margin-top:100px;
+  text-align: start;
+  flex-direction: column;
+  display: flex;
+  
+}
+

@@ -2,11 +2,8 @@ form {
     margin-bottom: 20px;
   }
   
-  #step-2 {
+  #step2 {
     display: none;
   }
   
-  #summary {
-    border: 1px solid #ccc;
-    padding: 10px;
-  }
+ 

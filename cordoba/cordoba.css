@@ -141,14 +141,22 @@ h2{
   box-shadow: 10px 20px 20px rgba(0,0,0,.8); 
   
 }
-.container2{
+
+#paso-2{
+  display:none ;
+  border-style: double;
   text-align: center;
-  display: none;
+  width: 80%;
+  margin-left: 100px;
+  height: 350px;
+padding: 10%;
+
+
+
 }
-.container h3{
-  text-align: center;
-  color: #67d0e6;
-}
+
+
+
 
 /* punilla*/
 .region{

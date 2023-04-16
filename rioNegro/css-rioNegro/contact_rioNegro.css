@@ -1,0 +1,121 @@
+.contCard {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+}
+
+.contCard input {
+  width: 16rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 7px;
+  border: none;
+  border-right: 4px outset #0ad1f8;
+  border-bottom: 3px outset #2c2c3f;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contCard input:focus{
+  outline: none;
+}
+
+.contCard textarea{
+padding: 0.25rem;
+}
+
+.contCard label {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.btn_contact {
+  float: right;
+}
+
+.div_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.doc_text {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding: 1rem;
+  border: 0 solid #c4c4c4;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #888;
+}
+
+.doc_text h2 {
+  margin: 1rem;
+}
+
+#second_sec,
+#noteContact {
+  display: none;
+}
+
+@media (min-width:576px) {
+  .contForm {
+    width: 80vw;
+    height: 60%;
+    border: 0 solid #c4c4c4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #888;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+  }
+  .contNote {
+    margin: 0 auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .doc_text {
+    font-size: 1, 1rem;
+  }
+}
+
+@media (min-width:992px) {
+  .contForm {
+    width: 60vw;
+  }
+
+  .doc_text {
+    font-size: 1, 3rem;    
+  }
+
+}
+
+@media (min-width:992px) {
+
+  .doc_text {
+    font-size: 1, 3rem;    
+    padding-bottom: 3rem ;
+  }
+
+}

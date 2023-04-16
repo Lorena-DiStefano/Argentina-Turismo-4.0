@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../landingPage/img/AT40-LOGO-05.png" type="image/.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <title>Argentina Turismo 4.0 - Reservas</title>
+  <link rel="stylesheet" href="../../landingPage/css/main.css">
+  <link rel="stylesheet" href="../css-rioNegro/booking.css">
+  <link rel="stylesheet" href="../css-rioNegro/contact_rioNegro.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">
+          <img src="../../landingPage/img/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#title" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                A donde ir
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../../cordoba/cordoba.html">Córdoba</a></li>
+                <li><a class="dropdown-item" href="../../entreRios/pages/entrerios.html">Entre Ríos</a>
+                </li>
+                <li><a class="dropdown-item" href="./rioNegro.html">Río Negro</a></li>
+                <li><a class="dropdown-item" href="../../Jujuy/jujuy.html">Jujuy</a></li>
+                <li><a class="dropdown-item" href="../../Santa_fe/pages_santafe/santafe.html">Santa Fe</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../landingPage/pages/team.html">Equipo AT 4.0</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./booking.html">Reserva</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="first_sec" class="contForm">
+      <form class="contCard">
+        <div>
+          <label for="fullName" class="form__label">Nombre y Apellido</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Lionel Scaloni">
+        </div>
+        <div>
+          <label for="celPhone" class="form__label">Teléfono</label>
+          <input type="number" id="celPhone" name="celPhone" placeholder="0000 0000">
+        </div>
+        <div>
+          <label for="email" class="form__label">e-mail</label>
+          <input type="email" id="email" name="email" placeholder="info_at4.0@argentinaturismo4.0.com">
+        </div>
+        <div>
+          <button type="button" class="btn btn_contact" id="fwd1_btn">Siguiente</button>
+        </div>
+        </div>
+      </form>
+    </section>
+    <section id="second_sec" class="contForm">
+      <form class="contCard">
+        <div>
+          <h2>Dejanos tu mensaje</h2>
+          <textarea id="message" name="textarea" cols="35" rows="5" placeholder="Dejanos tu mensaje"></textarea>
+        </div>
+        <div class="div_buttons">
+          <button type="button" class="btn btn_contact" id="back2_btn">Volver</button>
+          <button type="button" class="btn btn_contact" id="contact_btn">Enviar</button>
+        </div>
+      </form>
+    </section>
+    <section id="noteContact">
+      <div id="textContact" class="contNote">
+      </div>
+       
+    
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer_container">
+      <div class="contac_container">
+        <div>
+          <img src="../../landingPage/img/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo"
+            onclick="topFunction()">
+        </div>
+        <div class="contact">
+          <ul>
+            <li>info_at4.0@argentinaturismo4.0.com</li>
+            <li>Sarmiento 440 - CABA</li>
+            <li><a href="../../landingPage/pages/team.html">El Equipo</a></li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="items">
+        <div>
+          <h6>A donde ir</h6>
+          <a href="../../cordoba/cordoba.html">Córdoba -</a>
+          <a href="../../entreRios/pages/entrerios.html">Entre Ríos -</a>
+          <a href="../../Jujuy/jujuy.html">Jujuy -</a>
+          <a href="./rioNegro.html">Río Negro -</a>
+          <a href="../../Santa_fe/pages_santafe/santafe.html">Santa Fe</a>
+        </div>
+      </div>
+      <div class="redes">
+        <h6>Seguinos en:</h6>
+        <ul class="footer_links">
+          <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+          <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+        </ul>
+      </div>
+      <div class="goUp">
+        <i class="las la-angle-double-up" onclick="topFunction()"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+  <script src="../../landingPage/script/script.js"></script>
+  <script src="../script-rioNegro/getPdf.js"></script>
+</body>
+
+</html>

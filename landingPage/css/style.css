@@ -212,11 +212,10 @@
 }
 
 .btn_team:hover {
-  background-color:cadetblue;
-  color: white;
+  background-color: rgb(231, 234, 238);
+  color: #2c2c3f;
   font-size: 1.2rem;
   font-weight: 600;
-  text-shadow: 2px 2px 4px #888;
   border: none;
   box-shadow: 2px 2px 4px #888;
 }

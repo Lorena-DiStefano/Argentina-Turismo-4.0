@@ -34,11 +34,11 @@ document.getElementById('contact_btn').addEventListener('click', (e) => {
   second_sec.style.display = "none"
   noteContact.style.display = "block"
 
-  let doc = new jsPDF('l');
+  let doc = new jsPDF('p');
   doc.addImage(imgData, 'PNG', 30, 10, 30, 30);
   doc.text('Argentina Turismo 4.0', 70, 20);
   doc.setFontSize(10),
-    doc.text('Salta 440 - CABA', 70, 25),
+    doc.text('Salta 440 - CABA', 70, 25)
     doc.text('info_at4.0@argentinaturismo4.0.com', 70, 30);
   doc.setFontSize(18),
     doc.text(fullName, 35, 60)
@@ -49,7 +49,7 @@ document.getElementById('contact_btn').addEventListener('click', (e) => {
     doc.text(email, 60, 80)
   doc.text('Consulta:', 35, 90)
   doc.setTextColor(43, 77, 77),
-    doc.text(message, 60, 90)
+    doc.text(message, 35, 100)
 
   doc.save('ArgentinaTurismo.pdf')
 

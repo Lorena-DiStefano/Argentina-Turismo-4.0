@@ -35,23 +35,24 @@ document.getElementById('contact_btn').addEventListener('click', (e) => {
   noteContact.style.display = "block"
 
   let doc = new jsPDF('l');
-  doc.addImage(imgData, 'PNG', 30, 10, 30, 30)
-  doc.text('Argentina Turismo 4.0', 70, 20)
-  doc.setFontSize(10)
-  doc.text('Salta 440 - CABA', 70, 25)
-  doc.text('info_at4.0@argentinaturismo4.0.com', 70, 30)
-  doc.setFontSize(18)
-  doc.text(fullName, 50, 60)
-  doc.setFontSize(14)
-  doc.text('Teléfono:', 50, 70)
-  doc.text(celPhone, 80, 70)
-  doc.text('email:', 50, 80)
-  doc.text(email, 80, 80)
-  doc.text('Consulta:', 50, 90)
-  doc.text(message, 80, 90)
+  doc.addImage(imgData, 'PNG', 30, 10, 30, 30);
+  doc.text('Argentina Turismo 4.0', 70, 20);
+  doc.setFontSize(10),
+    doc.text('Salta 440 - CABA', 70, 25),
+    doc.text('info_at4.0@argentinaturismo4.0.com', 70, 30);
+  doc.setFontSize(18),
+    doc.text(fullName, 35, 60)
+  doc.setFontSize(13)
+  doc.text('Teléfono:', 35, 70)
+    doc.text(celPhone, 60, 70)
+  doc.text('email:', 35, 80)
+    doc.text(email, 60, 80)
+  doc.text('Consulta:', 35, 90)
+  doc.setTextColor(43, 77, 77),
+    doc.text(message, 60, 90)
 
-  doc.save('ArgentinaTurismo.pdf') 
-  
+  doc.save('ArgentinaTurismo.pdf')
+
   setTimeout(() => {
     window.location.reload()
   }, 7000);

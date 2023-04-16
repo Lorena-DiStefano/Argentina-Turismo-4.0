@@ -19,27 +19,26 @@ document.getElementById('back2_btn').addEventListener('click', (e) => {
 
 document.getElementById('contact_btn').addEventListener('click', (e) => {
   e.preventDefault()
-  
+
   let fullName = document.getElementById('fullName').value
-  let celPhone= document.getElementById('celPhone').value
+  let celPhone = document.getElementById('celPhone').value
   let email = document.getElementById('email').value
   let message = document.getElementById('message').value
-  
+
   textContact.innerHTML = `
   <div class="doc_text">
   <h2>Formulario de Contacto</h2>
-  <div><b>${fullName}</b><br><b>Teléfono:  </b>${celPhone}<br><b>email:  </b>${email}<br><b>Consulta:  </b>${message}</div>
-  <button type="button" class="btn btn_contact" id="contact_close">cerrar</button>
+  <div><b>${fullName}</b><br><b>Teléfono:  </b>${celPhone}<br><b>email:  </b>${email}<br><b>Consulta:  </b>${message}</div>  
   </div>`
 
   second_sec.style.display = "none"
-  noteContact.style.display= "block"
+  noteContact.style.display = "block"
 
   let doc = new jsPDF('l');
   doc.addImage(imgData, 'PNG', 30, 10, 30, 30)
   doc.text('Argentina Turismo 4.0', 70, 20)
   doc.setFontSize(10)
-  doc.text('Salta 440 - CABA',70,25)
+  doc.text('Salta 440 - CABA', 70, 25)
   doc.text('info_at4.0@argentinaturismo4.0.com', 70, 30)
   doc.setFontSize(18)
   doc.text(fullName, 50, 60)
@@ -47,16 +46,14 @@ document.getElementById('contact_btn').addEventListener('click', (e) => {
   doc.text('Teléfono:', 50, 70)
   doc.text(celPhone, 80, 70)
   doc.text('email:', 50, 80)
-  doc.text(email,80,80)
+  doc.text(email, 80, 80)
   doc.text('Consulta:', 50, 90)
-  doc.text(message,80,90)
-   
-  doc.save('ArgentinaTurismo.pdf')
+  doc.text(message, 80, 90)
 
-  document.getElementById('contact_close').addEventListener('click',window.location.reload())
+  doc.save('ArgentinaTurismo.pdf') 
+  
+  setTimeout(() => {
+    window.location.reload()
+  }, 7000);
 
 })
-
-
-
-

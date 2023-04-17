@@ -7,7 +7,7 @@ La idea de desarrollar una página de turismo que proponga recorrer Argentina, r
 ![AT4.0_principal](./landingPage/img/AT40-landingPage.JPG)
 
 
-Para el desarrollo de está página utilizamos: **HTML,CSS y JavaScript** incorporando también herramientas del framework **Bootstrap** y un .json local.
+Para el desarrollo de está página utilizamos: **HTML,CSS y JavaScript** incorporando también herramientas del framework **Bootstrap**, **Leaflet**, **jsPdf** y un .json local.
 
 Link a la página: https://lorena-distefano.github.io/Argentina-Turismo-4.0/    🚀 
 
